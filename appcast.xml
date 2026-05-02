@@ -5,6 +5,25 @@
         <description>Auto-update feed for Content Strategy.</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.1</title>
+            <pubDate>Fri, 01 May 2026 21:47:58 -0500</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>v1.0.1 — first-launch + auto-update banner</h2>
+                <ul>
+                    <li>Fixes the <strong>+ button</strong> being disabled on first install (no brands → no entry point). You can now click + on a brandless install; the inline brand picker prompts you to create your first brand.</li>
+                    <li>Adds an inline <strong>auto-update banner</strong> so future updates surface as "Install Now / Later" inside the app instead of Sparkle's default sheet.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.0.1/ContentStrategy-1.0.1.zip"
+                length="3281496"
+                type="application/octet-stream"
+                sparkle:edSignature="Qq1AmwsjGhBsGr8qdZYiQNuD7C4/WiBIYcyHmC6vb5yRxfsS7xC+8+ith6ZPUZhcxYwdBX+ZqijnZOQrIpAnCw==" />
+        </item>
+        <item>
             <title>Version 1.0</title>
             <pubDate>Fri, 01 May 2026 21:21:25 -0500</pubDate>
             <sparkle:version>1</sparkle:version>
