@@ -5,6 +5,27 @@
         <description>Auto-update feed for Content Strategy.</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.3</title>
+            <pubDate>Sat, 02 May 2026 16:39:00 -0500</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>v1.0.3 — Cross-Mac sync + per-brand Creative Profile + editable handles</h2>
+                <ul>
+                    <li><strong>Cross-Mac sync.</strong> Posts, Brands, Assets, and Creative Profile metadata now sync across your Macs through CloudKit's private database. Media files keep syncing through iCloud Drive (already shipped). Fresh installs see a "Syncing your content from iCloud…" card while the data lands.</li>
+                    <li><strong>Per-brand Creative Profile.</strong> Each brand now has its own voice, tone, audience, channel handles, and guardrails. Switch brands from the title-bar picker while on the Creative Profile page. Existing Creative Profiles auto-attach to your earliest-created brand on first launch.</li>
+                    <li><strong>Editable brand handles.</strong> Settings → Brands → three-dot menu → "Edit handle" lets you change the @handle on any brand inline.</li>
+                    <li><strong>Welcome onboarding.</strong> Fresh installs see a "Let's set up your first brand" card instead of an empty Library.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.0.3/ContentStrategy-1.0.3.zip"
+                length="3476837"
+                type="application/octet-stream"
+                sparkle:edSignature="MJqD5hjpdWqABrqkW0WN9FAjrTC5ZN5iMas+U+gDH9kv6BtlKTseU8/KjIgm6SeyotmD2sv1Rs7Qlhqni7M/Bg==" />
+        </item>
+        <item>
             <title>Version 1.0.2</title>
             <pubDate>Fri, 01 May 2026 22:49:31 -0500</pubDate>
             <sparkle:version>3</sparkle:version>
