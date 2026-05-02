@@ -4,9 +4,21 @@
         <title>Content Strategy</title>
         <description>Auto-update feed for Content Strategy.</description>
         <language>en</language>
-        <!-- Release items are appended here. Each release adds a new <item> with version,
-             EdDSA signature, asset URL, and length. The Sparkle on user Macs reads this
-             file on its scheduled checks and prompts to install when a newer version is
-             available. -->
+        <item>
+            <title>Version 1.0</title>
+            <pubDate>Fri, 01 May 2026 21:21:25 -0500</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>v1.0 — first alpha</h2>
+                <p>First internal alpha drop. Use Settings → Send feedback to report issues; reports save into your iCloud Content Strategy folder.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.0/ContentStrategy-1.0.zip"
+                length="3255314"
+                type="application/octet-stream"
+                sparkle:edSignature="yCccnb21jlB1OfNtckHZKzLpBPSgwNO2+j53u3cAJd4J57untn9NQ71kOH6mT+ignV5cJvfPxJgRGgTHCX+zBA==" />
+        </item>
     </channel>
 </rss>
