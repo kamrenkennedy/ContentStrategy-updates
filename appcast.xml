@@ -5,6 +5,26 @@
         <description>Auto-update feed for Content Strategy.</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.2</title>
+            <pubDate>Fri, 01 May 2026 22:49:31 -0500</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>v1.0.2 — Sparkle SUFeedURL fix + shared feedback folder</h2>
+                <ul>
+                    <li><strong>Sparkle auto-update now actually works.</strong> v1.0 and v1.0.1 shipped without SUFeedURL in their Info.plist — auto-update was silently broken. Fixed in v1.0.2 by switching to a real custom Info.plist.</li>
+                    <li><strong>Feedback files land in the shared iCloud folder.</strong> Reports go to <code>Kennedy Family Docs/Claude/Content Strategy Feedback/</code> — both Kam and Tiera see each other's reports.</li>
+                </ul>
+                <p>v1.0/v1.0.1 installs need to manually download v1.0.2 one more time (their broken Sparkle can't fetch this appcast). After v1.0.2, every future update auto-delivers.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.0.2/ContentStrategy-1.0.2.zip"
+                length="3328910"
+                type="application/octet-stream"
+                sparkle:edSignature="953PyE+77jlW+LvCclr0kzwiERAAPGm8cn1ktxEkM+T5atkGF0LQ/+hGoiYePxjan0OR7br/S6DcXoCHtJSrBQ==" />
+        </item>
+        <item>
             <title>Version 1.0.1</title>
             <pubDate>Fri, 01 May 2026 21:47:58 -0500</pubDate>
             <sparkle:version>2</sparkle:version>
