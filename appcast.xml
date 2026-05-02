@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Content Strategy</title>
+        <description>Auto-update feed for Content Strategy.</description>
+        <language>en</language>
+        <!-- Release items are appended here. Each release adds a new <item> with version,
+             EdDSA signature, asset URL, and length. The Sparkle on user Macs reads this
+             file on its scheduled checks and prompts to install when a newer version is
+             available. -->
+    </channel>
+</rss>
