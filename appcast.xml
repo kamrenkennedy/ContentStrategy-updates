@@ -5,6 +5,27 @@
         <description>Auto-update feed for Content Strategy.</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.10</title>
+            <pubDate>Mon, 04 May 2026 18:35:00 -0500</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>v1.0.10 — actual Sparkle sandbox fix (both halves this time)</h2>
+                <ul>
+                    <li><strong>The complete Sparkle sandbox fix.</strong> Sparkle 2.x sandboxed install requires TWO XPC mechanisms in tandem — bundled XPC services (Installer.xpc + Downloader.xpc) AND mach-named XPC services registered by the Autoupdate helper. v1.0.5 had partial #2 only. v1.0.8/v1.0.9 had #1 only. v1.0.10 has both.</li>
+                    <li>Verified by reading Sparkle source: <code>SPUInstallerDriver.m:210</code>, <code>SUInstallerLauncher.m:286</code>, <code>AppInstaller.m:120</code>, <code>Autoupdate/SPUMessageTypes.m:16-18</code>.</li>
+                    <li><strong>Empirical verification deferred.</strong> v1.0.9 → v1.0.10 will NOT auto-update (v1.0.9 has the same bug). Manual DMG install one last time; the next ship's auto-update from a v1.0.10 install is the actual empirical proof.</li>
+                    <li>Everything from v1.0.9 carries forward (one-click Claude integration, sync polish, container ID drop).</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.0.10/ContentStrategy-1.0.10.zip"
+                length="6613031"
+                type="application/octet-stream"
+                sparkle:edSignature="oiZh+bbOixS+Yq8llRF56VkTHSBCnYnGAmJwESK2Cna/wHOCehuyGie8fm04M8QLnMrH/YSiFyRw+Xbn6/pnDA==" />
+        </item>
+        <item>
             <title>Version 1.0.9</title>
             <pubDate>Mon, 04 May 2026 17:55:00 -0500</pubDate>
             <sparkle:version>10</sparkle:version>
