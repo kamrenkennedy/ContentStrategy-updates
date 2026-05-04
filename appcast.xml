@@ -5,6 +5,27 @@
         <description>Auto-update feed for Content Strategy.</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.9</title>
+            <pubDate>Mon, 04 May 2026 17:55:00 -0500</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>v1.0.9 — One-click Claude integration + sync polish</h2>
+                <ul>
+                    <li><strong>One-click Claude integration setup.</strong> Settings → Connect to Claude now has a single "Connect Content Strategy to Claude" button. Click it once; the app writes the MCP entry into Claude Desktop's config for you — no JSON, no copy-paste. Disconnect button removes the entry the same way. Manual snippet flow stays behind a "Show advanced" disclosure for non-Claude MCP clients.</li>
+                    <li><strong>Opt-in by design.</strong> The app NEVER writes Claude's config without an explicit Settings-panel click. Every write backs up the existing config to a <code>.bak-cs-{timestamp}</code> file first.</li>
+                    <li><strong>No more misleading "Error" at startup.</strong> The Settings → iCloud Sync section used to show a red "Error" pill for the first 10–20s of every launch (transient CloudKit bootstrap errors). v1.0.9 shows "Connecting" until the first successful event, then transitions normally.</li>
+                    <li>Removed the <code>iCloud.com.kamstudios.ContentStrategy</code> container ID line from the iCloud Sync section. Debug noise — container ID stays in bug reports for triage.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.0.9/ContentStrategy-1.0.9.zip"
+                length="6612861"
+                type="application/octet-stream"
+                sparkle:edSignature="dmNCi9rLMBUMshc5rZTkpojXWTFoPIdmDvU35Mnacem8Ny4CLHjB8kcvXG6bUOU3EcMgJCsxE9NtTW7FVDpJCg==" />
+        </item>
+        <item>
             <title>Version 1.0.8</title>
             <pubDate>Mon, 04 May 2026 17:10:00 -0500</pubDate>
             <sparkle:version>9</sparkle:version>
