@@ -5,6 +5,25 @@
         <description>Auto-update feed for Content Strategy.</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.5</title>
+            <pubDate>Mon, 04 May 2026 13:50:00 -0500</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>v1.0.5 — Sparkle sandbox auth fix + MCP server</h2>
+                <ul>
+                    <li><strong>Auto-update from inside the app now works.</strong> v1.0.4 shipped without the <code>com.apple.security.temporary-exception.mach-lookup.global-name</code> entitlements Sparkle 2.x needs in sandboxed apps. v1.0.4 (and earlier sandboxed installs) can detect this update but can't install it from inside the app — manual install required <strong>one last time</strong> via the GitHub Releases page.</li>
+                    <li><strong>Library-as-MCP-server</strong> from v1.0.4 carries forward. Connect Claude Code via <code>{"mcpServers":{"content-strategy":{"command":"/Applications/ContentStrategy.app/Contents/Resources/ContentStrategyMCP.app/Contents/MacOS/ContentStrategyMCP"}}}</code> in your <code>~/.claude/settings.local.json</code>.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.0.5/ContentStrategy-1.0.5.zip"
+                length="6497735"
+                type="application/octet-stream"
+                sparkle:edSignature="1TCDJGihlYcb1aXiOsXECyOp0uMO+P9iEZsUMksTrGnzTsNIiUh9wtuk67t+xqfSD2vwd9D7YySMMwW7F+BhCw==" />
+        </item>
+        <item>
             <title>Version 1.0.4</title>
             <pubDate>Mon, 04 May 2026 13:25:00 -0500</pubDate>
             <sparkle:version>5</sparkle:version>
