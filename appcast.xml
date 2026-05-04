@@ -5,6 +5,26 @@
         <description>Auto-update feed for Content Strategy.</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.7</title>
+            <pubDate>Mon, 04 May 2026 16:50:00 -0500</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>v1.0.7 — Connect to Claude + Feedback routing visibility</h2>
+                <ul>
+                    <li><strong>One-stop Claude integration setup.</strong> Settings → Connect to Claude hands you the MCP snippet for <code>claude_desktop_config.json</code>, with copy / reveal-config / verify-registration actions. Plus a <em>Try asking Claude</em> primer with five example prompts so you don't need docs to start using it.</li>
+                    <li><strong>Feedback routing is now honest about what happened.</strong> Reports that fall through to local fallback (because the iCloud share isn't on this Mac) now show in amber instead of pretending they synced. Settings → Feedback adds an Open iCloud Folder button + conditional "Show local fallback (N files)" diagnostic.</li>
+                    <li>FeedbackService logs the attempted iCloud path + sharedParentExists on every submission for future debugging.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.0.7/ContentStrategy-1.0.7.zip"
+                length="6573134"
+                type="application/octet-stream"
+                sparkle:edSignature="a4Vt1yqQPI2fAyDYGSiKtpN+yO0D7rKRbBzETYCd3d4lhMpX61OUVUP3VAGwJsYeca3EIH3edWHiN8jFJx2rBw==" />
+        </item>
+        <item>
             <title>Version 1.0.6</title>
             <pubDate>Mon, 04 May 2026 14:05:00 -0500</pubDate>
             <sparkle:version>7</sparkle:version>
