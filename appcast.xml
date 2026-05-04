@@ -5,6 +5,25 @@
         <description>Auto-update feed for Content Strategy.</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.6</title>
+            <pubDate>Mon, 04 May 2026 14:05:00 -0500</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>v1.0.6 — orphan-migration crash fix</h2>
+                <ul>
+                    <li><strong>Fixes a SwiftData crash on launch in v1.0.5.</strong> The session-30 orphan-CreativeProfile migration raced with CloudKit's eventual-consistency relationship sync — when CloudKit was mid-pull, profiles briefly appeared as <code>brand == nil</code>, the migration tried to attach them, and SwiftData asserted because the profile was already CloudKit-bound. The migration was a one-shot for v1.0.x → v1.0.3; anyone with real orphans was already migrated by their v1.0.3 install. Removed in v1.0.6.</li>
+                    <li>Carries forward from v1.0.4 + v1.0.5: Library-as-MCP-server (7 tools) and Sparkle sandbox auto-update fix.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.0.6/ContentStrategy-1.0.6.zip"
+                length="6491120"
+                type="application/octet-stream"
+                sparkle:edSignature="94OXPG6NgcDjWlzByGLmG4GOTKBCecOmOa7xn2D2+VKCnBQ2vjHrG8dLGAkbMUnL9/v8pqR2OeLHkiieO5PFCg==" />
+        </item>
+        <item>
             <title>Version 1.0.5</title>
             <pubDate>Mon, 04 May 2026 13:50:00 -0500</pubDate>
             <sparkle:version>6</sparkle:version>
