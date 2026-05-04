@@ -9,6 +9,26 @@ The application source lives in a private repository. This public repository hos
 - **`appcast.xml`** — the feed Sparkle reads on the user's Mac on each update check. Updated each release.
 - **Releases tab** — released `.zip` artifacts (one per version), referenced by `appcast.xml`'s `<enclosure>` URLs.
 
+## Connect Claude Code to your library (v1.0.4+)
+
+Once Content Strategy v1.0.4 is installed at `/Applications/ContentStrategy.app`, you can connect Claude Code (or Claude Desktop) directly to your library through MCP. Seven tools — `list_brands`, `list_posts`, `read_creative_profile`, `create_post`, `attach_media`, `update_post`, `delete_post` — let Claude read and write your content via stdio.
+
+Add to your `~/.claude/settings.local.json` (or per-project `.mcp.json`):
+
+```json
+{
+  "mcpServers": {
+    "content-strategy": {
+      "command": "/Applications/ContentStrategy.app/Contents/Resources/ContentStrategyMCP.app/Contents/MacOS/ContentStrategyMCP"
+    }
+  }
+}
+```
+
+Reload Claude Code. The seven tools surface as MCP tools.
+
+The MCP server shares the same iCloud + CloudKit private database as the app, so writes from Claude appear in the running app within ~30 seconds via CloudKit sync. Cross-Mac sync also works through your iCloud account — the MCP server can be invoked from any Mac signed into the same Apple ID.
+
 ## Release flow (for the maintainer)
 
 1. Archive a notarized `.app` build of Content Strategy
