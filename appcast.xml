@@ -5,6 +5,27 @@
         <description>Auto-update feed for Content Strategy.</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.8</title>
+            <pubDate>Mon, 04 May 2026 17:10:00 -0500</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>v1.0.8 — actual Sparkle sandbox fix</h2>
+                <ul>
+                    <li><strong>In-app auto-update now actually works for sandboxed installs.</strong> v1.0.5 / 1.0.6 / 1.0.7 all shipped with the wrong fix (a mach-lookup entitlement that did nothing for bundled XPC services). The real fix: two Info.plist keys (<code>SUEnableInstallerLauncherService</code> + <code>SUEnableDownloaderService</code>) that flip Sparkle's runtime checks to use its bundled XPC services via <code>NSXPCConnection initWithServiceName:</code> instead of the in-process installer that hits Authorization Services (sandbox-blocked, <code>errAuthorizationDenied -60005</code>).</li>
+                    <li>Confirmed by reading Sparkle's source directly. v1.0.8 verified working before publish.</li>
+                    <li>v1.0.7 and earlier sandboxed installs cannot auto-update past this gap. <strong>Manual install via the DMG one last time;</strong> v1.0.8 onward auto-updates cleanly.</li>
+                    <li>Everything from v1.0.7 carries forward (Settings → Connect to Claude + Try-asking-Claude primer + Feedback routing visibility).</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.0.8/ContentStrategy-1.0.8.zip"
+                length="6573473"
+                type="application/octet-stream"
+                sparkle:edSignature="w66Uct9KIigb2HTmimFcu6h5Pv3ttBOm5iLdjAmUk3hWGM7+y06Sm4qibztk3QPFWitmjzXk+9Z10KmxvoI5Bg==" />
+        </item>
+        <item>
             <title>Version 1.0.7</title>
             <pubDate>Mon, 04 May 2026 16:50:00 -0500</pubDate>
             <sparkle:version>8</sparkle:version>
