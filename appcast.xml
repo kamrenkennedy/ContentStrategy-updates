@@ -5,6 +5,35 @@
         <description>Auto-update feed for Content Strategy.</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.12</title>
+            <pubDate>Wed, 06 May 2026 23:25:26 -0500</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>v1.0.12 — Update banner moved to the sidebar + honest sync state</h2>
+                <h3>Update affordance</h3>
+                <ul>
+                    <li>"Update available" pill moved from the top of the detail column to the <strong>bottom of the sidebar</strong>, in rust. Click it to install + relaunch. Same trigger logic; just lives in a single, predictable spot regardless of which view is showing.</li>
+                </ul>
+                <h3>iCloud Sync (Settings → iCloud Sync)</h3>
+                <ul>
+                    <li><strong>Honest "Sync paused" state.</strong> Earlier builds could show a green "Synced" pill even when CloudKit had failed to bootstrap on this Mac (no successful sync had ever happened). v1.0.12 surfaces an amber <strong>Sync paused</strong> pill in that case with an actionable sub-message — no more silent lying.</li>
+                    <li><strong>New "Reset local cache" button.</strong> Destructive action with a confirmation dialog. Quits the app and wipes the local SwiftData store on next launch, forcing a fresh CloudKit re-bootstrap. Use it if iCloud sync looks stuck on this Mac. Local-only changes that haven't synced will be lost.</li>
+                    <li>Bug reports submitted via Settings → Send feedback now include <code>bootstrapErrorCount</code> and <code>lastBootstrapError</code> in the diagnostic snapshot, so we can finally tell from a debug report whether a Mac actually completed CloudKit bootstrap or quietly stalled.</li>
+                </ul>
+                <h3>Under the hood</h3>
+                <ul>
+                    <li>MCP server (Settings → Connect to Claude) now reports its version dynamically from the bundle instead of a hardcoded literal.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.0.12/ContentStrategy-1.0.12.zip"
+                length="6734640"
+                type="application/octet-stream"
+                sparkle:edSignature="bc2V5HpFLqBHLeDD7oBsY6GPuYXA8XAX/JegqH4xtydoQy6Xx654sCrfUpJ3DjiayYVmJpZTybWgpvCe1cPGBQ==" />
+        </item>
+        <item>
             <title>Version 1.0.11</title>
             <pubDate>Tue, 05 May 2026 22:38:20 -0500</pubDate>
             <sparkle:version>12</sparkle:version>
