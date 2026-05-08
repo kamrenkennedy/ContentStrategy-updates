@@ -4,52 +4,16 @@
         <title>Content Strategy</title>
         <description>Auto-update feed for Content Strategy.</description>
         <language>en</language>
-        <item>
-            <title>Version 1.0.14</title>
-            <pubDate>Fri, 08 May 2026 11:58:00 -0500</pubDate>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h2>v1.0.14 — Window-floor constraint + honest "couldn't pull from iCloud" state</h2>
-                <h3>Fixes</h3>
-                <ul>
-                    <li><strong>Window no longer stretches taller than the screen.</strong> A missing <code>.windowResizability</code> modifier let the inner content's preferred size drive window dimensions, sometimes growing past screen bounds during iCloud-related operations. Default window size lowered to 1200×800 (from 1400×900) so it fits common laptop screens out of the box; minimum size 900×600 keeps the Library / Schedule / Composer layouts readable.</li>
-                    <li><strong>Honest "couldn't pull from iCloud" state.</strong> Previously, if CloudKit's bootstrap failed silently (schema mismatch, network issue, account state), the empty-brands UI fell through to the "Welcome — Let's set up your first brand" card — indistinguishable from a genuine first-time install. v1.0.14 surfaces an honest "We couldn't pull your content from iCloud" card with affordances to open Settings → iCloud Sync diagnostic and an explicit "Continue and create a brand anyway" path if the user actually does want to start fresh on this Mac.</li>
-                    <li><strong>Reset local cache safety.</strong> The Reset button now disables when CloudKit is in <code>Error</code> or <code>Sync paused</code> state. Resetting on top of a broken CloudKit connection wipes local AND leaves the Mac empty until CloudKit recovers. The tooltip + alert message explain the dependency on a healthy CloudKit.</li>
-                </ul>
-                <h3>Server-side</h3>
-                <p>Alongside this ship, the CloudKit Production schema was redeployed for <code>CD_Asset.CD_durationSeconds</code> (had drifted between Development and Production for several sessions, likely the actual cause of recent silent sync failures) and <code>CD_PlatformCopy.CD_title</code> (the new YouTube Title field from v1.0.13). No user action needed.</p>
-            ]]></description>
-            <enclosure
-                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.0.14/ContentStrategy-1.0.14.zip"
-                length="6864253"
-                type="application/octet-stream"
-                sparkle:edSignature="mo9kRevghPZbqQcaYXzMXooq4jLIjUyF+4JNndws+6mSsfXKazbZ9d15XXevmW4J600VrNfxJOilHzVn4eDhDQ==" />
-        </item>
-        <item>
-            <title>Version 1.0.13</title>
-            <pubDate>Fri, 08 May 2026 10:53:00 -0500</pubDate>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h2>v1.0.13 — Per-platform composer previews</h2>
-                <h3>What's new</h3>
-                <ul>
-                    <li><strong>Feed-context platform previews.</strong> Each post now shows a full mockup of how it'll look on every selected platform — IG Feed, IG Reel, TikTok, YouTube Shorts, and Story — side by side in the composer. Phone frames are iPhone 17 Pro proportional with Dynamic Island.</li>
-                    <li><strong>Per-platform aspect handling.</strong> Photos respect the aspect ratio each platform actually uses. IG Feed shows horizontal vs portrait sources at their native aspect within IG's range. Vertical platforms letterbox horizontal sources with black bars. Story uses its blurred-photo backdrop pattern for non-vertical content.</li>
-                    <li><strong>YouTube Title field.</strong> The Shorts copy tab in the inspector now has a separate Title field above Caption (100-char limit). Other platforms still show Caption / Hashtags / Mentions as before.</li>
-                </ul>
-                <h3>Note</h3>
-                <p>The previews are a first pass — there's known polish queued (text legibility at small scale, finer per-platform UI). Functional and shippable now; coming back to it later.</p>
-            ]]></description>
-            <enclosure
-                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.0.13/ContentStrategy-1.0.13.zip"
-                length="6855452"
-                type="application/octet-stream"
-                sparkle:edSignature="KJU28e9GhiTyvB2sTKDlZ0VKCZGSkP4/qwwdOeAEjb5YOcawzyGjJmMkXybgDbAe+Nj9inCfqydBFXFpPGy6BA==" />
-        </item>
+        <!--
+          v1.0.13 + v1.0.14 yanked from the appcast feed on 2026-05-08.
+          v1.0.13 introduced a window-stretch bug + a misleading "Welcome —
+          fresh install" card on bootstrap failure. v1.0.14 fixed those but
+          regressed the sidebar layout (items pushed out of view). Both
+          releases remain on the GitHub releases page for archival but are
+          not advertised to Sparkle clients. Existing Macs already on v1.0.13
+          or v1.0.14 stay on those versions (Sparkle does not downgrade);
+          the v1.0.15 ship that resolves both regressions is the next entry.
+        -->
         <item>
             <title>Version 1.0.12</title>
             <pubDate>Wed, 06 May 2026 23:25:26 -0500</pubDate>
