@@ -15,6 +15,28 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.0.15</title>
+            <pubDate>Fri, 08 May 2026 12:54:00 -0500</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>v1.0.15 — Sidebar fix + iCloud reconnect helper</h2>
+                <h3>Fixes</h3>
+                <ul>
+                    <li><strong>Sidebar items render correctly.</strong> v1.0.14 inadvertently pushed the sidebar's Library / Schedule / Creative Profile / Settings items out of the visible viewport. Fixed.</li>
+                    <li><strong>"Reconnect iCloud" recovery affordance.</strong> When CloudKit setup fails persistently (the "service unavailable" error that's been hitting Tiera's Mac and any post-Reset Mac), the empty-state card now surfaces a one-click <strong>Reconnect iCloud</strong> deep-link to System Settings → Apple ID → iCloud, where the user-side fix lives (toggle Content Strategy off and on under Apps Using iCloud, then quit and reopen). Same affordance also surfaces in Settings → iCloud Sync whenever sync is in <code>Error</code> or <code>Sync paused</code> state. The card's body copy walks through the recovery sequence.</li>
+                </ul>
+                <h3>About v1.0.13 + v1.0.14</h3>
+                <p>Both prior releases shipped with regressions (window stretch + misleading Welcome card on v1.0.13; sidebar items pushed offscreen on v1.0.14). They've been removed from the Sparkle appcast — Sparkle no longer advertises them. Existing v1.0.13 / v1.0.14 installs stay where they are; this v1.0.15 supersedes both via the normal Sparkle update path.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.0.15/ContentStrategy-1.0.15.zip"
+                length="6868886"
+                type="application/octet-stream"
+                sparkle:edSignature="OeS1T3Y3PIcXFbrUOV34x5enLtq6uA57EEK5iG7eAglVowINiiJmNriIDvkTVadskCiLaPO/iBPQGPT0wzt0CA==" />
+        </item>
+        <item>
             <title>Version 1.0.12</title>
             <pubDate>Wed, 06 May 2026 23:25:26 -0500</pubDate>
             <sparkle:version>13</sparkle:version>
