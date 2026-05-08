@@ -5,6 +5,29 @@
         <description>Auto-update feed for Content Strategy.</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.14</title>
+            <pubDate>Fri, 08 May 2026 11:58:00 -0500</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>v1.0.14 — Window-floor constraint + honest "couldn't pull from iCloud" state</h2>
+                <h3>Fixes</h3>
+                <ul>
+                    <li><strong>Window no longer stretches taller than the screen.</strong> A missing <code>.windowResizability</code> modifier let the inner content's preferred size drive window dimensions, sometimes growing past screen bounds during iCloud-related operations. Default window size lowered to 1200×800 (from 1400×900) so it fits common laptop screens out of the box; minimum size 900×600 keeps the Library / Schedule / Composer layouts readable.</li>
+                    <li><strong>Honest "couldn't pull from iCloud" state.</strong> Previously, if CloudKit's bootstrap failed silently (schema mismatch, network issue, account state), the empty-brands UI fell through to the "Welcome — Let's set up your first brand" card — indistinguishable from a genuine first-time install. v1.0.14 surfaces an honest "We couldn't pull your content from iCloud" card with affordances to open Settings → iCloud Sync diagnostic and an explicit "Continue and create a brand anyway" path if the user actually does want to start fresh on this Mac.</li>
+                    <li><strong>Reset local cache safety.</strong> The Reset button now disables when CloudKit is in <code>Error</code> or <code>Sync paused</code> state. Resetting on top of a broken CloudKit connection wipes local AND leaves the Mac empty until CloudKit recovers. The tooltip + alert message explain the dependency on a healthy CloudKit.</li>
+                </ul>
+                <h3>Server-side</h3>
+                <p>Alongside this ship, the CloudKit Production schema was redeployed for <code>CD_Asset.CD_durationSeconds</code> (had drifted between Development and Production for several sessions, likely the actual cause of recent silent sync failures) and <code>CD_PlatformCopy.CD_title</code> (the new YouTube Title field from v1.0.13). No user action needed.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.0.14/ContentStrategy-1.0.14.zip"
+                length="6864253"
+                type="application/octet-stream"
+                sparkle:edSignature="mo9kRevghPZbqQcaYXzMXooq4jLIjUyF+4JNndws+6mSsfXKazbZ9d15XXevmW4J600VrNfxJOilHzVn4eDhDQ==" />
+        </item>
+        <item>
             <title>Version 1.0.13</title>
             <pubDate>Fri, 08 May 2026 10:53:00 -0500</pubDate>
             <sparkle:version>14</sparkle:version>
