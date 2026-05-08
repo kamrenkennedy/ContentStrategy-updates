@@ -5,6 +5,29 @@
         <description>Auto-update feed for Content Strategy.</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.13</title>
+            <pubDate>Fri, 08 May 2026 10:53:00 -0500</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>v1.0.13 — Per-platform composer previews</h2>
+                <h3>What's new</h3>
+                <ul>
+                    <li><strong>Feed-context platform previews.</strong> Each post now shows a full mockup of how it'll look on every selected platform — IG Feed, IG Reel, TikTok, YouTube Shorts, and Story — side by side in the composer. Phone frames are iPhone 17 Pro proportional with Dynamic Island.</li>
+                    <li><strong>Per-platform aspect handling.</strong> Photos respect the aspect ratio each platform actually uses. IG Feed shows horizontal vs portrait sources at their native aspect within IG's range. Vertical platforms letterbox horizontal sources with black bars. Story uses its blurred-photo backdrop pattern for non-vertical content.</li>
+                    <li><strong>YouTube Title field.</strong> The Shorts copy tab in the inspector now has a separate Title field above Caption (100-char limit). Other platforms still show Caption / Hashtags / Mentions as before.</li>
+                </ul>
+                <h3>Note</h3>
+                <p>The previews are a first pass — there's known polish queued (text legibility at small scale, finer per-platform UI). Functional and shippable now; coming back to it later.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.0.13/ContentStrategy-1.0.13.zip"
+                length="6855452"
+                type="application/octet-stream"
+                sparkle:edSignature="KJU28e9GhiTyvB2sTKDlZ0VKCZGSkP4/qwwdOeAEjb5YOcawzyGjJmMkXybgDbAe+Nj9inCfqydBFXFpPGy6BA==" />
+        </item>
+        <item>
             <title>Version 1.0.12</title>
             <pubDate>Wed, 06 May 2026 23:25:26 -0500</pubDate>
             <sparkle:version>13</sparkle:version>
