@@ -15,6 +15,30 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.1.0</title>
+            <pubDate>Sat, 13 Jun 2026 19:12:42 -0500</pubDate>
+            <sparkle:version>120</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>v1.1.0 — Local-first folder library + redesigned compose</h2>
+                <p>Your library is now a <strong>real folder you can see</strong> in Finder / iCloud Drive — each brand is a folder, each post a folder with a readable <code>post.json</code> plus its media. Your content lives as files you own, not inside an opaque sync database.</p>
+                <h3>What changed</h3>
+                <ul>
+                    <li><strong>Local-first folder library.</strong> The folder is canonical; the internal database is now just a disposable index rebuilt from the folder.</li>
+                    <li><strong>Cross-Mac sync rides iCloud Drive</strong> (the reliable layer) instead of the CloudKit metadata database that was wedging with the persistent "service unavailable" error.</li>
+                    <li><strong>Redesigned new-post compose</strong> — clean slate, your last brand pre-selected, media attaches in place, <code>⌘↩</code> to Save and <code>⇧⌘↩</code> to Save &amp; New.</li>
+                    <li>Extensive data-safety hardening from dogfood: provenance-flagged deletes, debounced autosave, conflict-copy cleanup, and live cross-Mac delete reconciliation.</li>
+                </ul>
+                <p>First install of v1.1.0 migrates your existing library into the new folder format automatically; your original data is left untouched as a rollback safety net.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.1.0/ContentStrategy-1.1.0.zip"
+                length="7209534"
+                type="application/octet-stream"
+                sparkle:edSignature="mNahDYvQSBJsbY8kAHuqvvhLa+d8QJhOhFNTVaUCqUPrQog4I0D9icjD2IBJcGZO1zb753tBgDGp2Qs4JZYQAw==" />
+        </item>
+        <item>
             <title>Version 1.0.15</title>
             <pubDate>Fri, 08 May 2026 12:54:00 -0500</pubDate>
             <sparkle:version>16</sparkle:version>
