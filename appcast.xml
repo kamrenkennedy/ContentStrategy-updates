@@ -15,6 +15,27 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.1.1</title>
+            <pubDate>Mon, 15 Jun 2026 01:52:42 -0500</pubDate>
+            <sparkle:version>121</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>v1.1.1 — Carousel ratios + a redesigned Library</h2>
+                <h3>What changed</h3>
+                <ul>
+                    <li><strong>Carousel ratios.</strong> Lock a multi-photo post to a platform-standard shape (4:5 · 1:1 · 1.91:1 · 9:16) so what you plan in the app matches what actually publishes. The picker only offers the ratios valid for the platforms you're targeting, and the choice frames the card, the post preview, and every slide consistently.</li>
+                    <li><strong>Redesigned Library.</strong> A flowing, Pinterest-style gallery — more posts at a glance, consistent sizing (two posts of the same shape are always the same size), and it reflows live as you resize the window or open the sidebar.</li>
+                    <li><strong>Polish.</strong> Smoother selection animations, a snappier cover-art frame picker, clearer Schedule day dividers, and a copy confirmation in Feedback.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.1.1/ContentStrategy-1.1.1.zip"
+                length="7237238"
+                type="application/octet-stream"
+                sparkle:edSignature="I4UPQ5FmeJDRuASnx58T85yX/50EqPHTu0CQbIoIalIdbhrMK+mxwfZZ5oxPlKQdcO0nINof0jCIYBqoM9KKCA==" />
+        </item>
+        <item>
             <title>Version 1.1.0</title>
             <pubDate>Sat, 13 Jun 2026 19:12:42 -0500</pubDate>
             <sparkle:version>120</sparkle:version>
