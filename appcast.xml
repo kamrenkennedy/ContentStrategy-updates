@@ -15,6 +15,30 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.1.2</title>
+            <pubDate>Tue, 16 Jun 2026 18:02:36 -0500</pubDate>
+            <sparkle:version>122</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>v1.1.2 — A cleaner window &amp; quicker edits</h2>
+                <h3>What changed</h3>
+                <ul>
+                    <li><strong>Fixed, non-floating sidebar.</strong> The left rail is now a flush panel instead of a floating glass overlay — cleaner and more like a native Mac app.</li>
+                    <li><strong>Comfortable title bar.</strong> The window controls sit with proper breathing room and are borderless, not boxed into a glass button.</li>
+                    <li><strong>Post actions on the page.</strong> Back, Export, and Schedule Post now live at the top of the post itself instead of overlapping the menu bar.</li>
+                    <li><strong>Delete one carousel slide.</strong> Right-click any asset in a carousel filmstrip → Remove from Post.</li>
+                    <li><strong>Click anywhere to stop editing.</strong> While editing a post, click any empty space to dismiss the text cursor.</li>
+                    <li>Tighter, better-aligned page spacing throughout.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.1.2/ContentStrategy-1.1.2.zip"
+                length="7267515"
+                type="application/octet-stream"
+                sparkle:edSignature="liMlzcJPSiG0EOxTd/FhSFrEaYdHlTC3lNaH1AJUj6z6qddg/XmDv9KkFAMXnmV3wKrdlLyWNKyZYZiL23THBg==" />
+        </item>
+        <item>
             <title>Version 1.1.1</title>
             <pubDate>Mon, 15 Jun 2026 01:52:42 -0500</pubDate>
             <sparkle:version>121</sparkle:version>
