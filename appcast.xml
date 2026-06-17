@@ -15,6 +15,28 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.1.3</title>
+            <pubDate>Wed, 17 Jun 2026 09:24:38 -0500</pubDate>
+            <sparkle:version>123</sparkle:version>
+            <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>v1.1.3 — Smarter captions &amp; a cleaner title bar</h2>
+                <h3>What changed</h3>
+                <ul>
+                    <li><strong>Caption length cautions.</strong> The caption counter flags when you're over a platform's limit — Instagram 2,200, TikTok 4,000, YouTube Shorts 5,000 — and names exactly which platform. Stories have no caption limit, and nothing is ever blocked; you can always keep typing.</li>
+                    <li><strong>A real caption editor.</strong> The caption now scrolls and takes line breaks — press Return for a new line, and scroll the caption itself when your pointer is over it.</li>
+                    <li><strong>Cleaner title bar.</strong> Scrolling content fades neatly behind the title bar instead of colliding with the brand switcher and page actions.</li>
+                    <li>Plus: hover feedback on Settings &amp; Feedback buttons, the + button opens a new post from any page, and a quieter folder sync.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.1.3/ContentStrategy-1.1.3.zip"
+                length="7301113"
+                type="application/octet-stream"
+                sparkle:edSignature="CVO38xUYiLNECiXMaVkix77p1/whT6BETEDf9IgZKWVfQ8v1i2663vzqXdxON3yvgxBM/V3V5S9k0m9Dz91pAw==" />
+        </item>
+        <item>
             <title>Version 1.1.2</title>
             <pubDate>Tue, 16 Jun 2026 18:02:36 -0500</pubDate>
             <sparkle:version>122</sparkle:version>
