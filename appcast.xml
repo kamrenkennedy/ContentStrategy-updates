@@ -15,6 +15,27 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.2.0</title>
+            <pubDate>Thu, 18 Jun 2026 09:40:00 -0500</pubDate>
+            <sparkle:version>124</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New, in the app</h2>
+                <p>See exactly what changed in every release — and never get stuck on an old version again.</p>
+                <ul>
+                    <li><strong>A What's New window.</strong> Browse every release in one place: pick a version on the left, scroll through all the changes on the right. Open it any time from the app menu or Settings.</li>
+                    <li><strong>Updates that just happen.</strong> New versions now download quietly in the background. When one's ready, the sidebar shows it with the version number — click to relaunch and you're current.</li>
+                    <li><strong>Always up to date.</strong> The app checks for updates far more often now, including when you come back to it — so you're never quietly running an old build.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.2.0/ContentStrategy-1.2.0.zip"
+                length="7473403"
+                type="application/octet-stream"
+                sparkle:edSignature="fOQsK9QoHGqr64yUonDsyKusdC9GoMsDjdYqbFTsceIr2D6APubp4d8U7Em/9esYU4e8XgosJkJgZAhuB8Q8BQ==" />
+        </item>
+        <item>
             <title>Version 1.1.3</title>
             <pubDate>Wed, 17 Jun 2026 09:24:38 -0500</pubDate>
             <sparkle:version>123</sparkle:version>
