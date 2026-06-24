@@ -15,6 +15,32 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.3.0</title>
+            <pubDate>Tue, 23 Jun 2026 23:18:15 -0500</pubDate>
+            <sparkle:version>125</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>The composer, reimagined</h2>
+<p>A redesigned composer, three new platforms, text-only posts, and a tap-to-copy caption handoff make this the biggest content release yet.</p>
+<ul>
+    <li><strong>A roomier place to write</strong> Your caption now sits in a wide column right under your photos and grows as you type, so long captions never feel cramped. The whole composer is cleaner — your media is centered, your title and publishing controls stay tidy on the right, and platform previews stretch across the full width below.</li>
+    <li><strong>Plan for YouTube, Threads &amp; X</strong> Three new platforms join the lineup — YouTube long-form, Threads, and X — each with its own live preview so you can see exactly how a post will look. Flip on X Premium for any brand that pays for it and your caption counter follows along, allowing up to 25,000 characters. Each brand keeps its own setting.</li>
+    <li><strong>Post text on its own</strong> A caption is now a complete post all by itself — no photo or video required. Write the words you want to share and schedule or export them like any other post, and they show up in your Library as a clean, phone-style text card instead of a blank placeholder.</li>
+    <li><strong>Tailor platforms per brand</strong> Each brand can now turn platforms on or off in its Creative Profile, so the composer only ever offers the channels that brand actually posts to. New posts no longer pre-pick a platform either — you decide where each one goes, and disabled buttons tell you exactly what's still needed before you can schedule.</li>
+    <li><strong>Tap to copy your captions</strong> Exporting a post now gives you one clean caption page you can open right on your phone and tap to copy each platform's caption, hashtags, and first comment — plus a PDF and per-platform text files. A new Copy button in the app grabs any version in a single click, and what you copy is exactly what shows up in your export.</li>
+    <li><strong>Smarter caption limits</strong> Each platform now counts the caption it will actually post and warns you when it runs too long, even on platforms you never customized. TikTok's limit is corrected too, so you'll know before a video caption runs over.</li>
+    <li><strong>Move through the app faster</strong> Press Command-N from any screen to jump straight into a fresh post — and if you start something new while a post is still in progress, the app offers to save it as a draft first so your work is never lost. A two-finger swipe right on your trackpad now takes you back out of a post, just like on iPhone and iPad.</li>
+    <li><strong>Smoother and more polished</strong> Your Library now glides gracefully as cards rearrange when you open or close the sidebar, photos stay neatly in place above the caption, and the occasional spinning beach ball is gone — thumbnails load faster so scrolling and typing stay snappy throughout.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.3.0/ContentStrategy-1.3.0.zip"
+                length="7827795"
+                type="application/octet-stream"
+                sparkle:edSignature="aVzqLWC9BDNnZ7fNfezc12tu1NfhMtyHyoLxgrXgU4gYz/dysytw4ZizLZbADaSRAMjpafbQLFz3WmCKCHtFCw==" />
+        </item>
+        <item>
             <title>Version 1.2.0</title>
             <pubDate>Thu, 18 Jun 2026 09:40:00 -0500</pubDate>
             <sparkle:version>124</sparkle:version>

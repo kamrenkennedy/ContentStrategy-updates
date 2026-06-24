@@ -3,6 +3,60 @@
   "app": "Content Strategy",
   "versions": [
     {
+      "version": "1.3.0",
+      "build": 125,
+      "date": "2026-06-23",
+      "title": "The composer, reimagined",
+      "summary": "A redesigned composer, three new platforms, text-only posts, and a tap-to-copy caption handoff make this the biggest content release yet.",
+      "announce": true,
+      "highlights": [
+        {
+          "title": "A roomier place to write",
+          "body": "Your caption now sits in a wide column right under your photos and grows as you type, so long captions never feel cramped. The whole composer is cleaner — your media is centered, your title and publishing controls stay tidy on the right, and platform previews stretch across the full width below.",
+          "icon": "text.alignleft",
+          "illustrationID": "composerGrow"
+        },
+        {
+          "title": "Plan for YouTube, Threads & X",
+          "body": "Three new platforms join the lineup — YouTube long-form, Threads, and X — each with its own live preview so you can see exactly how a post will look. Flip on X Premium for any brand that pays for it and your caption counter follows along, allowing up to 25,000 characters. Each brand keeps its own setting.",
+          "icon": "play.rectangle.on.rectangle",
+          "illustrationID": "morePlatforms"
+        },
+        {
+          "title": "Post text on its own",
+          "body": "A caption is now a complete post all by itself — no photo or video required. Write the words you want to share and schedule or export them like any other post, and they show up in your Library as a clean, phone-style text card instead of a blank placeholder.",
+          "icon": "text.bubble",
+          "illustrationID": "textPost"
+        },
+        {
+          "title": "Tailor platforms per brand",
+          "body": "Each brand can now turn platforms on or off in its Creative Profile, so the composer only ever offers the channels that brand actually posts to. New posts no longer pre-pick a platform either — you decide where each one goes, and disabled buttons tell you exactly what's still needed before you can schedule.",
+          "icon": "slider.horizontal.3"
+        },
+        {
+          "title": "Tap to copy your captions",
+          "body": "Exporting a post now gives you one clean caption page you can open right on your phone and tap to copy each platform's caption, hashtags, and first comment — plus a PDF and per-platform text files. A new Copy button in the app grabs any version in a single click, and what you copy is exactly what shows up in your export.",
+          "icon": "doc.on.doc"
+        },
+        {
+          "title": "Smarter caption limits",
+          "body": "Each platform now counts the caption it will actually post and warns you when it runs too long, even on platforms you never customized. TikTok's limit is corrected too, so you'll know before a video caption runs over.",
+          "icon": "exclamationmark.bubble"
+        },
+        {
+          "title": "Move through the app faster",
+          "body": "Press Command-N from any screen to jump straight into a fresh post — and if you start something new while a post is still in progress, the app offers to save it as a draft first so your work is never lost. A two-finger swipe right on your trackpad now takes you back out of a post, just like on iPhone and iPad.",
+          "icon": "square.and.pencil",
+          "illustrationID": "composeShortcut"
+        },
+        {
+          "title": "Smoother and more polished",
+          "body": "Your Library now glides gracefully as cards rearrange when you open or close the sidebar, photos stay neatly in place above the caption, and the occasional spinning beach ball is gone — thumbnails load faster so scrolling and typing stay snappy throughout.",
+          "icon": "bolt"
+        }
+      ]
+    },
+    {
       "version": "1.2.0",
       "build": 124,
       "date": "2026-06-18",
