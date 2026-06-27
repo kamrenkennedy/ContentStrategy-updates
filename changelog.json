@@ -3,6 +3,25 @@
   "app": "Content Strategy",
   "versions": [
     {
+      "version": "1.3.1",
+      "build": 126,
+      "date": "2026-06-26",
+      "title": "A quiet tune-up",
+      "summary": "No new buttons in this one — just the satisfying kind of update. We made things faster and tougher under the hood so the app stays out of your way and you can get back to creating. You don't have to read this one… but we're glad you did.",
+      "highlights": [
+        {
+          "title": "Bye-bye, beach balls",
+          "body": "Photos and thumbnails now load quietly in the background instead of freezing things up while iCloud catches up. Scroll your Library, flip through a carousel — it just keeps pace.",
+          "icon": "bolt.fill"
+        },
+        {
+          "title": "Quietly bulletproofed",
+          "body": "We tightened how the app and your AI assistant share your library, so two edits landing at the same moment can never step on each other. You'll never see it work — which is exactly the point.",
+          "icon": "checkmark.shield.fill"
+        }
+      ]
+    },
+    {
       "version": "1.3.0",
       "build": 125,
       "date": "2026-06-23",

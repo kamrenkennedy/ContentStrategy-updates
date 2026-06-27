@@ -15,6 +15,26 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.3.1</title>
+            <pubDate>Fri, 26 Jun 2026 21:52:02 -0500</pubDate>
+            <sparkle:version>126</sparkle:version>
+            <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>A quiet tune-up</h2>
+<p>No new buttons in this one — just the satisfying kind of update. We made things faster and tougher under the hood so the app stays out of your way and you can get back to creating. You don't have to read this one… but we're glad you did.</p>
+<ul>
+    <li><strong>Bye-bye, beach balls</strong> Photos and thumbnails now load quietly in the background instead of freezing things up while iCloud catches up. Scroll your Library, flip through a carousel — it just keeps pace.</li>
+    <li><strong>Quietly bulletproofed</strong> We tightened how the app and your AI assistant share your library, so two edits landing at the same moment can never step on each other. You'll never see it work — which is exactly the point.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.3.1/ContentStrategy-1.3.1.zip"
+                length="7868604"
+                type="application/octet-stream"
+                sparkle:edSignature="gPyS+1/Yu+Ca1fgxrb3hPeu7fyCtZ9FsUxdWxdDmtsaImjZYCesn+y2XFA07HInN5ziEj3yo1WE37FliW3PODg==" />
+        </item>
+        <item>
             <title>Version 1.3.0</title>
             <pubDate>Tue, 23 Jun 2026 23:18:15 -0500</pubDate>
             <sparkle:version>125</sparkle:version>
