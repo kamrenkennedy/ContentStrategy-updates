@@ -3,6 +3,30 @@
   "app": "Content Strategy",
   "versions": [
     {
+      "version": "1.3.3",
+      "build": 128,
+      "date": "2026-06-28",
+      "title": "A cleaner, calmer Library",
+      "summary": "A visual tune-up across the Library and sidebar — tighter, lighter, and more like a proper workstation, so your content does the talking.",
+      "highlights": [
+        {
+          "title": "A tighter, lighter sidebar",
+          "body": "The navigation rail slimmed down — smaller type, less padding, and a quieter “Recently Deleted” tucked at the bottom — so it reads like a focused workspace instead of a heavy menu bar.",
+          "icon": "sidebar.left"
+        },
+        {
+          "title": "Cards that show more at a glance",
+          "body": "Library cards are a touch smaller with a cleaner title and quieter status pills, so more of your work fits on screen without the chrome getting in the way.",
+          "icon": "rectangle.grid.2x2"
+        },
+        {
+          "title": "Landscape and text posts fit right",
+          "body": "Wide 16:9 and YouTube-shaped posts now stretch across two columns so they carry real weight, and text-only posts render as wide, tidy cards that read like a social post.",
+          "icon": "text.below.photo"
+        }
+      ]
+    },
+    {
       "version": "1.3.2",
       "build": 127,
       "date": "2026-06-27",
