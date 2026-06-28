@@ -15,6 +15,26 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.3.4</title>
+            <pubDate>Sun, 28 Jun 2026 18:28:07 -0500</pubDate>
+            <sparkle:version>129</sparkle:version>
+            <sparkle:shortVersionString>1.3.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>A rare crash, quietly closed</h2>
+<p>A stability fix for a startup hiccup that could affect libraries synced across multiple Macs. If you never hit it, you won't notice a thing — which is exactly the point.</p>
+<ul>
+    <li><strong>Steadier on launch</strong> Closed a rare case where a duplicate brand record left behind by iCloud sync could stop the app from opening. It now tidies the duplicate on the way up and starts clean.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.3.4/ContentStrategy-1.3.4.zip"
+                length="8159455"
+                type="application/octet-stream"
+                sparkle:edSignature="8hMZ7wO61Q7ZLLO1yPudqOpyk58sqsXu6qRVMFqHVcfSQi5oMgdeUR7uHei2hi5dnLtWUG9CvMaoJNb438DFCQ==" />
+        </item>
+
+        <item>
             <title>Version 1.3.3</title>
             <pubDate>Sun, 28 Jun 2026 06:54:50 -0500</pubDate>
             <sparkle:version>128</sparkle:version>
