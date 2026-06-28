@@ -31,9 +31,9 @@
 ]]></description>
             <enclosure
                 url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.3.3/ContentStrategy-1.3.3.zip"
-                length="8155155"
+                length="8089854"
                 type="application/octet-stream"
-                sparkle:edSignature="56kxYJS4zZXl8PMKUVgxF/6AYSUulg4xkY/km6qcn7l/SRfyA1NfE8HPYnCW2I0SPGs5uMwMknMiOvendpeZAg==" />
+                sparkle:edSignature="XbyImZFbNz25XuIMBVLjrOVbiaAHZ3B5FXCl6loC4GOPwMRGCqWgjE79qQF6MT2yAD+eQHlYu0QPcYMuImnMAA==" />
         </item>
         <item>
             <title>Version 1.3.2</title>
