@@ -3,6 +3,25 @@
   "app": "Content Strategy",
   "versions": [
     {
+      "version": "1.3.2",
+      "build": 127,
+      "date": "2026-06-27",
+      "title": "A lighter footprint",
+      "summary": "Another one for the \"you'll never notice, and that's the point\" pile. We trimmed how much the app writes to disk and how loudly it talks to itself behind the scenes — so it stays lean and leaves your iCloud alone unless something actually changed.",
+      "highlights": [
+        {
+          "title": "Writes less, syncs cleaner",
+          "body": "The app now skips re-saving anything that hasn't truly changed, so it stops giving iCloud reasons to spawn duplicate copies of your posts. Quieter syncing, fewer stray files.",
+          "icon": "arrow.triangle.2.circlepath"
+        },
+        {
+          "title": "Tidier under the hood",
+          "body": "We put a lid on the app's internal diagnostic log and calmed a chatty background process, so things stay light even when iCloud is having a slow day.",
+          "icon": "checkmark.shield.fill"
+        }
+      ]
+    },
+    {
       "version": "1.3.1",
       "build": 126,
       "date": "2026-06-26",
