@@ -15,6 +15,26 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.3.6</title>
+            <pubDate>Sun, 28 Jun 2026 23:26:47 -0500</pubDate>
+            <sparkle:version>131</sparkle:version>
+            <sparkle:shortVersionString>1.3.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Claude knows your library better</h2>
+<p>A behind-the-scenes tune-up so Claude understands how your content is organized the moment it connects. Nothing to set up — it just works a little smarter.</p>
+<ul>
+    <li><strong>Smarter out of the box</strong> When you connect your library to Claude, it now arrives already understanding how things fit together — brands, posts, scheduling, and your creative profile — so it stays on-brand and asks before deleting anything.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.3.6/ContentStrategy-1.3.6.zip"
+                length="8386862"
+                type="application/octet-stream"
+                sparkle:edSignature="0hzFSxm7W6+FspwixnBUAXWWh7+ETSrI4HERoJlU1m7XOqhmRLuUfQiEYkdcdnyvgzHhh35ROYV1nC1SjU6+Ag==" />
+        </item>
+
+        <item>
             <title>Version 1.3.5</title>
             <pubDate>Sun, 28 Jun 2026 22:54:50 -0500</pubDate>
             <sparkle:version>130</sparkle:version>
