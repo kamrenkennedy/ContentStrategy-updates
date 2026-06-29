@@ -3,6 +3,25 @@
   "app": "Content Strategy",
   "versions": [
     {
+      "version": "1.3.5",
+      "build": 130,
+      "date": "2026-06-28",
+      "title": "One-click Claude, everywhere",
+      "summary": "Connecting your library to Claude is now a single click — and it shows up in both Cowork and Claude Desktop chats.",
+      "highlights": [
+        {
+          "title": "Connect to Claude in one click",
+          "body": "Add your library to Claude in a single click, and it now shows up in both Cowork and regular Claude Desktop chats. From there Claude can work with your content directly — list brands, schedule posts, attach media, and more.",
+          "icon": "puzzlepiece.extension"
+        },
+        {
+          "title": "Stays in sync as you update",
+          "body": "When a new version moves ahead of your Claude connection, a small marker appears in Settings so you can refresh it in one tap and keep everything talking.",
+          "icon": "arrow.up.circle.fill"
+        }
+      ]
+    },
+    {
       "version": "1.3.4",
       "build": 129,
       "date": "2026-06-28",
