@@ -15,6 +15,28 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.4.0</title>
+            <pubDate>Thu, 02 Jul 2026 01:03:24 -0500</pubDate>
+            <sparkle:version>132</sparkle:version>
+            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>A faster way to work your Library</h2>
+<p>Find and tidy your posts in seconds, and lock in timing right as you compose.</p>
+<ul>
+    <li><strong>Filter your Library</strong> Narrow your Library to just drafts, scheduled, or published posts, or to a specific date range — and it remembers your choice next time you open up. Everything you've ever published is easy to find again, too.</li>
+    <li><strong>Handle posts in batches</strong> Select several posts at once to delete them together or set their status in one move, so tidying up takes seconds instead of one post at a time.</li>
+    <li><strong>Schedule while you compose</strong> Set a post's status right from the clean compose screen — pick Scheduled and a date picker slides in so you can lock the timing up front, no need to open the full editor first.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.4.0/ContentStrategy-1.4.0.zip"
+                length="8628676"
+                type="application/octet-stream"
+                sparkle:edSignature="zd05I5U7ye3Xsbxfviufyq/5ewHyO0ATpQ4pQyKjFytoyYMGGB6p6MnzPPtSinRysSL+arV0dcfWpcN3U7J5DQ==" />
+        </item>
+
+        <item>
             <title>Version 1.3.6</title>
             <pubDate>Sun, 28 Jun 2026 23:26:47 -0500</pubDate>
             <sparkle:version>131</sparkle:version>
