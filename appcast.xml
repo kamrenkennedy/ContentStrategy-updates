@@ -15,6 +15,23 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.4.1</title>
+            <pubDate>Sat, 04 Jul 2026 18:46:04 -0500</pubDate>
+            <sparkle:version>133</sparkle:version>
+            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Cleaner syncing between devices</h2>
+<p>Edits made on different devices at the same time now merge more precisely, and the Claude integration only asks for an update when it actually needs one.</p>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.4.1/ContentStrategy-1.4.1-final.zip"
+                length="8653905"
+                type="application/octet-stream"
+                sparkle:edSignature="h9Kwpe0z4mxkpPQDpP/5ly2DSXD4T78BoSabixWLP+9WDs5ep2VsQen8TYrLWt9fcr/81kvqUHocWWk7RpCLBQ==" />
+        </item>
+
+        <item>
             <title>Version 1.4.0</title>
             <pubDate>Thu, 02 Jul 2026 01:03:24 -0500</pubDate>
             <sparkle:version>132</sparkle:version>

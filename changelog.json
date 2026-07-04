@@ -3,6 +3,14 @@
   "app": "Content Strategy",
   "versions": [
     {
+      "version": "1.4.1",
+      "build": 133,
+      "date": "2026-07-04",
+      "title": "Cleaner syncing between devices",
+      "summary": "Edits made on different devices at the same time now merge more precisely, and the Claude integration only asks for an update when it actually needs one.",
+      "highlights": []
+    },
+    {
       "version": "1.4.0",
       "build": 132,
       "date": "2026-07-02",
