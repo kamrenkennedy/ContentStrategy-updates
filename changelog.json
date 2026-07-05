@@ -3,6 +3,14 @@
   "app": "Content Strategy",
   "versions": [
     {
+      "version": "1.5.1",
+      "build": 135,
+      "date": "2026-07-05",
+      "title": "A quiet fix",
+      "summary": "The Recently Deleted indicator could get stuck on even after there was nothing left to recover. It clears properly now.",
+      "highlights": []
+    },
+    {
       "version": "1.5.0",
       "build": 134,
       "date": "2026-07-05",

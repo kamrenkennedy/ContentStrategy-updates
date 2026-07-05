@@ -15,6 +15,23 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.5.1</title>
+            <pubDate>Sun, 05 Jul 2026 01:34:23 -0500</pubDate>
+            <sparkle:version>135</sparkle:version>
+            <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>A quiet fix</h2>
+<p>The Recently Deleted indicator could get stuck on even after there was nothing left to recover. It clears properly now.</p>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.5.1/ContentStrategy-1.5.1.zip"
+                length="8651526"
+                type="application/octet-stream"
+                sparkle:edSignature="kJDeNOH77isd9bVBj6ZcbWRdfbGlGAZ7X1OwEJYGOJGa7xGRTSq9HHGm5g+w09YTJAnJSEuOCbQBwMlBEA5rCg==" />
+        </item>
+
+        <item>
             <title>Version 1.5.0</title>
             <pubDate>Sun, 05 Jul 2026 00:26:55 -0500</pubDate>
             <sparkle:version>134</sparkle:version>
