@@ -15,6 +15,27 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.5.0</title>
+            <pubDate>Sun, 05 Jul 2026 00:26:55 -0500</pubDate>
+            <sparkle:version>134</sparkle:version>
+            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Recently Deleted, right where you need it</h2>
+<p>Recovering a deleted post is easier to find, and your phone and iPad just caught up to your Mac's Library.</p>
+<ul>
+<li><strong>Recently Deleted moved into the Library toolbar</strong> — instead of a sidebar row, look for the clock icon next to Library's other tools. It lights up the moment something's waiting to be recovered, and now respects whichever brand you're filtering to.</li>
+<li><strong>Your phone and iPad caught up</strong> — the Library toolbar (filter by status or date, sort newest or oldest, select multiple posts to delete or change status at once) is now on iPhone and iPad too, along with Recently Deleted for recovering anything you remove.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.5.0/ContentStrategy-1.5.0.zip"
+                length="8653398"
+                type="application/octet-stream"
+                sparkle:edSignature="jtcOyWdGsEUYrFLZ1LGXSTZRPv8UYcpLoUhdJMU0rUITSpHogOWcJ8xqI8R1VI//5ALJxti6K1CsmrT0EMTRBw==" />
+        </item>
+
+        <item>
             <title>Version 1.4.1</title>
             <pubDate>Sat, 04 Jul 2026 18:46:04 -0500</pubDate>
             <sparkle:version>133</sparkle:version>

@@ -3,6 +3,26 @@
   "app": "Content Strategy",
   "versions": [
     {
+      "version": "1.5.0",
+      "build": 134,
+      "date": "2026-07-05",
+      "title": "Recently Deleted, right where you need it",
+      "summary": "Recovering a deleted post is easier to find, and your phone and iPad just caught up to your Mac's Library.",
+      "announce": true,
+      "highlights": [
+        {
+          "title": "Recently Deleted moved into the Library toolbar",
+          "body": "Instead of a sidebar row, look for the clock icon next to Library's other tools. It lights up the moment something's waiting to be recovered, and now respects whichever brand you're filtering to.",
+          "icon": "clock.arrow.circlepath"
+        },
+        {
+          "title": "Your phone and iPad caught up",
+          "body": "The Library toolbar — filter by status or date, sort newest or oldest, and select multiple posts to delete or change status at once — is now on iPhone and iPad too, along with Recently Deleted for recovering anything you remove.",
+          "icon": "checklist"
+        }
+      ]
+    },
+    {
       "version": "1.4.1",
       "build": 133,
       "date": "2026-07-04",
