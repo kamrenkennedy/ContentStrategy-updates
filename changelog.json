@@ -3,6 +3,41 @@
   "app": "Content Strategy",
   "versions": [
     {
+      "version": "1.6.0",
+      "build": 136,
+      "date": "2026-07-06",
+      "title": "Crop, reframe, and cleaner carousels",
+      "summary": "A brand-new Crop tool lets you frame every photo exactly how you want on Mac and iPhone, while carousels finally swipe and preview true to shape.",
+      "announce": true,
+      "highlights": [
+        {
+          "title": "Crop and reframe your photos",
+          "body": "A new Crop tool lets you pick a shape and reposition each photo inside it — the full image stays in view while you move and resize the frame right on top of it. Drag to move, use the zoom dial or pinch to tighten, and reopen a crop anytime to pick up right where you left off. Your original files are never changed.",
+          "icon": "crop"
+        },
+        {
+          "title": "Frame each carousel photo, on any device",
+          "body": "Step through a carousel and reframe every photo on its own so the whole set lines up beautifully — on your Mac or right from your iPhone. Choose a standard shape or go Custom to pull the corners into anything you like, and the whole carousel snaps to that same shape to stay uniform.",
+          "icon": "square.on.square"
+        },
+        {
+          "title": "Cleaner carousel swiping",
+          "body": "Swiping through a multi-photo post now snaps neatly from slide to slide with no half-image seams, opens squarely on the first image instead of stalling between two, and the iPhone swipe that used to freeze is smooth again.",
+          "icon": "rectangle.stack"
+        },
+        {
+          "title": "True-to-shape previews everywhere",
+          "body": "Every carousel slide now shows the exact crop it'll publish with — matching across your Library cards, the post view, and your phone. Tall vertical photos finally show full-height, and posts set to Auto frame the same way on every screen.",
+          "icon": "aspectratio"
+        },
+        {
+          "title": "Various bug fixes",
+          "body": "Plus a handful of smaller fixes and refinements throughout the app.",
+          "icon": "wrench.and.screwdriver"
+        }
+      ]
+    },
+    {
       "version": "1.5.1",
       "build": 135,
       "date": "2026-07-05",

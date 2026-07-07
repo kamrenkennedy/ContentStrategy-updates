@@ -15,6 +15,30 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.6.0</title>
+            <pubDate>Mon, 06 Jul 2026 19:02:17 -0500</pubDate>
+            <sparkle:version>136</sparkle:version>
+            <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Crop, reframe, and cleaner carousels</h2>
+<p>A brand-new Crop tool lets you frame every photo exactly how you want on Mac and iPhone, while carousels finally swipe and preview true to shape.</p>
+<ul>
+    <li><strong>Crop and reframe your photos</strong> A new Crop tool lets you pick a shape and reposition each photo inside it — the full image stays in view while you move and resize the frame right on top of it. Drag to move, use the zoom dial or pinch to tighten, and reopen a crop anytime to pick up right where you left off. Your original files are never changed.</li>
+    <li><strong>Frame each carousel photo, on any device</strong> Step through a carousel and reframe every photo on its own so the whole set lines up beautifully — on your Mac or right from your iPhone. Choose a standard shape or go Custom to pull the corners into anything you like, and the whole carousel snaps to that same shape to stay uniform.</li>
+    <li><strong>Cleaner carousel swiping</strong> Swiping through a multi-photo post now snaps neatly from slide to slide with no half-image seams, opens squarely on the first image instead of stalling between two, and the iPhone swipe that used to freeze is smooth again.</li>
+    <li><strong>True-to-shape previews everywhere</strong> Every carousel slide now shows the exact crop it'll publish with — matching across your Library cards, the post view, and your phone. Tall vertical photos finally show full-height, and posts set to Auto frame the same way on every screen.</li>
+    <li><strong>Various bug fixes</strong> Plus a handful of smaller fixes and refinements throughout the app.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.6.0/ContentStrategy-1.6.0.zip"
+                length="8799852"
+                type="application/octet-stream"
+                sparkle:edSignature="T3xJfBJypgDzCXhjk88XkoWte03Qvs5a2RqT2HWdOCscySaFY6YuU5rid8V7n5Q7UV827065oW3xLET7GWS/AQ==" />
+        </item>
+
+        <item>
             <title>Version 1.5.1</title>
             <pubDate>Sun, 05 Jul 2026 01:34:23 -0500</pubDate>
             <sparkle:version>135</sparkle:version>
