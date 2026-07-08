@@ -1,7 +1,27 @@
 {
   "schemaVersion": 1,
-  "app": "Content Strategy",
+  "app": "Persona",
   "versions": [
+    {
+      "version": "1.7.0",
+      "build": 138,
+      "date": "2026-07-08",
+      "title": "Meet Persona",
+      "summary": "Content Strategy is now Persona — the same app and the same library you already have, with a fresh name and a new face for the work you put forward.",
+      "announce": true,
+      "highlights": [
+        {
+          "title": "A new name, a new face",
+          "body": "Content Strategy is now Persona. It's the same app you've been using — every brand, post, and plan is right where you left it — with a new name, a new icon, and a refined identity throughout.",
+          "illustrationID": "personaRebrand"
+        },
+        {
+          "title": "Everything is right where you left it",
+          "body": "Nothing moved and nothing changed but the name and the look. All of your brands, posts, media, and schedules are exactly as they were — Persona reads your library the same way it always has.",
+          "icon": "checkmark.seal"
+        }
+      ]
+    },
     {
       "version": "1.6.0",
       "build": 136,

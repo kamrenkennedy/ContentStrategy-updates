@@ -15,6 +15,26 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.7.0</title>
+            <pubDate>Wed, 08 Jul 2026 17:28:00 -0500</pubDate>
+            <sparkle:version>138</sparkle:version>
+            <sparkle:shortVersionString>1.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Meet Persona</h2>
+<p>Content Strategy is now Persona — the same app and the same library you already have, with a fresh name and a new face for the work you put forward.</p>
+<ul>
+    <li><strong>A new name, a new face</strong> Content Strategy is now Persona. It's the same app you've been using — every brand, post, and plan is right where you left it — with a new name, a new icon, and a refined identity throughout.</li>
+    <li><strong>Everything is right where you left it</strong> Nothing moved and nothing changed but the name and the look. All of your brands, posts, media, and schedules are exactly as they were — Persona reads your library the same way it always has.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.7.0/ContentStrategy-1.7.0.zip"
+                length="10746679"
+                type="application/octet-stream"
+                sparkle:edSignature="tvBtcbXGhYsaxMdUF4bQi+piUBhVbBS+U4P0djAWFy0c97FtMC8t40noWQApa/7jXdP1OtLsoDMT8/cmKq6MDA==" />
+        </item>
+        <item>
             <title>Version 1.6.0</title>
             <pubDate>Mon, 06 Jul 2026 19:02:17 -0500</pubDate>
             <sparkle:version>136</sparkle:version>
