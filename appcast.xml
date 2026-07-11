@@ -15,6 +15,29 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.8.0</title>
+            <pubDate>Fri, 10 Jul 2026 21:27:32 -0400</pubDate>
+            <sparkle:version>139</sparkle:version>
+            <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>The Edit page — crop, matte, and split panoramas</h2>
+<p>Crop, Matte, and Panorama now live together in one Edit sheet — reframe a photo, drop it on a colored background, or split a wide shot into a carousel, all from Mac or iPhone.</p>
+<ul>
+    <li><strong>One Edit page for everything</strong> Crop, Matte, and Panorama are now tabs in a single Edit sheet instead of separate tools — open it once and switch between them without losing your place. Works the same way on Mac and iPhone.</li>
+    <li><strong>Matte any photo or video</strong> Fit a photo or video onto a colored background instead of cropping it away — pick your color, dial in the border, and it composes cleanly with a crop underneath. Works for video too, not just photos.</li>
+    <li><strong>Split a wide photo into a carousel</strong> Turn a panorama into 2 to 6 seamless carousel slides with one tap. Not happy with the split? Revert it losslessly and try again — your original photo is always right there.</li>
+    <li><strong>More reliable when editing across devices</strong> Edits made on your iPhone now merge correctly with a Mac library that's open at the same time, so a split or a crop never gets silently reverted.</li>
+    <li><strong>Various bug fixes</strong> Plus fixes for carousel swiping and how panoramas show up in your Library.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.8.0/ContentStrategy-1.8.0.zip"
+                length="11144727"
+                type="application/octet-stream"
+                sparkle:edSignature="qUCCY5EomL78QhoLDobNo8eRrldoyqRr8zAYzDMhY4zXmh91Vpn2G/li9kdVGqpz/cEeMoEdZn/ZB4WjeslNBQ==" />
+        </item>
+        <item>
             <title>Version 1.7.0</title>
             <pubDate>Wed, 08 Jul 2026 17:28:00 -0500</pubDate>
             <sparkle:version>138</sparkle:version>

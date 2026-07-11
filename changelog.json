@@ -3,6 +3,41 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.8.0",
+      "build": 139,
+      "date": "2026-07-10",
+      "title": "The Edit page — crop, matte, and split panoramas",
+      "summary": "Crop, Matte, and Panorama now live together in one Edit sheet — reframe a photo, drop it on a colored background, or split a wide shot into a carousel, all from Mac or iPhone.",
+      "announce": true,
+      "highlights": [
+        {
+          "title": "One Edit page for everything",
+          "body": "Crop, Matte, and Panorama are now tabs in a single Edit sheet instead of separate tools — open it once and switch between them without losing your place. Works the same way on Mac and iPhone.",
+          "icon": "macbook.and.iphone"
+        },
+        {
+          "title": "Matte any photo or video",
+          "body": "Fit a photo or video onto a colored background instead of cropping it away — pick your color, dial in the border, and it composes cleanly with a crop underneath. Works for video too, not just photos.",
+          "icon": "rectangle.inset.filled"
+        },
+        {
+          "title": "Split a wide photo into a carousel",
+          "body": "Turn a panorama into 2 to 6 seamless carousel slides with one tap. Not happy with the split? Revert it losslessly and try again — your original photo is always right there.",
+          "icon": "pano"
+        },
+        {
+          "title": "More reliable when editing across devices",
+          "body": "Edits made on your iPhone now merge correctly with a Mac library that's open at the same time, so a split or a crop never gets silently reverted.",
+          "icon": "checkmark.shield.fill"
+        },
+        {
+          "title": "Various bug fixes",
+          "body": "Plus fixes for carousel swiping and how panoramas show up in your Library.",
+          "icon": "wrench.and.screwdriver"
+        }
+      ]
+    },
+    {
       "version": "1.7.0",
       "build": 138,
       "date": "2026-07-08",
