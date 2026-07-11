@@ -3,6 +3,25 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.8.2",
+      "build": 141,
+      "date": "2026-07-11",
+      "title": "A smoother connection to Claude",
+      "summary": "Updating Persona's Claude extension now confirms itself on its own — and the app goes by Persona everywhere it shows up.",
+      "highlights": [
+        {
+          "title": "The Claude extension update just works",
+          "body": "When you update Persona's Claude extension, the panel now flips to “Installed” on its own the moment it's done — no more backing out of Settings and reopening it to see that it went through.",
+          "icon": "checkmark.circle"
+        },
+        {
+          "title": "Now just Persona",
+          "body": "The app now shows up as “Persona” in Spotlight, the Dock, and search — matching the name it already used inside. Fresh installs pick this up automatically.",
+          "icon": "sparkles"
+        }
+      ]
+    },
+    {
       "version": "1.8.1",
       "build": 140,
       "date": "2026-07-11",

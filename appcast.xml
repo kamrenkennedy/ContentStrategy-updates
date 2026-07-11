@@ -15,6 +15,26 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.8.2</title>
+            <pubDate>Sat, 11 Jul 2026 16:10:07 -0400</pubDate>
+            <sparkle:version>141</sparkle:version>
+            <sparkle:shortVersionString>1.8.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>A smoother connection to Claude</h2>
+<p>Updating Persona's Claude extension now confirms itself on its own — and the app goes by Persona everywhere it shows up.</p>
+<ul>
+    <li><strong>The Claude extension update just works</strong> When you update Persona's Claude extension, the panel now flips to “Installed” on its own the moment it's done — no more backing out of Settings and reopening it to see that it went through.</li>
+    <li><strong>Now just Persona</strong> The app now shows up as “Persona” in Spotlight, the Dock, and search — matching the name it already used inside. Fresh installs pick this up automatically.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.8.2/Persona-1.8.2.zip"
+                length="11206755"
+                type="application/octet-stream"
+                sparkle:edSignature="9znqiQCZoKlUw/8FJf2nwDXeB/8H6GlP8sev13nk0lKkMYFkFtAz+/b2OT8pIziFv4xj97TO4li0yW2yvpHTBg==" />
+        </item>
+        <item>
             <title>Version 1.8.1</title>
             <pubDate>Sat, 11 Jul 2026 11:43:53 -0400</pubDate>
             <sparkle:version>140</sparkle:version>
