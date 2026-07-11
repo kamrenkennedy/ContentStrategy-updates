@@ -3,6 +3,25 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.8.1",
+      "build": 140,
+      "date": "2026-07-11",
+      "title": "A brief with room to breathe",
+      "summary": "The brief now grows as you type and scrolls when it fills up — the same roomy, caption-style box — so you can capture the whole story behind a post.",
+      "highlights": [
+        {
+          "title": "Room to write your brief",
+          "body": "The brief field now grows as you type and starts scrolling once it fills, just like your caption box. Spell out the full intent behind a post — what it's really about, who it's for, the angle you're going for — instead of squeezing it onto a line or two.",
+          "icon": "note.text"
+        },
+        {
+          "title": "More of it in quick capture",
+          "body": "When you jot down a quick brief, more of what you wrote now stays visible before it scrolls — so a longer note is readable at a glance without opening the whole post.",
+          "icon": "text.alignleft"
+        }
+      ]
+    },
+    {
       "version": "1.8.0",
       "build": 139,
       "date": "2026-07-10",

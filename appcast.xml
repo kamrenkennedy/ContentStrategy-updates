@@ -15,6 +15,26 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.8.1</title>
+            <pubDate>Sat, 11 Jul 2026 11:43:53 -0400</pubDate>
+            <sparkle:version>140</sparkle:version>
+            <sparkle:shortVersionString>1.8.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>A brief with room to breathe</h2>
+<p>The brief now grows as you type and scrolls when it fills up — the same roomy, caption-style box — so you can capture the whole story behind a post.</p>
+<ul>
+    <li><strong>Room to write your brief</strong> The brief field now grows as you type and starts scrolling once it fills, just like your caption box. Spell out the full intent behind a post — what it's really about, who it's for, the angle you're going for — instead of squeezing it onto a line or two.</li>
+    <li><strong>More of it in quick capture</strong> When you jot down a quick brief, more of what you wrote now stays visible before it scrolls — so a longer note is readable at a glance without opening the whole post.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.8.1/ContentStrategy-1.8.1.zip"
+                length="11207383"
+                type="application/octet-stream"
+                sparkle:edSignature="qOH0UhfWUZKBypJdRp34MK52GRKBFh5AzxNAkkPFhVJiGFIUUijEnE/zhiwH5m5vZ1ld9K3MFmU7/m5viTJFBA==" />
+        </item>
+        <item>
             <title>Version 1.8.0</title>
             <pubDate>Fri, 10 Jul 2026 21:27:32 -0400</pubDate>
             <sparkle:version>139</sparkle:version>
