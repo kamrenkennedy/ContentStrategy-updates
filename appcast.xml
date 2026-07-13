@@ -15,6 +15,57 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.8.7</title>
+            <pubDate>Mon, 13 Jul 2026 10:20:54 -0500</pubDate>
+            <sparkle:version>146</sparkle:version>
+            <sparkle:shortVersionString>1.8.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>iPhone's Edit sheet, tuned for touch</h2>
+<p>Every tool in the iPhone Edit sheet now works the way a Lightroom-mobile editor should — your photo pinned in place at the top, the tools scrolling underneath.</p>
+<ul>
+    <li><strong>Your photo stays put</strong> Crop, Matte, Panorama, and Text post all now pin the photo at the top while their tools scroll beneath it — no more losing your place.</li>
+    <li><strong>Built to match the Mac</strong> Same tools, same controls, same result — just laid out the way a phone actually wants to be held.</li>
+</ul>
+<h2>Every brand, a face</h2>
+<p>Brands can now carry a real photo and a color — set them once in Settings, see them everywhere a brand shows up.</p>
+<ul>
+    <li><strong>Upload a photo, frame it yourself</strong> Add a profile picture to any brand, then drag to move and slide to zoom inside the frame — exactly what you see is what gets saved.</li>
+    <li><strong>A color for every brand</strong> Pick each brand's color right alongside its photo in Settings → Brands — it's what shows when there's no picture yet.</li>
+    <li><strong>It shows up everywhere</strong> The brand switcher now shows the photo instead of a plain color dot, wherever there's room to show it.</li>
+    <li><strong>Edit it from your phone too</strong> iPhone can now set a brand's photo and color directly — its own crop-and-zoom sheet, matching the Mac exactly.</li>
+</ul>
+<h2>Text posts, one Edit away</h2>
+<p>Text posts now stylize the same way everything else does — open Edit, shape the card, and export once. No more separate export button to remember.</p>
+<ul>
+    <li><strong>Stylize, then export — once</strong> Open Edit on a text post and shape it in the new Text post tab — background, size, tone. One Export button bakes the branded image automatically, whenever a photo-first platform is riding along.</li>
+    <li><strong>A card that fits its words</strong> The caption now shrinks to fit the card instead of clipping, with a cleaner icon mark in the corner and sizing tuned for how Threads actually crops it.</li>
+    <li><strong>More room to work</strong> The Mac Edit sheet now puts your canvas on the left and every tool on the right, on every tab.</li>
+</ul>
+<h2>iPhone gets its own welcome</h2>
+<p>First time opening Persona on iPhone? You'll get a quick tour of what's here. After that, every update brings its own What's New — the same release notes you'd see on Mac, now on your phone too.</p>
+<ul>
+    <li><strong>A proper hello, the first time</strong> Open Persona on iPhone for the first time and get a quick walk-through — your brands, your schedule, each brand's voice, and how to capture a post on the go.</li>
+    <li><strong>What's new, right on your phone</strong> After an update, see what changed without leaving iPhone — the same highlights the Mac shows, in the same voice.</li>
+    <li><strong>The whole history, whenever you want it</strong> Settings now holds every past update, plus a way to replay the welcome tour any time you want a refresher.</li>
+</ul>
+<h2>Voice — your brand's bible</h2>
+<p>The Creative Profile page is now Voice: a brand's bible — the one page an AI reads before it writes in its voice. Capture how a brand sounds, what it stands for, and what it never does, with a living index that shows how complete each chapter is.</p>
+<ul>
+    <li><strong>One page that defines your voice</strong> The Creative Profile is now Voice — a brand bible organized into chapters: Identity, Voice, Substance, Guardrails, Channels, and Examples. A living index down the left tracks how much of each you've filled in, so you can see the whole picture and what's still missing.</li>
+    <li><strong>Say how it sounds — and what it never does</strong> Describe the voice in plain words, place it on a tone scale from Formal to Playful, and spell out the words you use, the ones you never do, your do's and don'ts, and the topics to steer clear of. The AI writes inside those lines.</li>
+    <li><strong>See it the way the AI does</strong> A live preview at the bottom shows the exact page an AI reads before it writes for you — so what you put in is precisely what it works from.</li>
+    <li><strong>A calm read on your phone</strong> On iPhone and iPad your bible is a clean, read-only read — authoring stays on the Mac, where there's room to think.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.8.7/Persona-1.8.7.zip"
+                length="11649699"
+                type="application/octet-stream"
+                sparkle:edSignature="Kp66G8oHE1s6AB9k4GjZ+lXzuWXqcVUOIrAhH2Gj0zn6V9uOtD/qFWPI67DrQjN0Mt4BlDULlWaeElKV6JyRBQ==" />
+        </item>
+
+        <item>
             <title>Version 1.8.2</title>
             <pubDate>Sat, 11 Jul 2026 16:10:07 -0400</pubDate>
             <sparkle:version>141</sparkle:version>
