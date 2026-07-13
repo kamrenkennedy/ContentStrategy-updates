@@ -15,6 +15,26 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.8.8</title>
+            <pubDate>Mon, 13 Jul 2026 12:32:30 -0500</pubDate>
+            <sparkle:version>147</sparkle:version>
+            <sparkle:shortVersionString>1.8.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Schedule, now steerable</h2>
+<p>Week and Month views were stuck showing only the current window — now you can step back and forward through time, and row thumbnails finally show your actual crop.</p>
+<ul>
+    <li><strong>Step through any week or month</strong> Week and Month views now have Previous/Next controls plus a Today button, so you're not locked to the current 7 days or calendar month anymore.</li>
+    <li><strong>Thumbnails match your crop</strong> Schedule row thumbnails now reflect the framing you set in Edit — cropped and padded posts finally look the way they'll publish, matching the Library card.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.8.8/Persona-1.8.8.zip"
+                length="11667708"
+                type="application/octet-stream"
+                sparkle:edSignature="ytPrJXBmngUIpdwwu1kIMMXIWA6gPIlpa2ApOdEkZPVHkidK/8sT/UXdIidq8EBlZuxX1tgM1nfnxuwx7tjOAQ==" />
+        </item>
+        <item>
             <title>Version 1.8.7</title>
             <pubDate>Mon, 13 Jul 2026 10:20:54 -0500</pubDate>
             <sparkle:version>146</sparkle:version>

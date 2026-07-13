@@ -3,6 +3,156 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.8.8",
+      "build": 147,
+      "date": "2026-07-13",
+      "title": "Schedule, now steerable",
+      "announce": true,
+      "summary": "Week and Month views were stuck showing only the current window — now you can step back and forward through time, and row thumbnails finally show your actual crop.",
+      "highlights": [
+        {
+          "title": "Step through any week or month",
+          "body": "Week and Month views now have Previous/Next controls plus a Today button, so you're not locked to the current 7 days or calendar month anymore.",
+          "icon": "calendar"
+        },
+        {
+          "title": "Thumbnails match your crop",
+          "body": "Schedule row thumbnails now reflect the framing you set in Edit — cropped and padded posts finally look the way they'll publish, matching the Library card.",
+          "icon": "crop"
+        }
+      ]
+    },
+    {
+      "version": "1.8.7",
+      "build": 146,
+      "date": "2026-07-13",
+      "title": "iPhone's Edit sheet, tuned for touch",
+      "announce": true,
+      "summary": "Every tool in the iPhone Edit sheet now works the way a Lightroom-mobile editor should — your photo pinned in place at the top, the tools scrolling underneath.",
+      "highlights": [
+        {
+          "title": "Your photo stays put",
+          "body": "Crop, Matte, Panorama, and Text post all now pin the photo at the top while their tools scroll beneath it — no more losing your place.",
+          "icon": "photo"
+        },
+        {
+          "title": "Built to match the Mac",
+          "body": "Same tools, same controls, same result — just laid out the way a phone actually wants to be held.",
+          "icon": "checkmark.circle"
+        }
+      ]
+    },
+    {
+      "version": "1.8.6",
+      "build": 145,
+      "date": "2026-07-13",
+      "title": "Every brand, a face",
+      "announce": true,
+      "summary": "Brands can now carry a real photo and a color — set them once in Settings, see them everywhere a brand shows up.",
+      "highlights": [
+        {
+          "title": "Upload a photo, frame it yourself",
+          "body": "Add a profile picture to any brand, then drag to move and slide to zoom inside the frame — exactly what you see is what gets saved.",
+          "icon": "person.crop.circle"
+        },
+        {
+          "title": "A color for every brand",
+          "body": "Pick each brand's color right alongside its photo in Settings → Brands — it's what shows when there's no picture yet.",
+          "icon": "paintpalette"
+        },
+        {
+          "title": "It shows up everywhere",
+          "body": "The brand switcher now shows the photo instead of a plain color dot, wherever there's room to show it.",
+          "icon": "person.2"
+        },
+        {
+          "title": "Edit it from your phone too",
+          "body": "iPhone can now set a brand's photo and color directly — its own crop-and-zoom sheet, matching the Mac exactly.",
+          "icon": "iphone"
+        }
+      ]
+    },
+    {
+      "version": "1.8.5",
+      "build": 144,
+      "date": "2026-07-13",
+      "title": "Text posts, one Edit away",
+      "announce": true,
+      "summary": "Text posts now stylize the same way everything else does — open Edit, shape the card, and export once. No more separate export button to remember.",
+      "highlights": [
+        {
+          "title": "Stylize, then export — once",
+          "body": "Open Edit on a text post and shape it in the new Text post tab — background, size, tone. One Export button bakes the branded image automatically, whenever a photo-first platform is riding along.",
+          "icon": "square.and.pencil"
+        },
+        {
+          "title": "A card that fits its words",
+          "body": "The caption now shrinks to fit the card instead of clipping, with a cleaner icon mark in the corner and sizing tuned for how Threads actually crops it.",
+          "icon": "textformat.size"
+        },
+        {
+          "title": "More room to work",
+          "body": "The Mac Edit sheet now puts your canvas on the left and every tool on the right, on every tab.",
+          "icon": "rectangle.split.2x1"
+        }
+      ]
+    },
+    {
+      "version": "1.8.4",
+      "build": 143,
+      "date": "2026-07-13",
+      "title": "iPhone gets its own welcome",
+      "announce": true,
+      "summary": "First time opening Persona on iPhone? You'll get a quick tour of what's here. After that, every update brings its own What's New — the same release notes you'd see on Mac, now on your phone too.",
+      "highlights": [
+        {
+          "title": "A proper hello, the first time",
+          "body": "Open Persona on iPhone for the first time and get a quick walk-through — your brands, your schedule, each brand's voice, and how to capture a post on the go.",
+          "icon": "hand.wave"
+        },
+        {
+          "title": "What's new, right on your phone",
+          "body": "After an update, see what changed without leaving iPhone — the same highlights the Mac shows, in the same voice.",
+          "icon": "sparkles"
+        },
+        {
+          "title": "The whole history, whenever you want it",
+          "body": "Settings now holds every past update, plus a way to replay the welcome tour any time you want a refresher.",
+          "icon": "clock.arrow.circlepath"
+        }
+      ]
+    },
+    {
+      "version": "1.8.3",
+      "build": 142,
+      "date": "2026-07-11",
+      "title": "Voice — your brand's bible",
+      "announce": true,
+      "summary": "The Creative Profile page is now Voice: a brand's bible — the one page an AI reads before it writes in its voice. Capture how a brand sounds, what it stands for, and what it never does, with a living index that shows how complete each chapter is.",
+      "highlights": [
+        {
+          "title": "One page that defines your voice",
+          "body": "The Creative Profile is now Voice — a brand bible organized into chapters: Identity, Voice, Substance, Guardrails, Channels, and Examples. A living index down the left tracks how much of each you've filled in, so you can see the whole picture and what's still missing.",
+          "icon": "text.book.closed"
+        },
+        {
+          "title": "Say how it sounds — and what it never does",
+          "body": "Describe the voice in plain words, place it on a tone scale from Formal to Playful, and spell out the words you use, the ones you never do, your do's and don'ts, and the topics to steer clear of. The AI writes inside those lines.",
+          "icon": "slider.horizontal.3"
+        },
+        {
+          "title": "See it the way the AI does",
+          "body": "A live preview at the bottom shows the exact page an AI reads before it writes for you — so what you put in is precisely what it works from.",
+          "icon": "sparkles"
+        },
+        {
+          "title": "A calm read on your phone",
+          "body": "On iPhone and iPad your bible is a clean, read-only read — authoring stays on the Mac, where there's room to think.",
+          "icon": "iphone"
+        }
+      ]
+    },
+    {
       "version": "1.8.2",
       "build": 141,
       "date": "2026-07-11",
