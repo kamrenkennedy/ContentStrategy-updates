@@ -15,6 +15,31 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.10.0</title>
+            <pubDate>Sun, 19 Jul 2026 02:14:31 -0500</pubDate>
+            <sparkle:version>150</sparkle:version>
+            <sparkle:shortVersionString>1.10.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>The big one — Mac and iPhone, finally the same studio</h2>
+<p>Everything the Mac learned this month lands on your iPhone, plus a fullscreen viewer on both screens and a head-to-toe polish pass.</p>
+<ul>
+    <li><strong>Per-platform edits on iPhone</strong> Fork a platform's crop and matte right from the Edit page — the compact switcher above the aspect chips does what the Mac's does, with copy/paste framing and Reset to Shared on a long-press. The globe now means Shared everywhere: one universal mark for "applies to all platforms."</li>
+    <li><strong>Fullscreen media viewer</strong> Press ⌘F on a post (or tap the hidden shortcut list in Settings → Keyboard) for a Lightroom-style lights-out view with arrow-key browsing. On iPhone, pinch a photo or video and it grows with your fingers into fullscreen.</li>
+    <li><strong>The iPhone export page grew up</strong> A big framed hero leads the page with every platform's true shipping size grouped under it, safe-zone guides show exactly where each app's UI covers your content, and export options match the Mac's. Marking every platform posted flips the post to Published.</li>
+    <li><strong>YouTube Title everywhere</strong> The title travels with the description across the keyboard, the copy blocks, and the exported files.</li>
+    <li><strong>Captions handoff, rebranded</strong> The exported Captions page and PDF now carry Persona's design language and your brand's color and mark — in light and dark.</li>
+    <li><strong>It feels better</strong> Swipe back from the screen edge anywhere, caption scrolling behaves like Notes, the export button unrolls its label on hover, and platform switching morphs instead of snapping.</li>
+    <li><strong>Settings fixes</strong> Brand photos and the privacy toggle got a cleanup pass.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.10.0/Persona-1.10.0.zip"
+                length="12202305"
+                type="application/octet-stream"
+                sparkle:edSignature="G41byH6OO+0YT+Rfz6MTZG5zUtsi9twl/FakHknYmkX4SI0wYvJCQ+wYo00A8ggFBtUzsPEPZOTWacdAD0XgBg==" />
+        </item>
+        <item>
             <title>Version 1.8.8</title>
             <pubDate>Mon, 13 Jul 2026 12:32:30 -0500</pubDate>
             <sparkle:version>147</sparkle:version>
