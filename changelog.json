@@ -3,6 +3,84 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.10.2",
+      "build": 152,
+      "date": "2026-07-21",
+      "title": "Various bug fixes and improvements",
+      "summary": "Feedback now reaches Kam from every device, not just this Mac.",
+      "highlights": [
+        {
+          "title": "Under the hood",
+          "body": "In-app feedback now routes reliably from iPhone as well as Mac. Nothing else changed.",
+          "icon": "wrench.and.screwdriver"
+        }
+      ]
+    },
+    {
+      "version": "1.10.1",
+      "build": 151,
+      "date": "2026-07-20",
+      "title": "Various bug fixes and improvements",
+      "summary": "A round of behind-the-scenes fixes — sync reliability, export edge cases, and the per-platform crop editor all got a little sturdier.",
+      "highlights": [
+        {
+          "title": "Under the hood",
+          "body": "Fixed a handful of edge cases in syncing, exporting, and per-platform crop editing. Nothing to see here — just a steadier app.",
+          "icon": "wrench.and.screwdriver"
+        }
+      ]
+    },
+    {
+      "version": "1.10.0",
+      "build": 149,
+      "date": "2026-07-18",
+      "title": "The Export sheet — your last checks before you ship",
+      "announce": true,
+      "summary": "Exporting is now a real delivery screen instead of a folder dropped into Downloads: a clean preview of exactly what ships, per-platform safe zones, a posting checklist, and quality options — all in one calm sheet.",
+      "highlights": [
+        {
+          "title": "A proper Export sheet",
+          "body": "Press Export and you get a dimmed delivery modal — a live preview of the post as it'll ship on the left, a tidy \"what's shipping and where\" panel on the right, and a folder picker that remembers where you like things.",
+          "icon": "airplane.departure"
+        },
+        {
+          "title": "Safe zones for every platform",
+          "body": "See whether a face, subject, or caption sits where TikTok, Reels, Stories, or Shorts will cover it — an accurate per-platform overlay drawn right on the preview.",
+          "icon": "square.dashed"
+        },
+        {
+          "title": "Mark as posted",
+          "body": "Tick each platform off as you publish it — a per-post checklist that remembers what you've already shipped.",
+          "icon": "checkmark.circle"
+        },
+        {
+          "title": "Export options",
+          "body": "A quiet Options disclosure for when you want it: H.264 or HEVC video, and Lower / Recommended / Higher image quality. Untouched files always ship as-is.",
+          "icon": "slider.horizontal.3"
+        }
+      ]
+    },
+    {
+      "version": "1.9.0",
+      "build": 148,
+      "date": "2026-07-17",
+      "title": "Your account — Persona starts going online",
+      "announce": true,
+      "summary": "Persona now has accounts. Sign in with Apple to join the beta — the first step of Persona going online, built privacy-first: your posts, captions, and media never leave your Mac.",
+      "highlights": [
+        {
+          "title": "Sign in with Apple",
+          "body": "Settings → Account now lets you sign in with your Apple ID to join the Persona beta — no passwords, no forms. Sign out or delete your account anytime.",
+          "icon": "person.crop.circle"
+        },
+        {
+          "title": "Private by default",
+          "body": "A new Usage & Privacy setting lets Persona learn what to improve from anonymous, content-free signals — and you can switch it off in one tap. Your content is never sent.",
+          "icon": "lock.shield"
+        }
+      ]
+    },
+    {
       "version": "1.8.8",
       "build": 147,
       "date": "2026-07-13",
