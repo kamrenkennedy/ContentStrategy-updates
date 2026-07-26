@@ -3,6 +3,46 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.10.3",
+      "build": 153,
+      "date": "2026-07-25",
+      "title": "A first launch worth having",
+      "announce": true,
+      "summary": "Persona now opens with a proper welcome — sign in, name your first brand for real, and get a short tour — so your first few minutes actually go somewhere.",
+      "highlights": [
+        {
+          "title": "Sign in with Apple",
+          "body": "Brand-new installs now open to a sign-in screen, so your brands and posts are tied to your account from the very first launch. If you already have a library on this Mac, nothing changes — Persona opens straight to your work. Sign in once while you're connected and it opens fine from then on, online or off.",
+          "icon": "apple.logo"
+        },
+        {
+          "title": "A calmer way in",
+          "body": "The sign-in screen is now a full-screen photo with the Persona wordmark and a single button — no wall of text, and none of the app's buttons hanging around behind it. Sign in and it lifts away to reveal your workspace instead of cutting to it.",
+          "icon": "lock.open"
+        },
+        {
+          "title": "Name your first brand",
+          "body": "Setup now asks for your brand's name and handle up front instead of creating a placeholder you'd have to rename later — and it shows you the library folder it's about to create as you type. Your first post lands in that brand automatically.",
+          "icon": "person.crop.circle.badge.plus"
+        },
+        {
+          "title": "A quick tour on Mac",
+          "body": "A new “How Persona works” panel walks you through brands, writing, scheduling, and what Export actually does. It appears once after you create your first brand, and it's always waiting in Settings → Help & About.",
+          "icon": "book"
+        },
+        {
+          "title": "Empty screens that point somewhere",
+          "body": "A fresh Library now names your next move, an empty Schedule explains how a post gets a date, and every “+ New brand” link opens Settings → Brands instead of a blank screen. On iPhone, the welcome tour shows up reliably and explains that your first brand starts on your Mac.",
+          "icon": "square.and.pencil"
+        },
+        {
+          "title": "Smoother and more polished",
+          "body": "Sign Out now takes you back to the lock screen instead of leaving the app sitting open behind you, brand handles stay handle-shaped while you type, and the setup examples use neutral stand-in names.",
+          "icon": "sparkles"
+        }
+      ]
+    },
+    {
       "version": "1.10.2",
       "build": 152,
       "date": "2026-07-21",

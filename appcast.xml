@@ -15,6 +15,23 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.10.3</title>
+            <pubDate>Sat, 25 Jul 2026 20:05:39 -0500</pubDate>
+            <sparkle:version>153</sparkle:version>
+            <sparkle:shortVersionString>1.10.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>A first launch worth having</h2>
+<p>Persona now opens with a proper welcome &mdash; sign in, name your first brand for real, and get a short tour &mdash; so your first few minutes actually go somewhere.</p>
+<p>Brand-new installs open to a sign-in screen, setup asks for your brand&rsquo;s name and handle up front instead of creating a placeholder to rename later, and a new &ldquo;How Persona works&rdquo; panel covers brands, writing, scheduling, and what Export actually does. Empty screens now name your next move, Sign Out returns you to the lock screen, and brand handles stay handle-shaped.</p>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.10.3/Persona-1.10.3.zip"
+                length="12635369"
+                type="application/octet-stream"
+                sparkle:edSignature="UF6gjv1X7Y0hiWKq7pJDVPEH7y4EfojI2s+8JB+eEUPbzNbW0YhBCBh78hrxZOaOkJa4AFn/ju5A321aTLrTCA==" />
+        </item>
+        <item>
             <title>Version 1.10.2</title>
             <pubDate>Tue, 21 Jul 2026 10:18:36 -0500</pubDate>
             <sparkle:version>152</sparkle:version>
