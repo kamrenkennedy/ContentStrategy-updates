@@ -55,7 +55,7 @@
             <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
             <description><![CDATA[
 <h2>Various bug fixes and improvements</h2>
-<p>Feedback now reaches Kam from every device, not just this Mac. In-app feedback routes reliably from iPhone as well as Mac.</p>
+<p>In-app feedback now sends from every device, not just this Mac — reports route reliably from iPhone as well as Mac.</p>
 ]]></description>
             <enclosure
                 url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.10.2/ContentStrategy-1.10.2.zip"
@@ -630,7 +630,7 @@
                 <h3>Fixes</h3>
                 <ul>
                     <li><strong>Sidebar items render correctly.</strong> v1.0.14 inadvertently pushed the sidebar's Library / Schedule / Creative Profile / Settings items out of the visible viewport. Fixed.</li>
-                    <li><strong>"Reconnect iCloud" recovery affordance.</strong> When CloudKit setup fails persistently (the "service unavailable" error that's been hitting Tiera's Mac and any post-Reset Mac), the empty-state card now surfaces a one-click <strong>Reconnect iCloud</strong> deep-link to System Settings → Apple ID → iCloud, where the user-side fix lives (toggle Content Strategy off and on under Apps Using iCloud, then quit and reopen). Same affordance also surfaces in Settings → iCloud Sync whenever sync is in <code>Error</code> or <code>Sync paused</code> state. The card's body copy walks through the recovery sequence.</li>
+                    <li><strong>"Reconnect iCloud" recovery affordance.</strong> When CloudKit setup fails persistently (the "service unavailable" error that can persist on a Mac after an iCloud reset), the empty-state card now surfaces a one-click <strong>Reconnect iCloud</strong> deep-link to System Settings → Apple ID → iCloud, where the user-side fix lives (toggle Content Strategy off and on under Apps Using iCloud, then quit and reopen). Same affordance also surfaces in Settings → iCloud Sync whenever sync is in <code>Error</code> or <code>Sync paused</code> state. The card's body copy walks through the recovery sequence.</li>
                 </ul>
                 <h3>About v1.0.13 + v1.0.14</h3>
                 <p>Both prior releases shipped with regressions (window stretch + misleading Welcome card on v1.0.13; sidebar items pushed offscreen on v1.0.14). They've been removed from the Sparkle appcast — Sparkle no longer advertises them. Existing v1.0.13 / v1.0.14 installs stay where they are; this v1.0.15 supersedes both via the normal Sparkle update path.</p>
@@ -883,7 +883,7 @@
                 <h2>v1.0.2 — Sparkle SUFeedURL fix + shared feedback folder</h2>
                 <ul>
                     <li><strong>Sparkle auto-update now actually works.</strong> v1.0 and v1.0.1 shipped without SUFeedURL in their Info.plist — auto-update was silently broken. Fixed in v1.0.2 by switching to a real custom Info.plist.</li>
-                    <li><strong>Feedback files land in the shared iCloud folder.</strong> Reports go to <code>Kennedy Family Docs/Claude/Content Strategy Feedback/</code> — both Kam and Tiera see each other's reports.</li>
+                    <li><strong>Feedback files land in a shared iCloud folder.</strong> Reports are written to a shared folder, so everyone with access sees each other's reports.</li>
                 </ul>
                 <p>v1.0/v1.0.1 installs need to manually download v1.0.2 one more time (their broken Sparkle can't fetch this appcast). After v1.0.2, every future update auto-delivers.</p>
             ]]></description>

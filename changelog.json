@@ -61,7 +61,7 @@
       "build": 152,
       "date": "2026-07-21",
       "title": "Various bug fixes and improvements",
-      "summary": "Feedback now reaches Kam from every device, not just this Mac.",
+      "summary": "In-app feedback now sends from every device, not just this Mac.",
       "highlights": [
         {
           "title": "Under the hood",
