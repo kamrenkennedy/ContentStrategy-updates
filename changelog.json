@@ -3,6 +3,56 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.11.0",
+      "build": 155,
+      "date": "2026-07-27",
+      "title": "Mentions arrive on Mac and iPhone",
+      "announce": true,
+      "summary": "This release brings mentions to life across Mac and iPhone, and tightens up account safety, feedback privacy, and syncing so your work stays exactly where you left it.",
+      "highlights": [
+        {
+          "title": "Mention people in your captions",
+          "body": "Tag teammates, partners, or brands right in your captions and see them all gathered in one place. A new @ tab shows exactly what each platform will actually publish, with a quiet flag on anything that looks off — like a stray @ that wasn't meant as a tag.",
+          "icon": "at"
+        },
+        {
+          "title": "Customize a mention per platform",
+          "body": "Give someone a different handle on just one platform without touching the rest of your caption. Hover or tap any mention to see exactly what will publish before you save, and revert cleanly back to your shared version any time.",
+          "icon": "at.circle.fill"
+        },
+        {
+          "title": "Safer, more deliberate sign-outs",
+          "body": "Signing out now asks you to confirm first, since it locks Persona until you sign back in. And a flaky network or captive Wi-Fi page can no longer sign you out by accident — your session only ends when you mean it to.",
+          "icon": "lock.open"
+        },
+        {
+          "title": "Feedback reports, safer and clearer",
+          "body": "Bug reports are now automatically stripped of personal details like your post titles, file paths, and name before they're sent, and you can preview the exact report before it goes out. Crash reporting also got its own switch, separate from anonymous usage sharing.",
+          "icon": "shield.lefthalf.filled"
+        },
+        {
+          "title": "Your brand and profile edits sync smarter",
+          "body": "Update your Creative Profile or a brand's details from more than one device and your changes now come together instead of one quietly overwriting the other. Restoring a deleted post plays fair too — anything edited elsewhere while it was gone is kept, not wiped out.",
+          "icon": "arrow.triangle.merge"
+        },
+        {
+          "title": "Clearer warning before deleting a brand",
+          "body": "The delete-brand confirmation now spells out exactly what's lost — including how many photos and videos go with it, not just the number of posts.",
+          "icon": "exclamationmark.triangle"
+        },
+        {
+          "title": "Smoother brand creation",
+          "body": "Creating a new brand now asks for its name and handle up front, with a live preview of its folder, instead of starting with a placeholder you rename later. Links to Settings also take you straight to the right pane now.",
+          "icon": "folder.badge.plus"
+        },
+        {
+          "title": "Smoother and more polished",
+          "body": "Scrolling your Schedule timeline no longer lets a post peek out above its date header, long brand names truncate cleanly in the switcher, and typing into a caption near the bottom of your iPhone screen now scrolls it into view above the keyboard automatically.",
+          "icon": "sparkles"
+        }
+      ]
+    },
+    {
       "version": "1.10.4",
       "build": 154,
       "date": "2026-07-25",

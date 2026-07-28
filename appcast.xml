@@ -15,6 +15,32 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.11.0</title>
+            <pubDate>Sun, 27 Jul 2026 20:35:00 -0500</pubDate>
+            <sparkle:version>155</sparkle:version>
+            <sparkle:shortVersionString>1.11.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Mentions arrive on Mac and iPhone</h2>
+<p>This release brings mentions to life across Mac and iPhone, and tightens up account safety, feedback privacy, and syncing so your work stays exactly where you left it.</p>
+<ul>
+    <li><strong>Mention people in your captions</strong> Tag teammates, partners, or brands right in your captions and see them all gathered in one place. A new @ tab shows exactly what each platform will actually publish, with a quiet flag on anything that looks off — like a stray @ that wasn't meant as a tag.</li>
+    <li><strong>Customize a mention per platform</strong> Give someone a different handle on just one platform without touching the rest of your caption. Hover or tap any mention to see exactly what will publish before you save, and revert cleanly back to your shared version any time.</li>
+    <li><strong>Safer, more deliberate sign-outs</strong> Signing out now asks you to confirm first, since it locks Persona until you sign back in. And a flaky network or captive Wi-Fi page can no longer sign you out by accident — your session only ends when you mean it to.</li>
+    <li><strong>Feedback reports, safer and clearer</strong> Bug reports are now automatically stripped of personal details like your post titles, file paths, and name before they're sent, and you can preview the exact report before it goes out. Crash reporting also got its own switch, separate from anonymous usage sharing.</li>
+    <li><strong>Your brand and profile edits sync smarter</strong> Update your Creative Profile or a brand's details from more than one device and your changes now come together instead of one quietly overwriting the other. Restoring a deleted post plays fair too — anything edited elsewhere while it was gone is kept, not wiped out.</li>
+    <li><strong>Clearer warning before deleting a brand</strong> The delete-brand confirmation now spells out exactly what's lost — including how many photos and videos go with it, not just the number of posts.</li>
+    <li><strong>Smoother brand creation</strong> Creating a new brand now asks for its name and handle up front, with a live preview of its folder, instead of starting with a placeholder you rename later. Links to Settings also take you straight to the right pane now.</li>
+    <li><strong>Smoother and more polished</strong> Scrolling your Schedule timeline no longer lets a post peek out above its date header, long brand names truncate cleanly in the switcher, and typing into a caption near the bottom of your iPhone screen now scrolls it into view above the keyboard automatically.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.11.0/Persona-1.11.0.zip"
+                length="13137978"
+                type="application/octet-stream"
+                sparkle:edSignature="/g2iWaTlGGhfBztEWD5vY6k5r1DQL3LVT26FI4HBAber3FoBz8jSrnD2nu1Z9zkR12bSt3vG4BNQ/8Fh5GNWAQ==" />
+        </item>
+        <item>
             <title>Version 1.10.4</title>
             <pubDate>Sat, 25 Jul 2026 20:39:15 -0500</pubDate>
             <sparkle:version>154</sparkle:version>
