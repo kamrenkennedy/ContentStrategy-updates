@@ -3,6 +3,20 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.11.1",
+      "build": 156,
+      "date": "2026-07-28",
+      "title": "Various bug fixes and improvements",
+      "summary": "A quiet round of behind-the-scenes work — nothing new to see.",
+      "highlights": [
+        {
+          "title": "Under the hood",
+          "body": "Some internal groundwork landed this build. Nothing changed in what you see or how Persona behaves.",
+          "icon": "wrench.and.screwdriver"
+        }
+      ]
+    },
+    {
       "version": "1.11.0",
       "build": 155,
       "date": "2026-07-27",
