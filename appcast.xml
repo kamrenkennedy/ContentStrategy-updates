@@ -15,6 +15,26 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.11.2</title>
+            <pubDate>Tue, 04 Aug 2026 00:30:00 -0500</pubDate>
+            <sparkle:version>157</sparkle:version>
+            <sparkle:shortVersionString>1.11.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>More control over your account and your media</h2>
+<p>You can now delete your Persona account yourself, with a clear way to keep your library first. And photos and videos still arriving from iCloud show their progress as they come down.</p>
+<ul>
+    <li><strong>Delete your account, on your terms</strong> Account deletion now lives in Settings, and walks you through exactly what happens before anything does. Your posts, photos, and videos live in a folder on your Mac — Persona points you to it first, so you can keep everything whatever you decide.</li>
+    <li><strong>See your media as it arrives</strong> Photos and videos still coming down from iCloud now show their download progress, so you can tell at a glance what's ready and what's still on its way.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.11.2/Persona-1.11.2.zip"
+                length="13756950"
+                type="application/octet-stream"
+                sparkle:edSignature="xbNCjrUlVd3Vk8RwxTz05UZTNnqQfKSuqvyhAqscu8aLY7Vo0C6CegjBEfcID94SBE3E0YlMI1T8TZjGZw0eBw==" />
+        </item>
+        <item>
             <title>Version 1.11.1</title>
             <pubDate>Thu, 30 Jul 2026 21:00:17 -0500</pubDate>
             <sparkle:version>156</sparkle:version>
