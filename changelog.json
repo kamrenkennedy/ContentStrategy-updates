@@ -3,6 +3,40 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.11.3",
+      "build": 158,
+      "date": "2026-08-05",
+      "title": "Various bug fixes and improvements",
+      "summary": "A quiet round of behind-the-scenes work — nothing new to see.",
+      "highlights": [
+        {
+          "title": "Under the hood",
+          "body": "Some internal groundwork landed this build. Nothing changed in what you see or how Persona behaves.",
+          "icon": "wrench.and.screwdriver"
+        }
+      ]
+    },
+    {
+      "version": "1.11.2",
+      "build": 157,
+      "date": "2026-08-03",
+      "title": "More control over your account and your media",
+      "summary": "You can now delete your Persona account yourself, with a clear way to keep your library first. And photos and videos still arriving from iCloud show their progress as they come down.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Delete your account, on your terms",
+          "body": "Account deletion now lives in Settings, and walks you through exactly what happens before anything does. Your posts, photos, and videos live in a folder on your Mac — Persona points you to it first, so you can keep everything whatever you decide.",
+          "icon": "person.crop.circle.badge.xmark"
+        },
+        {
+          "title": "See your media as it arrives",
+          "body": "Photos and videos still coming down from iCloud now show their download progress, so you can tell at a glance what's ready and what's still on its way.",
+          "icon": "arrow.down.circle"
+        }
+      ]
+    },
+    {
       "version": "1.11.1",
       "build": 156,
       "date": "2026-07-28",
