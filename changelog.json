@@ -3,6 +3,20 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.11.4",
+      "build": 159,
+      "date": "2026-08-09",
+      "title": "Small fixes",
+      "summary": "A quiet round of small fixes and polish.",
+      "highlights": [
+        {
+          "title": "Small fixes",
+          "body": "Connecting Persona to Claude is smoother, and a few rough edges elsewhere got sanded down. Nothing changed in how Persona works day to day.",
+          "icon": "wrench.and.screwdriver"
+        }
+      ]
+    },
+    {
       "version": "1.11.3",
       "build": 158,
       "date": "2026-08-05",

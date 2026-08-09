@@ -15,6 +15,25 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
                 <item>
+            <title>Version 1.11.4</title>
+            <pubDate>Sat, 09 Aug 2026 09:35:00 -0500</pubDate>
+            <sparkle:version>159</sparkle:version>
+            <sparkle:shortVersionString>1.11.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Small fixes</h2>
+<p>A quiet round of small fixes and polish.</p>
+<ul>
+    <li><strong>Small fixes</strong> Connecting Persona to Claude is smoother, and a few rough edges elsewhere got sanded down. Nothing changed in how Persona works day to day.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.11.4/Persona-1.11.4.zip"
+                length="13938161"
+                type="application/octet-stream"
+                sparkle:edSignature="Tx2Xg6n1hO1TElnTFGCmTXJHvejLy7Xsby9TQGnxxkxewYjoHhal2AJw1Ap5MDgfSYgwX0+sIFhE38I2E4C2AA==" />
+        </item>
+                <item>
             <title>Version 1.11.3</title>
             <pubDate>Wed, 05 Aug 2026 01:08:44 -0500</pubDate>
             <sparkle:version>158</sparkle:version>
