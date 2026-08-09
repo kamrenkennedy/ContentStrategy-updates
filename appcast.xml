@@ -15,6 +15,26 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
                 <item>
+            <title>Version 1.11.5</title>
+            <pubDate>Sat, 09 Aug 2026 17:20:00 -0500</pubDate>
+            <sparkle:version>160</sparkle:version>
+            <sparkle:shortVersionString>1.11.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Signing in, and iCloud</h2>
+<p>Persona now asks you to sign in, and keeps your library in iCloud Drive.</p>
+<ul>
+    <li><strong>Sign in to use Persona</strong> Once you have, it keeps working offline — you only need a connection the first time. You can sign in with your email and a code from Settings, not just on the opening screen.</li>
+    <li><strong>Your library lives in iCloud Drive</strong> Your brands and posts stay on every device and remain ordinary folders you can open yourself. If iCloud is briefly unavailable, Persona waits and picks up on its own rather than starting a second library somewhere you would never find it.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.11.5/Persona-1.11.5.zip"
+                length="13944754"
+                type="application/octet-stream"
+                sparkle:edSignature="NKzT3IraiqtPTMj2GuVLDNXg2i1LYVwhdiXdqlGz+SHtdMQR5sCGTDcnrYx0dcASUZnxDogPW3+iCtE7fgTGDA==" />
+        </item>
+                <item>
             <title>Version 1.11.4</title>
             <pubDate>Sat, 09 Aug 2026 09:35:00 -0500</pubDate>
             <sparkle:version>159</sparkle:version>

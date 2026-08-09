@@ -3,6 +3,25 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.11.5",
+      "build": 160,
+      "date": "2026-08-09",
+      "title": "Signing in, and iCloud",
+      "summary": "Persona now asks you to sign in, and keeps your library in iCloud Drive.",
+      "highlights": [
+        {
+          "title": "Sign in to use Persona",
+          "body": "Persona now asks you to sign in. Once you have, it keeps working offline — you only need a connection the first time. You can sign in with your email and a code from Settings, not just on the opening screen.",
+          "icon": "person.crop.circle"
+        },
+        {
+          "title": "Your library lives in iCloud Drive",
+          "body": "Persona keeps your brands and posts in iCloud Drive so they are on every device and always reachable as ordinary folders. If iCloud is briefly unavailable, Persona waits and picks up on its own rather than starting a second library somewhere you would never find it.",
+          "icon": "icloud"
+        }
+      ]
+    },
+    {
       "version": "1.11.4",
       "build": 159,
       "date": "2026-08-09",
