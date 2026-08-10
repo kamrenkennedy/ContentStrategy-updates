@@ -15,6 +15,27 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
                 <item>
+            <title>Version 1.11.6</title>
+            <pubDate>Mon, 10 Aug 2026 00:04:35 -0500</pubDate>
+            <sparkle:version>161</sparkle:version>
+            <sparkle:shortVersionString>1.11.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Facebook, and one place per account</h2>
+<p>Facebook joins Persona, and everything now groups by the account it posts to.</p>
+<ul>
+    <li><strong>Facebook</strong> Facebook is here, with Feed, Reel and Story. It arrives as one place to plan rather than three, because Persona groups by account now. Switch it on for a brand in Voice, under Channels, and it appears in that brand's composer.</li>
+    <li><strong>Your platforms, grouped by account</strong> Instagram Feed, Reel and Story are one account, and Persona treats them that way. One chip in the composer that opens to its formats, one set of caption tabs per account, and one handle to fill in per account instead of one for every format.</li>
+    <li><strong>Each platform asks for its own words</strong> A caption on Instagram and TikTok, a description on YouTube, a post on X and Threads. Story asks for nothing, because its words go on the media itself.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.11.6/Persona-1.11.6.zip"
+                length="14129946"
+                type="application/octet-stream"
+                sparkle:edSignature="/pEzGdpTRQiMIqZ80JkJhLDh0UKPvqmHFtgRlve2lTLT8naaBV49heWCMqLI5dFwe5ofuHhi5H+FULvjscGhDg==" />
+        </item>
+                <item>
             <title>Version 1.11.5</title>
             <pubDate>Sat, 09 Aug 2026 17:20:00 -0500</pubDate>
             <sparkle:version>160</sparkle:version>
