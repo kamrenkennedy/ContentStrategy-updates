@@ -3,6 +3,90 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.12.0",
+      "build": 162,
+      "date": "2026-08-15",
+      "announce": true,
+      "title": "Themes, and a visual calendar",
+      "summary": "The subjects you keep coming back to now have a home, and your calendar shows the work itself instead of a list of titles.",
+      "highlights": [
+        {
+          "title": "The subjects you keep returning to",
+          "body": "Your Brand Bible now has a Themes chapter — the handful of subjects this brand is actually about, with room beneath each one to park ideas until they're ready. When an idea's time comes, turn it into a draft without retyping a word.",
+          "icon": "square.stack.3d.up",
+          "illustrationID": "themes"
+        },
+        {
+          "title": "See how the plan is going",
+          "body": "Tag a post with a theme and it shows up wherever you're looking — a mark on the month view, a dot on the card, a filter in your Library. A mix strip lays out what went out recently against what's coming, so you can tell when one subject is quietly taking over.",
+          "icon": "chart.bar.xaxis",
+          "illustrationID": null
+        },
+        {
+          "title": "Talk out your brand voice",
+          "body": "Ask Claude to interview you about a brand, one question at a time, and watch each answer land in the Brand Bible as you go. Stop whenever you like and pick the conversation back up later. The page keeps up as each answer arrives, so nothing you wrote gets written over.",
+          "icon": "quote.bubble",
+          "illustrationID": null
+        },
+        {
+          "title": "Schedule opens on today",
+          "body": "Schedule now lands on the current day instead of scrolling you back through months of finished posts. Everything already past tucks behind a single Earlier row, one click away when you want it. And whether you like Timeline, Week, or Month, it reopens exactly the way you left it.",
+          "icon": "calendar",
+          "illustrationID": null
+        },
+        {
+          "title": "Your month, in pictures",
+          "body": "Month and Week now show each day's photos and clips right in the calendar, so you can see what's going out at a glance instead of reading titles. Click a day's number to reveal that whole day on frosted glass with every post laid out, then pick one to jump straight into it. Prefer the plain text rows? Turn thumbnails off in Settings.",
+          "icon": "photo.on.rectangle",
+          "illustrationID": "calendarThumbnails"
+        },
+        {
+          "title": "Drag straight from Photos",
+          "body": "Drag a photo or clip out of Photos and drop it right onto a post or your library. You get the full-size original every time, and a video arrives as real video instead of a single frozen frame. A quiet note tells you it's on its way, and if something can't be added, Persona now says so in plain words.",
+          "icon": "photo.on.rectangle.angled",
+          "illustrationID": null
+        },
+        {
+          "title": "See what Claude can reach",
+          "body": "When you connect Persona to Claude, the install dialog now spells out exactly what it works with in your library, what it reads when you attach a file, and what it never does with your content. The code behind it is public, so you can check every word of it yourself.",
+          "icon": "hand.raised",
+          "illustrationID": null
+        },
+        {
+          "title": "Smoother and more polished",
+          "body": "Escape now closes a post and takes you back, the same as the Back button. Whatever you wrote is saved on the way out, and a draft you never really started simply goes away. If a panel is open, Escape closes that first.",
+          "icon": "sparkles",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
+      "version": "1.11.6",
+      "build": 161,
+      "date": "2026-08-09",
+      "announce": true,
+      "title": "Facebook, and one place per account",
+      "summary": "Facebook joins Persona, and everything now groups by the account it posts to.",
+      "highlights": [
+        {
+          "title": "Facebook",
+          "body": "Facebook is here, with Feed, Reel and Story. It arrives as one place to plan rather than three, because Persona groups by account now. Switch it on for a brand in Voice, under Channels, and it appears in that brand's composer.",
+          "icon": "sparkles",
+          "illustrationID": "facebookNetwork"
+        },
+        {
+          "title": "Your platforms, grouped by account",
+          "body": "Instagram Feed, Reel and Story are one account, and Persona treats them that way. One chip in the composer that opens to its formats, one set of caption tabs per account, and one handle to fill in per account instead of one for every format.",
+          "icon": "square.grid.2x2"
+        },
+        {
+          "title": "Each platform asks for its own words",
+          "body": "A caption on Instagram and TikTok, a description on YouTube, a post on X and Threads. Story asks for nothing, because its words go on the media itself.",
+          "icon": "text.alignleft"
+        }
+      ]
+    },
+    {
       "version": "1.11.5",
       "build": 160,
       "date": "2026-08-09",

@@ -15,6 +15,32 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
                 <item>
+            <title>Version 1.12.0</title>
+            <pubDate>Sat, 15 Aug 2026 23:07:17 -0500</pubDate>
+            <sparkle:version>162</sparkle:version>
+            <sparkle:shortVersionString>1.12.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Themes, and a visual calendar</h2>
+<p>The subjects you keep coming back to now have a home, and your calendar shows the work itself instead of a list of titles.</p>
+<ul>
+    <li><strong>The subjects you keep returning to</strong> Your Brand Bible now has a Themes chapter — the handful of subjects this brand is actually about, with room beneath each one to park ideas until they're ready. When an idea's time comes, turn it into a draft without retyping a word.</li>
+    <li><strong>See how the plan is going</strong> Tag a post with a theme and it shows up wherever you're looking — a mark on the month view, a dot on the card, a filter in your Library. A mix strip lays out what went out recently against what's coming, so you can tell when one subject is quietly taking over.</li>
+    <li><strong>Talk out your brand voice</strong> Ask Claude to interview you about a brand, one question at a time, and watch each answer land in the Brand Bible as you go. Stop whenever you like and pick the conversation back up later. The page keeps up as each answer arrives, so nothing you wrote gets written over.</li>
+    <li><strong>Schedule opens on today</strong> Schedule now lands on the current day instead of scrolling you back through months of finished posts. Everything already past tucks behind a single Earlier row, one click away when you want it. And whether you like Timeline, Week, or Month, it reopens exactly the way you left it.</li>
+    <li><strong>Your month, in pictures</strong> Month and Week now show each day's photos and clips right in the calendar, so you can see what's going out at a glance instead of reading titles. Click a day's number to reveal that whole day on frosted glass with every post laid out, then pick one to jump straight into it. Prefer the plain text rows? Turn thumbnails off in Settings.</li>
+    <li><strong>Drag straight from Photos</strong> Drag a photo or clip out of Photos and drop it right onto a post or your library. You get the full-size original every time, and a video arrives as real video instead of a single frozen frame. A quiet note tells you it's on its way, and if something can't be added, Persona now says so in plain words.</li>
+    <li><strong>See what Claude can reach</strong> When you connect Persona to Claude, the install dialog now spells out exactly what it works with in your library, what it reads when you attach a file, and what it never does with your content. The code behind it is public, so you can check every word of it yourself.</li>
+    <li><strong>Smoother and more polished</strong> Escape now closes a post and takes you back, the same as the Back button. Whatever you wrote is saved on the way out, and a draft you never really started simply goes away. If a panel is open, Escape closes that first.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.12.0/Persona-1.12.0.zip"
+                length="15508160"
+                type="application/octet-stream"
+                sparkle:edSignature="2JZnNy08VJPu9g3lfgM4H05o1RA5ouYuDu7e2s6yJwKYIVmeTzEuTe2B0V63fr613uTU3nhFTRE6MOnkOzY3BQ==" />
+        </item>
+                <item>
             <title>Version 1.11.6</title>
             <pubDate>Mon, 10 Aug 2026 00:04:35 -0500</pubDate>
             <sparkle:version>161</sparkle:version>
