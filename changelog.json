@@ -3,6 +3,28 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.13.0",
+      "build": 163,
+      "date": "2026-08-20",
+      "announce": true,
+      "title": "Make a copy of a post",
+      "summary": "One press turns any post into a fresh draft you can reshape.",
+      "highlights": [
+        {
+          "title": "Duplicate from the Library",
+          "body": "Right-click a card on your Mac, or press and hold on your iPhone, and Persona drafts a fresh copy: same photos, same caption, same platform crops, ready to reshape. Thanks to Fadwa for asking for this one.",
+          "icon": "plus.square.on.square",
+          "illustrationID": "duplicatePost"
+        },
+        {
+          "title": "Tidy up from your phone",
+          "body": "Deleting works from the Library card on iPhone now too: press and hold, and the post moves to Recently Deleted, where your Mac can bring it back for 30 days.",
+          "icon": "trash",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.12.0",
       "build": 162,
       "date": "2026-08-15",
