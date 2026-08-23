@@ -3,6 +3,35 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.14.0",
+      "build": 164,
+      "date": "2026-08-23",
+      "announce": true,
+      "title": "A guide built into Persona",
+      "summary": "Tap the ? anywhere to learn what a screen does, and start a brand right from your phone.",
+      "highlights": [
+        {
+          "title": "Tap the ? anywhere",
+          "body": "Every screen now has its own tips, reachable from a \"?\" wherever you are. A small marker points out something new right where it lives, and a search finds any tip across the whole app. Tell Persona whether a tip helped, so what's confusing gets fixed. Thanks to Justin, whose questions shaped what these say.",
+          "icon": "questionmark.circle",
+          "helpID": "help_lives_here",
+          "illustrationID": null
+        },
+        {
+          "title": "A short list to get you going",
+          "body": "New to Persona? A small card walks you through the first few steps: making a brand, planning a post, adding a photo, scheduling it. It stays with you across the app until you're through it, or you tuck it away.",
+          "icon": "checklist",
+          "illustrationID": null
+        },
+        {
+          "title": "Start a brand from your phone",
+          "body": "Creating a brand no longer waits for your Mac. Give it a name and a color from your iPhone or iPad, and it's ready to plan in right away.",
+          "icon": "person.crop.circle.badge.plus",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.13.0",
       "build": 163,
       "date": "2026-08-20",
@@ -36,6 +65,7 @@
           "title": "The subjects you keep returning to",
           "body": "Your Brand Bible now has a Themes chapter — the handful of subjects this brand is actually about, with room beneath each one to park ideas until they're ready. When an idea's time comes, turn it into a draft without retyping a word.",
           "icon": "square.stack.3d.up",
+          "helpID": "voice_themes",
           "illustrationID": "themes"
         },
         {
@@ -54,6 +84,7 @@
           "title": "Schedule opens on today",
           "body": "Schedule now lands on the current day instead of scrolling you back through months of finished posts. Everything already past tucks behind a single Earlier row, one click away when you want it. And whether you like Timeline, Week, or Month, it reopens exactly the way you left it.",
           "icon": "calendar",
+          "helpID": "schedule_layouts",
           "illustrationID": null
         },
         {
@@ -72,6 +103,7 @@
           "title": "See what Claude can reach",
           "body": "When you connect Persona to Claude, the install dialog now spells out exactly what it works with in your library, what it reads when you attach a file, and what it never does with your content. The code behind it is public, so you can check every word of it yourself.",
           "icon": "hand.raised",
+          "helpID": "connect_ai",
           "illustrationID": null
         },
         {
