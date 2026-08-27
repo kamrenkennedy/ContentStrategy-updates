@@ -14,6 +14,30 @@
           or v1.0.14 stay on those versions (Sparkle does not downgrade);
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
+        <item>
+            <title>Version 1.15.0</title>
+            <pubDate>Thu, 27 Aug 2026 14:18:31 -0500</pubDate>
+            <sparkle:version>167</sparkle:version>
+            <sparkle:shortVersionString>1.15.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Your brand has a page of its own</h2>
+<p>A clean place to see your brand the way the rest of the world sees it, and to get it dialed in.</p>
+<ul>
+    <li><strong>Your brand, on one page</strong> Open a brand and it fills the page. Its photo, cover, name and handle sit up top, and its voice, themes and channels each get a tab underneath. This is the face you put forward, in one place, so you can look at it the way everyone else does.</li>
+    <li><strong>See the photo and the cover together</strong> A brand carries a profile photo and a cover image now. Add either one from your Mac or your iPhone, swap them as often as you like, and see how the two sit together before anyone else does.</li>
+    <li><strong>Its own settings</strong> The gear on a brand's page opens that brand's settings: its name, handle, photo, cover and color. Everything that belongs to the brand now lives on the brand.</li>
+    <li><strong>Dial it in from your phone</strong> Name, handle, profile photo and cover are all editable on iPhone, not just on your Mac. Changes save as you make them, so there is no Save button to remember, and a handle another brand already uses is refused before it can be written.</li>
+    <li><strong>When you run more than one</strong> With more than one brand, Brands opens to all of them as cards. Open the one you want and it fills the page. Each keeps its own photo, cover, color and voice, so switching between them never blurs the lines.</li>
+    <li><strong>A tidier Settings</strong> Settings lost the tabs that had nothing in them and the copy that promised more than it did. Privacy has a proper seat, and the window sizes itself to fit what is on screen.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.15.0/Persona-1.15.0.zip"
+                length="16793154"
+                type="application/octet-stream"
+                sparkle:edSignature="tBQ3sAtiI5Ug0VAQAiQWtKAs5pnGPE6+rnFa8k1upDYO6E57c64a+gQ1B+aCEQAAIHv4+mmiXFSvPJ8y3TT+Dg==" />
+        </item>
                 <item>
             <title>Version 1.14.2</title>
             <pubDate>Mon, 24 Aug 2026 11:20:00 -0500</pubDate>

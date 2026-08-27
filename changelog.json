@@ -3,6 +3,53 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.15.0",
+      "build": 167,
+      "date": "2026-08-27",
+      "announce": true,
+      "title": "Your brand has a page of its own",
+      "summary": "A clean place to see your brand the way the rest of the world sees it, and to get it dialed in.",
+      "highlights": [
+        {
+          "title": "Your brand, on one page",
+          "body": "Open a brand and it fills the page. Its photo, cover, name and handle sit up top, and its voice, themes and channels each get a tab underneath. This is the face you put forward, in one place, so you can look at it the way everyone else does.",
+          "icon": "person.crop.square",
+          "helpID": "brand_hub",
+          "illustrationID": null
+        },
+        {
+          "title": "See the photo and the cover together",
+          "body": "A brand carries a profile photo and a cover image now. Add either one from your Mac or your iPhone, swap them as often as you like, and see how the two sit together before anyone else does.",
+          "icon": "photo",
+          "illustrationID": null
+        },
+        {
+          "title": "Its own settings",
+          "body": "The gear on a brand's page opens that brand's settings: its name, handle, photo, cover and color. Everything that belongs to the brand now lives on the brand.",
+          "icon": "gearshape",
+          "illustrationID": null
+        },
+        {
+          "title": "Dial it in from your phone",
+          "body": "Name, handle, profile photo and cover are all editable on iPhone, not just on your Mac. Changes save as you make them, so there is no Save button to remember, and a handle another brand already uses is refused before it can be written.",
+          "icon": "pencil",
+          "illustrationID": null
+        },
+        {
+          "title": "When you run more than one",
+          "body": "With more than one brand, Brands opens to all of them as cards. Open the one you want and it fills the page. Each keeps its own photo, cover, color and voice, so switching between them never blurs the lines.",
+          "icon": "square.grid.2x2",
+          "illustrationID": null
+        },
+        {
+          "title": "A tidier Settings",
+          "body": "Settings lost the tabs that had nothing in them and the copy that promised more than it did. Privacy has a proper seat, and the window sizes itself to fit what is on screen.",
+          "icon": "slider.horizontal.3",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.14.2",
       "build": 166,
       "date": "2026-08-24",
@@ -91,7 +138,7 @@
       "highlights": [
         {
           "title": "The subjects you keep returning to",
-          "body": "Your Brand Bible now has a Themes chapter — the handful of subjects this brand is actually about, with room beneath each one to park ideas until they're ready. When an idea's time comes, turn it into a draft without retyping a word.",
+          "body": "Your brand profile now has a Themes tab: the handful of subjects this brand is actually about, with room beneath each one to park ideas until they're ready. When an idea's time comes, turn it into a draft without retyping a word.",
           "icon": "square.stack.3d.up",
           "helpID": "voice_themes",
           "illustrationID": "themes"
@@ -104,7 +151,7 @@
         },
         {
           "title": "Talk out your brand voice",
-          "body": "Ask Claude to interview you about a brand, one question at a time, and watch each answer land in the Brand Bible as you go. Stop whenever you like and pick the conversation back up later. The page keeps up as each answer arrives, so nothing you wrote gets written over.",
+          "body": "Ask Claude to interview you about a brand, one question at a time, and watch each answer land in the brand profile as you go. Stop whenever you like and pick the conversation back up later. The page keeps up as each answer arrives, so nothing you wrote gets written over.",
           "icon": "quote.bubble",
           "illustrationID": null
         },
@@ -555,13 +602,13 @@
       "version": "1.8.3",
       "build": 142,
       "date": "2026-07-11",
-      "title": "Voice — your brand's bible",
+      "title": "Your brand profile",
       "announce": true,
-      "summary": "The Creative Profile page is now Voice: a brand's bible — the one page an AI reads before it writes in its voice. Capture how a brand sounds, what it stands for, and what it never does, with a living index that shows how complete each chapter is.",
+      "summary": "The Creative Profile page became Voice: one place to capture how a brand sounds, what it stands for, and what it never does before an AI writes in its voice.",
       "highlights": [
         {
           "title": "One page that defines your voice",
-          "body": "The Creative Profile is now Voice — a brand bible organized into chapters: Identity, Voice, Substance, Guardrails, Channels, and Examples. A living index down the left tracks how much of each you've filled in, so you can see the whole picture and what's still missing.",
+          "body": "The Creative Profile brings Identity, Voice, Substance, Guardrails, Channels, and Examples into one place. Add only what helps you describe the brand clearly.",
           "icon": "text.book.closed"
         },
         {
@@ -576,7 +623,7 @@
         },
         {
           "title": "A calm read on your phone",
-          "body": "On iPhone and iPad your bible is a clean, read-only read — authoring stays on the Mac, where there's room to think.",
+          "body": "On iPhone and iPad your brand profile is a clean, read-only view. Authoring stays on the Mac, where there's room to think.",
           "icon": "iphone"
         }
       ]
