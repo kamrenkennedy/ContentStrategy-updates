@@ -15,6 +15,28 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.16.0</title>
+            <pubDate>Wed, 02 Sep 2026 17:34:17 -0500</pubDate>
+            <sparkle:version>168</sparkle:version>
+            <sparkle:shortVersionString>1.16.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Text lands on the photo</h2>
+<p>Add and style text right on top of a photo, without leaving Persona for another app.</p>
+<ul>
+    <li><strong>Type it, drag it, done</strong> Add text straight onto a photo from the Edit sheet — a caption, a callout, a line for the thumbnail. Type it, drag it into place, and it's part of the image. Same editor on your Mac and your iPhone.</li>
+    <li><strong>Two ways to lay it out</strong> A short line hugs its own words and grows with them as you type. A longer one gets a box you drag to the width you want, and the text wraps to fit it.</li>
+    <li><strong>Resize it by the handle</strong> Drag the side handle to change how wide a text box runs, or a corner to scale the whole thing. The first time you select one, a quick pointer shows you which is which.</li>
+    <li><strong>The help mark moved</strong> On iPhone and iPad, the "?" now sits beside each screen's name instead of tucked in the action corner — easier to find, and out of the way of the buttons that do things.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.16.0/Persona-1.16.0.zip"
+                length="18839349"
+                type="application/octet-stream"
+                sparkle:edSignature="NyQPiaZV4rvv039hBHdIZmAY8LY7FpaWaLkFTaxg2Ox56SCzBQoHD9nqdnV4Z914KezFGltQHgaDZYXdaF8vDQ==" />
+        </item>
+        <item>
             <title>Version 1.15.0</title>
             <pubDate>Thu, 27 Aug 2026 14:18:31 -0500</pubDate>
             <sparkle:version>167</sparkle:version>

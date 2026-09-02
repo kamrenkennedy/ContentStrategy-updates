@@ -3,6 +3,41 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.16.0",
+      "build": 168,
+      "date": "2026-09-02",
+      "announce": true,
+      "title": "Text lands on the photo",
+      "summary": "Add and style text right on top of a photo, without leaving Persona for another app.",
+      "highlights": [
+        {
+          "title": "Type it, drag it, done",
+          "body": "Add text straight onto a photo from the Edit sheet — a caption, a callout, a line for the thumbnail. Type it, drag it into place, and it's part of the image. Same editor on your Mac and your iPhone.",
+          "icon": "textformat",
+          "illustrationID": null
+        },
+        {
+          "title": "Two ways to lay it out",
+          "body": "A short line hugs its own words and grows with them as you type. A longer one gets a box you drag to the width you want, and the text wraps to fit it.",
+          "icon": "text.alignleft",
+          "illustrationID": null
+        },
+        {
+          "title": "Resize it by the handle",
+          "body": "Drag the side handle to change how wide a text box runs, or a corner to scale the whole thing. The first time you select one, a quick pointer shows you which is which.",
+          "icon": "arrow.left.and.right",
+          "helpID": "text_width_handle",
+          "illustrationID": null
+        },
+        {
+          "title": "The help mark moved",
+          "body": "On iPhone and iPad, the \"?\" now sits beside each screen's name instead of tucked in the action corner — easier to find, and out of the way of the buttons that do things.",
+          "icon": "questionmark.circle",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.15.0",
       "build": 167,
       "date": "2026-08-27",
