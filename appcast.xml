@@ -15,6 +15,25 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.16.1</title>
+            <pubDate>Thu, 03 Sep 2026 07:29:56 -0500</pubDate>
+            <sparkle:version>169</sparkle:version>
+            <sparkle:shortVersionString>1.16.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>See what Persona is storing, and where</h2>
+<p>Settings now shows where your library lives and how much room it uses, on this Mac and in Persona Cloud.</p>
+<ul>
+    <li><strong>Your storage, in plain numbers</strong> Settings shows how much media sits in your library on this Mac and how much space that Mac has left. If your account uses Persona Cloud, it also shows how much of your storage is used and how many posts are up there. When the numbers cannot be checked, Persona says so rather than showing a stale figure.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.16.1/Persona-1.16.1.zip"
+                length="18913120"
+                type="application/octet-stream"
+                sparkle:edSignature="qsyl6it+BObWa1bw6dthd7eotWuPLGRuGn3vXp96qrtrvkqXQsRW04oSqNVQ6JgX1TKSkxMNq1/tZkPcJRezAw==" />
+        </item>
+        <item>
             <title>Version 1.16.0</title>
             <pubDate>Wed, 02 Sep 2026 17:34:17 -0500</pubDate>
             <sparkle:version>168</sparkle:version>
