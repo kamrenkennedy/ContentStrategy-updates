@@ -15,6 +15,28 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.16.2</title>
+            <pubDate>Fri, 04 Sep 2026 23:18:14 +0000</pubDate>
+            <sparkle:version>170</sparkle:version>
+            <sparkle:shortVersionString>1.16.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Text lands on video too</h2>
+<p>Put text on a video the same way you already can on a photo — it holds for the whole clip, and it's baked in when you export.</p>
+<ul>
+    <li><strong>Text over a video, for stories</strong> Add a line over a clip and it stays there start to finish. Scrub through before you're done so you can see it isn't landing on somebody's face. Export, and it's part of the video.</li>
+    <li><strong>Room to place it</strong> Tap to expand and the clip fills the screen, so a vertical video isn't a postage stamp while you're working. Move and size the text with your finger, then close and carry on where you left off.</li>
+    <li><strong>You can see it everywhere now</strong> Your text shows on the clip while it plays, on the Crop and Matte tabs before you press Done, and on the cards and thumbnails in your Library — not only inside the text editor.</li>
+    <li><strong>Same editor, either kind of media</strong> The photo tools came over unchanged: a short line hugs its own words, a longer one gets a box you drag to the width you want, and a corner scales the whole thing. Nothing new to learn.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.16.2/Persona-1.16.2.zip"
+                length="19916178"
+                type="application/octet-stream"
+                sparkle:edSignature="l3MZ5vMA6lWnX4nmWgmeGQpoLUqOQ+sshIUpOrwz+8vNh4rmKLH5ekYpm4vU6ZoRJVsd14U1KV6EZbO0klKqDQ==" />
+        </item>
+        <item>
             <title>Version 1.16.1</title>
             <pubDate>Thu, 03 Sep 2026 07:29:56 -0500</pubDate>
             <sparkle:version>169</sparkle:version>

@@ -3,6 +3,55 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.16.2",
+      "build": 170,
+      "date": "2026-09-04",
+      "announce": true,
+      "title": "Text lands on video too",
+      "summary": "Put text on a video the same way you already can on a photo — it holds for the whole clip, and it's baked in when you export.",
+      "highlights": [
+        {
+          "title": "Text over a video, for stories",
+          "body": "Add a line over a clip and it stays there start to finish. Scrub through before you're done so you can see it isn't landing on somebody's face. Export, and it's part of the video.",
+          "icon": "play.rectangle",
+          "illustrationID": null
+        },
+        {
+          "title": "Room to place it",
+          "body": "Tap to expand and the clip fills the screen, so a vertical video isn't a postage stamp while you're working. Move and size the text with your finger, then close and carry on where you left off.",
+          "icon": "arrow.up.left.and.arrow.down.right",
+          "illustrationID": null
+        },
+        {
+          "title": "You can see it everywhere now",
+          "body": "Your text shows on the clip while it plays, on the Crop and Matte tabs before you press Done, and on the cards and thumbnails in your Library — not only inside the text editor.",
+          "icon": "eye",
+          "illustrationID": null
+        },
+        {
+          "title": "Same editor, either kind of media",
+          "body": "The photo tools came over unchanged: a short line hugs its own words, a longer one gets a box you drag to the width you want, and a corner scales the whole thing. Nothing new to learn.",
+          "icon": "textformat",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
+      "version": "1.16.1",
+      "build": 169,
+      "date": "2026-09-03",
+      "announce": false,
+      "title": "See what Persona is storing, and where",
+      "summary": "Settings now shows where your library lives and how much room it uses, on this Mac and in Persona Cloud.",
+      "highlights": [
+        {
+          "title": "Your storage, in plain numbers",
+          "body": "Settings shows how much media sits in your library on this Mac and how much space that Mac has left. If your account uses Persona Cloud, it also shows how much of your storage is used and how many posts are up there. When the numbers cannot be checked, Persona says so rather than showing a stale figure.",
+          "icon": "externaldrive"
+        }
+      ]
+    },
+    {
       "version": "1.16.0",
       "build": 168,
       "date": "2026-09-02",
