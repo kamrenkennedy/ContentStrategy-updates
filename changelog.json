@@ -3,6 +3,36 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.16.4",
+      "build": 172,
+      "date": "2026-09-05",
+      "title": "Various bug fixes and improvements",
+      "summary": "A quiet round of behind-the-scenes work — nothing new to see.",
+      "highlights": [
+        {
+          "title": "Under the hood",
+          "body": "Some internal groundwork landed this build. Nothing changed in what you see or how Persona behaves.",
+          "icon": "wrench.and.screwdriver",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
+      "version": "1.16.3",
+      "build": 171,
+      "date": "2026-09-04",
+      "title": "Various bug fixes and improvements",
+      "summary": "A quiet round of behind-the-scenes work — nothing new to see.",
+      "highlights": [
+        {
+          "title": "Under the hood",
+          "body": "Some internal groundwork landed this build. Nothing changed in what you see or how Persona behaves.",
+          "icon": "wrench.and.screwdriver",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.16.2",
       "build": 170,
       "date": "2026-09-04",
