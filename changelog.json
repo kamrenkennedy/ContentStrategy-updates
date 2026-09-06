@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.16.5",
+      "build": 173,
+      "date": "2026-09-06",
+      "announce": false,
+      "title": "A calmer Library",
+      "summary": "Themes no longer sit out on the page. Filter by one from the toolbar when you want to, and the Library stays quiet the rest of the time.",
+      "highlights": [
+        {
+          "title": "Filter by theme, from the toolbar",
+          "body": "Open the ••• menu and tap the new tag icon. Pick a brand, then filter to one of its themes at a time, in full. Close it and the Library goes back to showing everything.",
+          "icon": "tag",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.16.4",
       "build": 172,
       "date": "2026-09-05",

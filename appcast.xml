@@ -15,6 +15,25 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.16.5</title>
+            <pubDate>Sun, 06 Sep 2026 06:25:14 +0000</pubDate>
+            <sparkle:version>173</sparkle:version>
+            <sparkle:shortVersionString>1.16.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>A calmer Library</h2>
+<p>Themes no longer sit out on the page. Filter by one from the toolbar when you want to, and the Library stays quiet the rest of the time.</p>
+<ul>
+    <li><strong>Filter by theme, from the toolbar</strong> Open the ••• menu and tap the new tag icon. Pick a brand, then filter to one of its themes at a time, in full. Close it and the Library goes back to showing everything.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.16.5/Persona-1.16.5.zip"
+                length="20157689"
+                type="application/octet-stream"
+                sparkle:edSignature="KwMIQmkYPNLZUJ4x9ZNfSrg+tUfWhVhf0wJxj9fK/M89j6GsOjRt2ZUs59MlvDe/wdV9xm9laedgJTCgfQE2Bg==" />
+        </item>
+        <item>
             <title>Version 1.16.4</title>
             <pubDate>Sat, 05 Sep 2026 22:46:28 +0000</pubDate>
             <sparkle:version>172</sparkle:version>
