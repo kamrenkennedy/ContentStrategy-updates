@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.16.7",
+      "build": 175,
+      "date": "2026-09-08",
+      "announce": false,
+      "title": "A tidier Brand Hub",
+      "summary": "Your brand's profile page is now two tabs instead of one long list.",
+      "highlights": [
+        {
+          "title": "Identity and Voice, split into tabs",
+          "body": "The brand profile page used to be one long list of fields. It's now two tabs, Identity and Voice, so you can jump straight to what you're editing.",
+          "icon": "person.crop.rectangle",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.16.6",
       "build": 174,
       "date": "2026-09-07",

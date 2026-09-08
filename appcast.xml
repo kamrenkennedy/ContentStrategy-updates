@@ -15,6 +15,25 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.16.7</title>
+            <pubDate>Tue, 08 Sep 2026 13:39:12 +0000</pubDate>
+            <sparkle:version>175</sparkle:version>
+            <sparkle:shortVersionString>1.16.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>A tidier Brand Hub</h2>
+<p>Your brand's profile page is now two tabs instead of one long list.</p>
+<ul>
+    <li><strong>Identity and Voice, split into tabs</strong> The brand profile page used to be one long list of fields. It's now two tabs, Identity and Voice, so you can jump straight to what you're editing.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.16.7/Persona-1.16.7.zip"
+                length="20495978"
+                type="application/octet-stream"
+                sparkle:edSignature="CgFDQlXJunzbYncGkgVNPD8sbONNexoGd7bP0OzmnUGTEupP4sZNfWc3L8rutS9snt6FhnTMcBJoQQ6yguhHBQ==" />
+        </item>
+        <item>
             <title>Version 1.16.6</title>
             <pubDate>Sun, 07 Sep 2026 01:35:00 +0000</pubDate>
             <sparkle:version>174</sparkle:version>
