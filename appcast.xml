@@ -15,6 +15,27 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.17.0</title>
+            <pubDate>Fri, 11 Sep 2026 20:19:25 +0000</pubDate>
+            <sparkle:version>177</sparkle:version>
+            <sparkle:shortVersionString>1.17.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Every post, in four stages</h2>
+<p>Open a post and it's laid out as Overview, Plan, Edit and Publish, so you always know where it stands and what comes next.</p>
+<ul>
+    <li><strong>Four stages, one post</strong> Overview shows your media, the key details, and one suggested next step. Plan holds the caption for every platform. Edit trims and arranges. Publish exports for each platform.</li>
+    <li><strong>Edit, on Mac and iPhone</strong> Trim clips, lay photos and video on a timeline, add music, and place text over it, the same way on both.</li>
+    <li><strong>Share a post with anyone</strong> Send a private link to a post from your Mac, now on every account. Shared photos look exactly like the post, text and all.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.17.0/Persona-1.17.0.zip"
+                length="23276432"
+                type="application/octet-stream"
+                sparkle:edSignature="+5svkCCQkCqB6HvoHDypZbLlCSEBW7/5fLzYWQ7YvCzdC1+Sxj2+ew99ZLDlQXAntV65yDzpkOvawwd4smUwCw==" />
+        </item>
+        <item>
             <title>Version 1.16.8</title>
             <pubDate>Tue, 08 Sep 2026 19:15:16 +0000</pubDate>
             <sparkle:version>176</sparkle:version>

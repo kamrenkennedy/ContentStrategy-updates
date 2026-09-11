@@ -3,6 +3,34 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.17.0",
+      "build": 177,
+      "date": "2026-09-11",
+      "announce": true,
+      "title": "Every post, in four stages",
+      "summary": "Open a post and it's laid out as Overview, Plan, Edit and Publish, so you always know where it stands and what comes next.",
+      "highlights": [
+        {
+          "title": "Four stages, one post",
+          "body": "Overview shows your media, the key details, and one suggested next step. Plan holds the caption for every platform. Edit trims and arranges. Publish exports for each platform.",
+          "icon": "rectangle.3.group",
+          "illustrationID": "postStages"
+        },
+        {
+          "title": "Edit, on Mac and iPhone",
+          "body": "Trim clips, lay photos and video on a timeline, add music, and place text over it, the same way on both.",
+          "icon": "pencil",
+          "illustrationID": null
+        },
+        {
+          "title": "Share a post with anyone",
+          "body": "Send a private link to a post from your Mac, now on every account. Shared photos look exactly like the post, text and all.",
+          "icon": "link",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.16.8",
       "build": 176,
       "date": "2026-09-08",
