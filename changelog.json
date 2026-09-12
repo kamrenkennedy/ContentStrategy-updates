@@ -3,6 +3,37 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.17.2",
+      "build": 179,
+      "date": "2026-09-12",
+      "announce": true,
+      "title": "Sign in without typing a code",
+      "summary": "Add a passkey once, and Face ID or Touch ID gets you back in from then on.",
+      "highlights": [
+        {
+          "title": "One glance, and you're in",
+          "body": "Persona offers your passkey the moment the sign-in screen appears. No code to wait for, nothing to type.",
+          "icon": "faceid",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
+      "version": "1.17.1",
+      "build": 178,
+      "date": "2026-09-12",
+      "title": "Various bug fixes and improvements",
+      "summary": "A quiet round of behind-the-scenes work — nothing new to see.",
+      "highlights": [
+        {
+          "title": "Under the hood",
+          "body": "Some internal groundwork landed this build. Nothing changed in what you see or how Persona behaves.",
+          "icon": "wrench.and.screwdriver",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.17.0",
       "build": 177,
       "date": "2026-09-11",

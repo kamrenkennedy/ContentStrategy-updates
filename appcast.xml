@@ -15,6 +15,25 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.17.2</title>
+            <pubDate>Sat, 12 Sep 2026 22:31:20 +0000</pubDate>
+            <sparkle:version>179</sparkle:version>
+            <sparkle:shortVersionString>1.17.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Sign in without typing a code</h2>
+<p>Add a passkey once, and Face ID or Touch ID gets you back in from then on.</p>
+<ul>
+    <li><strong>One glance, and you're in</strong> Persona offers your passkey the moment the sign-in screen appears. No code to wait for, nothing to type.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.17.2/Persona-1.17.2.zip"
+                length="24511760"
+                type="application/octet-stream"
+                sparkle:edSignature="7pxsgKt4k8Ti01D/Isk1nP3QlfhVD0q1MObV8PhCV1Guze0h6yhqaotS1JiGJtGNymeDnMkoNBernWBbM/jJBQ==" />
+        </item>
+        <item>
             <title>Version 1.17.1</title>
             <pubDate>Sat, 12 Sep 2026 03:44:15 +0000</pubDate>
             <sparkle:version>178</sparkle:version>
