@@ -15,6 +15,25 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.18.0</title>
+            <pubDate>Tue, 15 Sep 2026 22:47:14 +0000</pubDate>
+            <sparkle:version>180</sparkle:version>
+            <sparkle:shortVersionString>1.18.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Recently Deleted, on every device</h2>
+<p>Delete a post on your phone, and it shows up in Recently Deleted everywhere else too — recover it or clear it for good, from any device.</p>
+<ul>
+    <li><strong>One Recently Deleted, everywhere</strong> A deleted post now follows you: it lands in Recently Deleted on every signed-in device, not just the one you deleted it from. Recover it or delete it permanently from wherever you are.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.18.0/Persona-1.18.0.zip"
+                length="26292749"
+                type="application/octet-stream"
+                sparkle:edSignature="5caER8f9pEOV7AZDODv2Zvk1xkcYxK81Y70gu+JMn16QiYOEMQztqOMZQ3irKl4m8/D+CAzhQohgu8MeIxIMAg==" />
+        </item>
+        <item>
             <title>Version 1.17.2</title>
             <pubDate>Sat, 12 Sep 2026 22:31:20 +0000</pubDate>
             <sparkle:version>179</sparkle:version>
