@@ -3,6 +3,21 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.18.1",
+      "build": 181,
+      "date": "2026-09-17",
+      "title": "Bug fixes and improvements",
+      "summary": "A round of quiet work on restoring, deleting and syncing.",
+      "highlights": [
+        {
+          "title": "Under the hood",
+          "body": "Recover and Delete Permanently now reach every one of your devices, and your iPhone can empty Recently Deleted. The rest of this build is internal groundwork.",
+          "icon": "wrench.and.screwdriver",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.18.0",
       "build": 180,
       "date": "2026-09-15",

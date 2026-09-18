@@ -15,6 +15,25 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.18.1</title>
+            <pubDate>Fri, 18 Sep 2026 01:24:44 +0000</pubDate>
+            <sparkle:version>181</sparkle:version>
+            <sparkle:shortVersionString>1.18.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Bug fixes and improvements</h2>
+<p>A round of quiet work on restoring, deleting and syncing.</p>
+<ul>
+    <li><strong>Under the hood</strong> Recover and Delete Permanently now reach every one of your devices, and your iPhone can empty Recently Deleted. The rest of this build is internal groundwork.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.18.1/Persona-1.18.1.zip"
+                length="24981148"
+                type="application/octet-stream"
+                sparkle:edSignature="ZnW9hQHnJT0jYOQqWM2OglUCReaNKobckP+TVzp7WQbg53Y1Sau5UWRLfJ3hZkhG1fObE9YrQWfDSD36LQpnBg==" />
+        </item>
+        <item>
             <title>Version 1.18.0</title>
             <pubDate>Tue, 15 Sep 2026 22:47:14 +0000</pubDate>
             <sparkle:version>180</sparkle:version>
