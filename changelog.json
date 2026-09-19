@@ -3,6 +3,21 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.18.2",
+      "build": 182,
+      "date": "2026-09-19",
+      "title": "Bug fixes and improvements",
+      "summary": "A round of work on video editing, the library grid and the brand filter.",
+      "highlights": [
+        {
+          "title": "Under the hood",
+          "body": "Cutting a video no longer doubles its sound, and cuts now land on whole frames. Library cards carry their status in one word on a glass footer, and the Mac brand filter and cloud card sit on one sheet of glass you can drag to select.",
+          "icon": "wrench.and.screwdriver",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.18.1",
       "build": 181,
       "date": "2026-09-17",
