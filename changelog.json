@@ -3,6 +3,28 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.18.3",
+      "build": 183,
+      "date": "2026-09-19",
+      "title": "Editors can clean up a shared brand",
+      "summary": "Recently Deleted opens up to the people you share a brand with.",
+      "announce": true,
+      "highlights": [
+        {
+          "title": "Editors get Recently Deleted",
+          "body": "If someone can edit your brand, they can now move a post to Recently Deleted, recover it, and delete it for good. Viewers and commenters still cannot see it at all, so nothing you share becomes something they can throw away.",
+          "icon": "trash",
+          "illustrationID": null
+        },
+        {
+          "title": "Under the hood",
+          "body": "Library cards now save color for the status that means something. Draft and Published read in the same plain text as the date beside them, so a scheduled post is the one that stands out.",
+          "icon": "wrench.and.screwdriver",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.18.2",
       "build": 182,
       "date": "2026-09-19",
