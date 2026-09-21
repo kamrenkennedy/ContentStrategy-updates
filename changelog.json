@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.18.5",
+      "build": 185,
+      "date": "2026-09-21",
+      "title": "Bug fixes and improvements",
+      "summary": "A fix for renaming in Themes, and background sync that stays out of the app's way.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Under the hood",
+          "body": "Renaming a pillar or sub-theme in Themes now keeps what you typed when you click away, instead of only when you press Return. Background sync also stops competing with the window for processor time, and the parked-post watcher no longer rescans on every batch.",
+          "icon": "wrench.and.screwdriver",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.18.4",
       "build": 184,
       "date": "2026-09-20",

@@ -15,6 +15,25 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.18.5</title>
+            <pubDate>Mon, 21 Sep 2026 21:55:11 +0000</pubDate>
+            <sparkle:version>185</sparkle:version>
+            <sparkle:shortVersionString>1.18.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Bug fixes and improvements</h2>
+<p>A fix for renaming in Themes, and background sync that stays out of the app's way.</p>
+<ul>
+    <li><strong>Under the hood</strong> Renaming a pillar or sub-theme in Themes now keeps what you typed when you click away, instead of only when you press Return. Background sync also stops competing with the window for processor time, and the parked-post watcher no longer rescans on every batch.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.18.5/Persona-1.18.5.zip"
+                length="26230305"
+                type="application/octet-stream"
+                sparkle:edSignature="y77zWGdFnk67D8KKYkITBHZw8bByTMCVuZ2W35F0//MZvG3wYOlJDzJTwCCPqgTac3VLWPVz+7ArCzFcQd4MCg==" />
+        </item>
+        <item>
             <title>Version 1.18.4</title>
             <pubDate>Mon, 21 Sep 2026 03:00:28 +0000</pubDate>
             <sparkle:version>184</sparkle:version>
