@@ -3,6 +3,46 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.18.4",
+      "build": 184,
+      "date": "2026-09-20",
+      "title": "Themes is a gallery now",
+      "summary": "Every pillar is a card, and every card opens its own page.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Pillars are cards",
+          "body": "The Themes tab was a list of data with nothing given priority. Each pillar is now a card built from its own posts, showing its share of what you publish, most posted first.",
+          "icon": "square.grid.2x2",
+          "illustrationID": null
+        },
+        {
+          "title": "Every pillar opens a page",
+          "body": "Intent you can edit, the posts filed under it, and sub-themes you can pick to narrow the page to a single angle.",
+          "icon": "tag",
+          "illustrationID": null
+        },
+        {
+          "title": "Ideas became real ideas",
+          "body": "Loose notes that used to live inside your themes file are now ideas you can open, link and start a post from. They move across the first time you open this version.",
+          "icon": "lightbulb",
+          "illustrationID": null
+        },
+        {
+          "title": "On your phone too",
+          "body": "The gallery and the pillar page both work on iPhone.",
+          "icon": "iphone",
+          "illustrationID": null
+        },
+        {
+          "title": "Under the hood",
+          "body": "Persona now notices when the Claude extension has fallen behind, including builds that reported themselves as up to date. If yours is stale you will see Update available in Settings.",
+          "icon": "wrench.and.screwdriver",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.18.3",
       "build": 183,
       "date": "2026-09-19",

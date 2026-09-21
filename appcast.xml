@@ -15,6 +15,29 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.18.4</title>
+            <pubDate>Mon, 21 Sep 2026 03:00:28 +0000</pubDate>
+            <sparkle:version>184</sparkle:version>
+            <sparkle:shortVersionString>1.18.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Themes is a gallery now</h2>
+<p>Every pillar is a card, and every card opens its own page.</p>
+<ul>
+    <li><strong>Pillars are cards</strong> The Themes tab was a list of data with nothing given priority. Each pillar is now a card built from its own posts, showing its share of what you publish, most posted first.</li>
+    <li><strong>Every pillar opens a page</strong> Intent you can edit, the posts filed under it, and sub-themes you can pick to narrow the page to a single angle.</li>
+    <li><strong>Ideas became real ideas</strong> Loose notes that used to live inside your themes file are now ideas you can open, link and start a post from. They move across the first time you open this version.</li>
+    <li><strong>On your phone too</strong> The gallery and the pillar page both work on iPhone.</li>
+    <li><strong>Under the hood</strong> Persona now notices when the Claude extension has fallen behind, including builds that reported themselves as up to date. If yours is stale you will see Update available in Settings.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.18.4/Persona-1.18.4.zip"
+                length="26244625"
+                type="application/octet-stream"
+                sparkle:edSignature="PecLzb6xEV0TT5qQXMecjlAyMOuSXp3D/yTZcd36AnxWHnhHppG+JPBN+u46OK+ZcUuL3Mra+60EYkUHP81zBQ==" />
+        </item>
+        <item>
             <title>Version 1.18.3</title>
             <pubDate>Sun, 20 Sep 2026 00:32:51 +0000</pubDate>
             <sparkle:version>183</sparkle:version>
