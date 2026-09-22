@@ -15,6 +15,25 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.18.6</title>
+            <pubDate>Tue, 22 Sep 2026 22:15:11 +0000</pubDate>
+            <sparkle:version>186</sparkle:version>
+            <sparkle:shortVersionString>1.18.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Bug fixes and improvements</h2>
+<p>Post pages now use the window you give them.</p>
+<ul>
+    <li><strong>Pages fit the window</strong> Post pages now use whatever room they have, instead of squeezing captions at a small size or sitting in the corner at a large one. Schedule's month view opens on the week you are in, with last week above it, and you can swipe sideways across the calendar to roll through the weeks.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.18.6/Persona-1.18.6.zip"
+                length="27431853"
+                type="application/octet-stream"
+                sparkle:edSignature="hp9ROsvHo39gvqIId1TdogwePvSwF6MF8BNE/pSTyzq7rUwjPUaUIuB3TVLnpyiEEP0Kp/DbECOsZw+VcTKSDQ==" />
+        </item>
+        <item>
             <title>Version 1.18.5</title>
             <pubDate>Mon, 21 Sep 2026 21:55:11 +0000</pubDate>
             <sparkle:version>185</sparkle:version>

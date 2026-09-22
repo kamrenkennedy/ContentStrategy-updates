@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.18.6",
+      "build": 186,
+      "date": "2026-09-22",
+      "title": "Bug fixes and improvements",
+      "summary": "Post pages now use the window you give them.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Pages fit the window",
+          "body": "Post pages now use whatever room they have, instead of squeezing captions at a small size or sitting in the corner at a large one. Schedule's month view opens on the week you are in, with last week above it, and you can swipe sideways across the calendar to roll through the weeks.",
+          "icon": "macwindow",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.18.5",
       "build": 185,
       "date": "2026-09-21",
