@@ -15,6 +15,26 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.18.7</title>
+            <pubDate>Thu, 24 Sep 2026 01:57:26 +0000</pubDate>
+            <sparkle:version>187</sparkle:version>
+            <sparkle:shortVersionString>1.18.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Bug fixes and improvements</h2>
+<p>Library tools open as dropdowns, and Persona is quicker to come back to.</p>
+<ul>
+    <li><strong>Library tools</strong> Status and Dates now drop a card below their chip, the way Sort does. Text stays readable over any photo, and the tools bar stays open on the Mac where you left it.</li>
+    <li><strong>Under the hood</strong> Coming back to Persona is quicker, and saving no longer waits on the keychain.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.18.7/Persona-1.18.7.zip"
+                length="26801501"
+                type="application/octet-stream"
+                sparkle:edSignature="IOt9qeNnhYTjT6ZqtZumzO/fDgNjYpnZbci21qTFHJf3wx0teuESxDErQkW4PQcFiZ/gj3r2ngSHoOpsjRx+Bg==" />
+        </item>
+        <item>
             <title>Version 1.18.6</title>
             <pubDate>Tue, 22 Sep 2026 22:15:11 +0000</pubDate>
             <sparkle:version>186</sparkle:version>
