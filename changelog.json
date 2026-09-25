@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.18.8",
+      "build": 188,
+      "date": "2026-09-25",
+      "title": "Bug fixes and improvements",
+      "summary": "Sharing and syncing are steadier.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Under the hood",
+          "body": "Sharing, syncing and shared posts are steadier.",
+          "icon": "wrench.and.screwdriver",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.18.7",
       "build": 187,
       "date": "2026-09-23",
