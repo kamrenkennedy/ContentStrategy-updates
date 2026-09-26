@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.18.10",
+      "build": 190,
+      "date": "2026-09-26",
+      "title": "Bug fixes and improvements",
+      "summary": "Syncing is steadier and status messages are clearer.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Under the hood",
+          "body": "Syncing is steadier, and the cloud status says what is really happening.",
+          "icon": "wrench.and.screwdriver",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.18.9",
       "build": 189,
       "date": "2026-09-25",
