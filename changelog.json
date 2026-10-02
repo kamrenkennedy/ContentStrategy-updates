@@ -3,6 +3,34 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.18.11",
+      "build": 191,
+      "date": "2026-10-01",
+      "title": "Bug fixes and improvements",
+      "summary": "The Library tools bar returns on iPhone, and the keyboard gets Apple's glass.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Library tools bar",
+          "body": "The Library tools bar is back under the title on iPhone, like the Mac. Tap a tool and just its options open in a small sheet, with your gallery still in view.",
+          "icon": "slider.horizontal.3",
+          "illustrationID": null
+        },
+        {
+          "title": "Keyboard",
+          "body": "The Persona keyboard now uses Apple's glass and a cleaner suggestion-bar layout.",
+          "icon": "iphone",
+          "illustrationID": null
+        },
+        {
+          "title": "Cloud status",
+          "body": "Cloud status is clearer, and syncing is steadier, especially on cellular.",
+          "icon": "wrench.and.screwdriver",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.18.10",
       "build": 190,
       "date": "2026-09-26",
