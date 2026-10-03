@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.18.12",
+      "build": 192,
+      "date": "2026-10-03",
+      "title": "Bug fixes and improvements",
+      "summary": "Bug fixes and improvements.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Under the hood",
+          "body": "Bug fixes and improvements.",
+          "icon": "wrench.and.screwdriver",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.18.11",
       "build": 191,
       "date": "2026-10-01",
@@ -21,12 +37,6 @@
           "body": "The Persona keyboard now uses Apple's glass and a cleaner suggestion-bar layout.",
           "icon": "iphone",
           "illustrationID": null
-        },
-        {
-          "title": "Cloud status",
-          "body": "Cloud status is clearer, and syncing is steadier, especially on cellular.",
-          "icon": "wrench.and.screwdriver",
-          "illustrationID": null
         }
       ]
     },
@@ -34,17 +44,9 @@
       "version": "1.18.10",
       "build": 190,
       "date": "2026-09-26",
-      "title": "Bug fixes and improvements",
-      "summary": "Syncing is steadier and status messages are clearer.",
+      "title": "Bug fixes and improvements.",
       "announce": false,
-      "highlights": [
-        {
-          "title": "Under the hood",
-          "body": "Syncing is steadier, and the cloud status says what is really happening.",
-          "icon": "wrench.and.screwdriver",
-          "illustrationID": null
-        }
-      ]
+      "highlights": []
     },
     {
       "version": "1.18.9",
@@ -176,23 +178,9 @@
       "version": "1.18.3",
       "build": 183,
       "date": "2026-09-19",
-      "title": "Editors can clean up a shared brand",
-      "summary": "Recently Deleted opens up to the people you share a brand with.",
-      "announce": true,
-      "highlights": [
-        {
-          "title": "Editors get Recently Deleted",
-          "body": "If someone can edit your brand, they can now move a post to Recently Deleted, recover it, and delete it for good. Viewers and commenters still cannot see it at all, so nothing you share becomes something they can throw away.",
-          "icon": "trash",
-          "illustrationID": null
-        },
-        {
-          "title": "Under the hood",
-          "body": "Library cards now save color for the status that means something. Draft and Published read in the same plain text as the date beside them, so a scheduled post is the one that stands out.",
-          "icon": "wrench.and.screwdriver",
-          "illustrationID": null
-        }
-      ]
+      "title": "Bug fixes and improvements.",
+      "announce": false,
+      "highlights": []
     },
     {
       "version": "1.18.2",
@@ -275,6 +263,7 @@
       "build": 177,
       "date": "2026-09-11",
       "announce": true,
+      "heroVideo": "post-stages",
       "title": "Every post, in four stages",
       "summary": "Open a post and it's laid out as Overview, Plan, Edit and Publish, so you always know where it stands and what comes next.",
       "highlights": [
@@ -288,12 +277,6 @@
           "title": "Edit, on Mac and iPhone",
           "body": "Trim clips, lay photos and video on a timeline, add music, and place text over it, the same way on both.",
           "icon": "pencil",
-          "illustrationID": null
-        },
-        {
-          "title": "Share a post with anyone",
-          "body": "Send a private link to a post from your Mac, now on every account. Shared photos look exactly like the post, text and all.",
-          "icon": "link",
           "illustrationID": null
         }
       ]
@@ -435,6 +418,9 @@
           "body": "Settings shows how much media sits in your library on this Mac and how much space that Mac has left. If your account uses Persona Cloud, it also shows how much of your storage is used and how many posts are up there. When the numbers cannot be checked, Persona says so rather than showing a stale figure.",
           "icon": "externaldrive"
         }
+      ],
+      "platforms": [
+        "mac"
       ]
     },
     {
@@ -856,7 +842,10 @@
         {
           "title": "A quick tour on Mac",
           "body": "A new “How Persona works” panel walks you through brands, writing, scheduling, and what Export actually does. It appears once after you create your first brand, and it's always waiting in Settings → Help & About.",
-          "icon": "book"
+          "icon": "book",
+          "platforms": [
+            "mac"
+          ]
         },
         {
           "title": "Empty screens that point somewhere",
@@ -986,6 +975,9 @@
           "body": "Same tools, same controls, same result — just laid out the way a phone actually wants to be held.",
           "icon": "checkmark.circle"
         }
+      ],
+      "platforms": [
+        "ios"
       ]
     },
     {
@@ -1066,6 +1058,9 @@
           "body": "Settings now holds every past update, plus a way to replay the welcome tour any time you want a refresher.",
           "icon": "clock.arrow.circlepath"
         }
+      ],
+      "platforms": [
+        "ios"
       ]
     },
     {
@@ -1444,7 +1439,10 @@
           "title": "Move through the app faster",
           "body": "Press Command-N from any screen to jump straight into a fresh post — and if you start something new while a post is still in progress, the app offers to save it as a draft first so your work is never lost. A two-finger swipe right on your trackpad now takes you back out of a post, just like on iPhone and iPad.",
           "icon": "square.and.pencil",
-          "illustrationID": "composeShortcut"
+          "illustrationID": "composeShortcut",
+          "platforms": [
+            "mac"
+          ]
         },
         {
           "title": "Smoother and more polished",
@@ -1478,6 +1476,9 @@
           "body": "The app checks for updates far more often now, including when you come back to it — so you're never quietly running an old build.",
           "icon": "clock.arrow.circlepath"
         }
+      ],
+      "platforms": [
+        "mac"
       ]
     },
     {
@@ -1502,6 +1503,9 @@
           "body": "Content now dissolves softly under the title bar as you scroll, keeping the window controls clean and legible.",
           "icon": "macwindow"
         }
+      ],
+      "platforms": [
+        "mac"
       ]
     },
     {
@@ -1525,6 +1529,9 @@
           "body": "The sidebar sits flush against the window and the title bar is calmer and roomier — less chrome, more content.",
           "icon": "sidebar.left"
         }
+      ],
+      "platforms": [
+        "mac"
       ]
     },
     {
@@ -1543,6 +1550,9 @@
           "body": "The Library now flows like a Pinterest board, so tall and wide posts sit naturally side by side.",
           "icon": "square.grid.3x3"
         }
+      ],
+      "platforms": [
+        "mac"
       ]
     },
     {
@@ -1562,6 +1572,9 @@
           "body": "The library now syncs through iCloud Drive, so your two Macs stay in step without the sync trouble of before.",
           "icon": "arrow.triangle.2.circlepath"
         }
+      ],
+      "platforms": [
+        "mac"
       ]
     }
   ]
