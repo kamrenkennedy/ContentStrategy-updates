@@ -3,8 +3,8 @@
   "app": "Persona",
   "versions": [
     {
-      "version": "1.18.12",
-      "build": 192,
+      "version": "1.18.13",
+      "build": 193,
       "date": "2026-10-03",
       "title": "Bug fixes and improvements",
       "summary": "Bug fixes and improvements.",
@@ -19,6 +19,21 @@
       ]
     },
     {
+      "version": "1.18.12",
+      "build": 192,
+      "date": "2026-10-03",
+      "title": "Bug fixes and improvements",
+      "summary": "Bug fixes and improvements.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Under the hood",
+          "body": "Bug fixes and improvements.",
+          "icon": "wrench.and.screwdriver"
+        }
+      ]
+    },
+    {
       "version": "1.18.11",
       "build": 191,
       "date": "2026-10-01",
@@ -29,14 +44,12 @@
         {
           "title": "Library tools bar",
           "body": "The Library tools bar is back under the title on iPhone, like the Mac. Tap a tool and just its options open in a small sheet, with your gallery still in view.",
-          "icon": "slider.horizontal.3",
-          "illustrationID": null
+          "icon": "slider.horizontal.3"
         },
         {
           "title": "Keyboard",
           "body": "The Persona keyboard now uses Apple's glass and a cleaner suggestion-bar layout.",
-          "icon": "iphone",
-          "illustrationID": null
+          "icon": "iphone"
         }
       ]
     },
@@ -59,8 +72,7 @@
         {
           "title": "Under the hood",
           "body": "Bug fixes and improvements.",
-          "icon": "wrench.and.screwdriver",
-          "illustrationID": null
+          "icon": "wrench.and.screwdriver"
         }
       ]
     },
@@ -75,8 +87,7 @@
         {
           "title": "Under the hood",
           "body": "Sharing, syncing and shared posts are steadier.",
-          "icon": "wrench.and.screwdriver",
-          "illustrationID": null
+          "icon": "wrench.and.screwdriver"
         }
       ]
     },
@@ -91,14 +102,12 @@
         {
           "title": "Library tools",
           "body": "Status and Dates now drop a card below their chip, the way Sort does. Text stays readable over any photo, and the tools bar stays open on the Mac where you left it.",
-          "icon": "slider.horizontal.3",
-          "illustrationID": null
+          "icon": "slider.horizontal.3"
         },
         {
           "title": "Under the hood",
           "body": "Coming back to Persona is quicker, and saving no longer waits on the keychain.",
-          "icon": "wrench.and.screwdriver",
-          "illustrationID": null
+          "icon": "wrench.and.screwdriver"
         }
       ]
     },
@@ -113,8 +122,7 @@
         {
           "title": "Pages fit the window",
           "body": "Post pages now use whatever room they have, instead of squeezing captions at a small size or sitting in the corner at a large one. Schedule's month view opens on the week you are in, with last week above it, and you can swipe sideways across the calendar to roll through the weeks.",
-          "icon": "macwindow",
-          "illustrationID": null
+          "icon": "macwindow"
         }
       ]
     },
@@ -129,8 +137,7 @@
         {
           "title": "Under the hood",
           "body": "Renaming a pillar or sub-theme in Themes now keeps what you typed when you click away, instead of only when you press Return. Background sync also stops competing with the window for processor time, and the parked-post watcher no longer rescans on every batch.",
-          "icon": "wrench.and.screwdriver",
-          "illustrationID": null
+          "icon": "wrench.and.screwdriver"
         }
       ]
     },
@@ -145,32 +152,27 @@
         {
           "title": "Pillars are cards",
           "body": "The Themes tab was a list of data with nothing given priority. Each pillar is now a card built from its own posts, showing its share of what you publish, most posted first.",
-          "icon": "square.grid.2x2",
-          "illustrationID": null
+          "icon": "square.grid.2x2"
         },
         {
           "title": "Every pillar opens a page",
           "body": "Intent you can edit, the posts filed under it, and sub-themes you can pick to narrow the page to a single angle.",
-          "icon": "tag",
-          "illustrationID": null
+          "icon": "tag"
         },
         {
           "title": "Ideas became real ideas",
           "body": "Loose notes that used to live inside your themes file are now ideas you can open, link and start a post from. They move across the first time you open this version.",
-          "icon": "lightbulb",
-          "illustrationID": null
+          "icon": "lightbulb"
         },
         {
           "title": "On your phone too",
           "body": "The gallery and the pillar page both work on iPhone.",
-          "icon": "iphone",
-          "illustrationID": null
+          "icon": "iphone"
         },
         {
           "title": "Under the hood",
           "body": "Persona now notices when the Claude extension has fallen behind, including builds that reported themselves as up to date. If yours is stale you will see Update available in Settings.",
-          "icon": "wrench.and.screwdriver",
-          "illustrationID": null
+          "icon": "wrench.and.screwdriver"
         }
       ]
     },
@@ -192,8 +194,7 @@
         {
           "title": "Under the hood",
           "body": "Cutting a video no longer doubles its sound, and cuts now land on whole frames. Library cards carry their status in one word on a glass footer, and the Mac brand filter and cloud card sit on one sheet of glass you can drag to select.",
-          "icon": "wrench.and.screwdriver",
-          "illustrationID": null
+          "icon": "wrench.and.screwdriver"
         }
       ]
     },
@@ -207,8 +208,7 @@
         {
           "title": "Under the hood",
           "body": "Recover and Delete Permanently now reach every one of your devices, and your iPhone can empty Recently Deleted. The rest of this build is internal groundwork.",
-          "icon": "wrench.and.screwdriver",
-          "illustrationID": null
+          "icon": "wrench.and.screwdriver"
         }
       ]
     },
@@ -222,8 +222,7 @@
         {
           "title": "Under the hood",
           "body": "Posts sync in seconds instead of waiting on a retry, deleting a post no longer locks the library, adding media lands or tells you why, and Recently Deleted now stays in step across your devices.",
-          "icon": "wrench.and.screwdriver",
-          "illustrationID": null
+          "icon": "wrench.and.screwdriver"
         }
       ]
     },
@@ -238,8 +237,7 @@
         {
           "title": "One glance, and you're in",
           "body": "Persona offers your passkey the moment the sign-in screen appears. No code to wait for, nothing to type.",
-          "icon": "faceid",
-          "illustrationID": null
+          "icon": "faceid"
         }
       ]
     },
@@ -253,8 +251,7 @@
         {
           "title": "Under the hood",
           "body": "Some internal groundwork landed this build. Nothing changed in what you see or how Persona behaves.",
-          "icon": "wrench.and.screwdriver",
-          "illustrationID": null
+          "icon": "wrench.and.screwdriver"
         }
       ]
     },
@@ -270,14 +267,12 @@
         {
           "title": "Four stages, one post",
           "body": "Overview shows your media, the key details, and one suggested next step. Plan holds the caption for every platform. Edit trims and arranges. Publish exports for each platform.",
-          "icon": "rectangle.3.group",
-          "illustrationID": "postStages"
+          "icon": "rectangle.3.group"
         },
         {
           "title": "Edit, on Mac and iPhone",
           "body": "Trim clips, lay photos and video on a timeline, add music, and place text over it, the same way on both.",
-          "icon": "pencil",
-          "illustrationID": null
+          "icon": "pencil"
         }
       ]
     },
@@ -306,8 +301,7 @@
         {
           "title": "Identity and Voice, split into tabs",
           "body": "The brand profile page used to be one long list of fields. It's now two tabs, Identity and Voice, so you can jump straight to what you're editing.",
-          "icon": "person.crop.rectangle",
-          "illustrationID": null
+          "icon": "person.crop.rectangle"
         }
       ]
     },
@@ -336,8 +330,7 @@
         {
           "title": "Filter by theme, from the toolbar",
           "body": "Open the ••• menu and tap the new tag icon. Pick a brand, then filter to one of its themes at a time, in full. Close it and the Library goes back to showing everything.",
-          "icon": "tag",
-          "illustrationID": null
+          "icon": "tag"
         }
       ]
     },
@@ -351,8 +344,7 @@
         {
           "title": "Under the hood",
           "body": "Some internal groundwork landed this build. Nothing changed in what you see or how Persona behaves.",
-          "icon": "wrench.and.screwdriver",
-          "illustrationID": null
+          "icon": "wrench.and.screwdriver"
         }
       ]
     },
@@ -366,8 +358,7 @@
         {
           "title": "Under the hood",
           "body": "Some internal groundwork landed this build. Nothing changed in what you see or how Persona behaves.",
-          "icon": "wrench.and.screwdriver",
-          "illustrationID": null
+          "icon": "wrench.and.screwdriver"
         }
       ]
     },
@@ -382,26 +373,22 @@
         {
           "title": "Text over a video, for stories",
           "body": "Add a line over a clip and it stays there start to finish. Scrub through before you're done so you can see it isn't landing on somebody's face. Export, and it's part of the video.",
-          "icon": "play.rectangle",
-          "illustrationID": null
+          "icon": "play.rectangle"
         },
         {
           "title": "Room to place it",
           "body": "Tap to expand and the clip fills the screen, so a vertical video isn't a postage stamp while you're working. Move and size the text with your finger, then close and carry on where you left off.",
-          "icon": "arrow.up.left.and.arrow.down.right",
-          "illustrationID": null
+          "icon": "arrow.up.left.and.arrow.down.right"
         },
         {
           "title": "You can see it everywhere now",
           "body": "Your text shows on the clip while it plays, on the Crop and Matte tabs before you press Done, and on the cards and thumbnails in your Library — not only inside the text editor.",
-          "icon": "eye",
-          "illustrationID": null
+          "icon": "eye"
         },
         {
           "title": "Same editor, either kind of media",
           "body": "The photo tools came over unchanged: a short line hugs its own words, a longer one gets a box you drag to the width you want, and a corner scales the whole thing. Nothing new to learn.",
-          "icon": "textformat",
-          "illustrationID": null
+          "icon": "textformat"
         }
       ]
     },
@@ -434,27 +421,23 @@
         {
           "title": "Type it, drag it, done",
           "body": "Add text straight onto a photo from the Edit sheet — a caption, a callout, a line for the thumbnail. Type it, drag it into place, and it's part of the image. Same editor on your Mac and your iPhone.",
-          "icon": "textformat",
-          "illustrationID": null
+          "icon": "textformat"
         },
         {
           "title": "Two ways to lay it out",
           "body": "A short line hugs its own words and grows with them as you type. A longer one gets a box you drag to the width you want, and the text wraps to fit it.",
-          "icon": "text.alignleft",
-          "illustrationID": null
+          "icon": "text.alignleft"
         },
         {
           "title": "Resize it by the handle",
           "body": "Drag the side handle to change how wide a text box runs, or a corner to scale the whole thing. The first time you select one, a quick pointer shows you which is which.",
           "icon": "arrow.left.and.right",
-          "helpID": "text_width_handle",
-          "illustrationID": null
+          "helpID": "text_width_handle"
         },
         {
           "title": "The help mark moved",
           "body": "On iPhone and iPad, the \"?\" now sits beside each screen's name instead of tucked in the action corner — easier to find, and out of the way of the buttons that do things.",
-          "icon": "questionmark.circle",
-          "illustrationID": null
+          "icon": "questionmark.circle"
         }
       ]
     },
@@ -470,38 +453,32 @@
           "title": "Your brand, on one page",
           "body": "Open a brand and it fills the page. Its photo, cover, name and handle sit up top, and its voice, themes and channels each get a tab underneath. This is the face you put forward, in one place, so you can look at it the way everyone else does.",
           "icon": "person.crop.square",
-          "helpID": "brand_hub",
-          "illustrationID": null
+          "helpID": "brand_hub"
         },
         {
           "title": "See the photo and the cover together",
           "body": "A brand carries a profile photo and a cover image now. Add either one from your Mac or your iPhone, swap them as often as you like, and see how the two sit together before anyone else does.",
-          "icon": "photo",
-          "illustrationID": null
+          "icon": "photo"
         },
         {
           "title": "Its own settings",
           "body": "The gear on a brand's page opens that brand's settings: its name, handle, photo, cover and color. Everything that belongs to the brand now lives on the brand.",
-          "icon": "gearshape",
-          "illustrationID": null
+          "icon": "gearshape"
         },
         {
           "title": "Dial it in from your phone",
           "body": "Name, handle, profile photo and cover are all editable on iPhone, not just on your Mac. Changes save as you make them, so there is no Save button to remember, and a handle another brand already uses is refused before it can be written.",
-          "icon": "pencil",
-          "illustrationID": null
+          "icon": "pencil"
         },
         {
           "title": "When you run more than one",
           "body": "With more than one brand, Brands opens to all of them as cards. Open the one you want and it fills the page. Each keeps its own photo, cover, color and voice, so switching between them never blurs the lines.",
-          "icon": "square.grid.2x2",
-          "illustrationID": null
+          "icon": "square.grid.2x2"
         },
         {
           "title": "A tidier Settings",
           "body": "Settings lost the tabs that had nothing in them and the copy that promised more than it did. Privacy has a proper seat, and the window sizes itself to fit what is on screen.",
-          "icon": "slider.horizontal.3",
-          "illustrationID": null
+          "icon": "slider.horizontal.3"
         }
       ]
     },
@@ -545,20 +522,17 @@
           "title": "Tap the ? anywhere",
           "body": "Every screen now has its own tips, reachable from a \"?\" wherever you are. A small marker points out something new right where it lives, and a search finds any tip across the whole app. Tell Persona whether a tip helped, so what's confusing gets fixed. Thanks to Justin, whose questions shaped what these say.",
           "icon": "questionmark.circle",
-          "helpID": "help_lives_here",
-          "illustrationID": null
+          "helpID": "help_lives_here"
         },
         {
           "title": "A short list to get you going",
           "body": "New to Persona? A small card walks you through the first few steps: making a brand, planning a post, adding a photo, scheduling it. It stays with you across the app until you're through it, or you tuck it away.",
-          "icon": "checklist",
-          "illustrationID": null
+          "icon": "checklist"
         },
         {
           "title": "Start a brand from your phone",
           "body": "Creating a brand no longer waits for your Mac. Give it a name and a color from your iPhone or iPad, and it's ready to plan in right away.",
-          "icon": "person.crop.circle.badge.plus",
-          "illustrationID": null
+          "icon": "person.crop.circle.badge.plus"
         }
       ]
     },
@@ -573,14 +547,12 @@
         {
           "title": "Duplicate from the Library",
           "body": "Right-click a card on your Mac, or press and hold on your iPhone, and Persona drafts a fresh copy: same photos, same caption, same platform crops, ready to reshape. Thanks to Fadwa for asking for this one.",
-          "icon": "plus.square.on.square",
-          "illustrationID": "duplicatePost"
+          "icon": "plus.square.on.square"
         },
         {
           "title": "Tidy up from your phone",
           "body": "Deleting works from the Library card on iPhone now too: press and hold, and the post moves to Recently Deleted, where your Mac can bring it back for 30 days.",
-          "icon": "trash",
-          "illustrationID": null
+          "icon": "trash"
         }
       ]
     },
@@ -596,52 +568,44 @@
           "title": "The subjects you keep returning to",
           "body": "Your brand profile now has a Themes tab: the handful of subjects this brand is actually about, with room beneath each one to park ideas until they're ready. When an idea's time comes, turn it into a draft without retyping a word.",
           "icon": "square.stack.3d.up",
-          "helpID": "voice_themes",
-          "illustrationID": "themes"
+          "helpID": "voice_themes"
         },
         {
           "title": "See how the plan is going",
           "body": "Tag a post with a theme and it shows up wherever you're looking — a mark on the month view, a dot on the card, a filter in your Library. A mix strip lays out what went out recently against what's coming, so you can tell when one subject is quietly taking over.",
-          "icon": "chart.bar.xaxis",
-          "illustrationID": null
+          "icon": "chart.bar.xaxis"
         },
         {
           "title": "Talk out your brand voice",
           "body": "Ask Claude to interview you about a brand, one question at a time, and watch each answer land in the brand profile as you go. Stop whenever you like and pick the conversation back up later. The page keeps up as each answer arrives, so nothing you wrote gets written over.",
-          "icon": "quote.bubble",
-          "illustrationID": null
+          "icon": "quote.bubble"
         },
         {
           "title": "Schedule opens on today",
           "body": "Schedule now lands on the current day instead of scrolling you back through months of finished posts. Everything already past tucks behind a single Earlier row, one click away when you want it. And whether you like Timeline, Week, or Month, it reopens exactly the way you left it.",
           "icon": "calendar",
-          "helpID": "schedule_layouts",
-          "illustrationID": null
+          "helpID": "schedule_layouts"
         },
         {
           "title": "Your month, in pictures",
           "body": "Month and Week now show each day's photos and clips right in the calendar, so you can see what's going out at a glance instead of reading titles. Click a day's number to reveal that whole day on frosted glass with every post laid out, then pick one to jump straight into it. Prefer the plain text rows? Turn thumbnails off in Settings.",
-          "icon": "photo.on.rectangle",
-          "illustrationID": "calendarThumbnails"
+          "icon": "photo.on.rectangle"
         },
         {
           "title": "Drag straight from Photos",
           "body": "Drag a photo or clip out of Photos and drop it right onto a post or your library. You get the full-size original every time, and a video arrives as real video instead of a single frozen frame. A quiet note tells you it's on its way, and if something can't be added, Persona now says so in plain words.",
-          "icon": "photo.on.rectangle.angled",
-          "illustrationID": null
+          "icon": "photo.on.rectangle.angled"
         },
         {
           "title": "See what Claude can reach",
           "body": "When you connect Persona to Claude, the install dialog now spells out exactly what it works with in your library, what it reads when you attach a file, and what it never does with your content. The code behind it is public, so you can check every word of it yourself.",
           "icon": "hand.raised",
-          "helpID": "connect_ai",
-          "illustrationID": null
+          "helpID": "connect_ai"
         },
         {
           "title": "Smoother and more polished",
           "body": "Escape now closes a post and takes you back, the same as the Back button. Whatever you wrote is saved on the way out, and a draft you never really started simply goes away. If a panel is open, Escape closes that first.",
-          "icon": "sparkles",
-          "illustrationID": null
+          "icon": "sparkles"
         }
       ]
     },
@@ -656,8 +620,7 @@
         {
           "title": "Facebook",
           "body": "Facebook is here, with Feed, Reel and Story. It arrives as one place to plan rather than three, because Persona groups by account now. Switch it on for a brand in Voice, under Channels, and it appears in that brand's composer.",
-          "icon": "sparkles",
-          "illustrationID": "facebookNetwork"
+          "icon": "sparkles"
         },
         {
           "title": "Your platforms, grouped by account",
@@ -1176,8 +1139,7 @@
       "highlights": [
         {
           "title": "A new name, a new face",
-          "body": "Content Strategy is now Persona. It's the same app you've been using — every brand, post, and plan is right where you left it — with a new name, a new icon, and a refined identity throughout.",
-          "illustrationID": "personaRebrand"
+          "body": "Content Strategy is now Persona. It's the same app you've been using — every brand, post, and plan is right where you left it — with a new name, a new icon, and a refined identity throughout."
         },
         {
           "title": "Everything is right where you left it",
@@ -1268,20 +1230,17 @@
         {
           "title": "Filter your Library",
           "body": "Narrow your Library to just drafts, scheduled, or published posts, or to a specific date range — and it remembers your choice next time you open up. Everything you've ever published is easy to find again, too.",
-          "icon": "line.3.horizontal.decrease",
-          "illustrationID": "libraryFilter"
+          "icon": "line.3.horizontal.decrease"
         },
         {
           "title": "Handle posts in batches",
           "body": "Select several posts at once to delete them together or set their status in one move, so tidying up takes seconds instead of one post at a time.",
-          "icon": "checklist",
-          "illustrationID": "batchSelect"
+          "icon": "checklist"
         },
         {
           "title": "Schedule while you compose",
           "body": "Set a post's status right from the clean compose screen — pick Scheduled and a date picker slides in so you can lock the timing up front, no need to open the full editor first.",
-          "icon": "calendar.badge.clock",
-          "illustrationID": "composeScheduling"
+          "icon": "calendar.badge.clock"
         }
       ]
     },
@@ -1405,20 +1364,17 @@
         {
           "title": "A roomier place to write",
           "body": "Your caption now sits in a wide column right under your photos and grows as you type, so long captions never feel cramped. The whole composer is cleaner — your media is centered, your title and publishing controls stay tidy on the right, and platform previews stretch across the full width below.",
-          "icon": "text.alignleft",
-          "illustrationID": "composerGrow"
+          "icon": "text.alignleft"
         },
         {
           "title": "Plan for YouTube, Threads & X",
           "body": "Three new platforms join the lineup — YouTube long-form, Threads, and X — each with its own live preview so you can see exactly how a post will look. Flip on X Premium for any brand that pays for it and your caption counter follows along, allowing up to 25,000 characters. Each brand keeps its own setting.",
-          "icon": "play.rectangle.on.rectangle",
-          "illustrationID": "morePlatforms"
+          "icon": "play.rectangle.on.rectangle"
         },
         {
           "title": "Post text on its own",
           "body": "A caption is now a complete post all by itself — no photo or video required. Write the words you want to share and schedule or export them like any other post, and they show up in your Library as a clean, phone-style text card instead of a blank placeholder.",
-          "icon": "text.bubble",
-          "illustrationID": "textPost"
+          "icon": "text.bubble"
         },
         {
           "title": "Tailor platforms per brand",
@@ -1439,7 +1395,6 @@
           "title": "Move through the app faster",
           "body": "Press Command-N from any screen to jump straight into a fresh post — and if you start something new while a post is still in progress, the app offers to save it as a draft first so your work is never lost. A two-finger swipe right on your trackpad now takes you back out of a post, just like on iPhone and iPad.",
           "icon": "square.and.pencil",
-          "illustrationID": "composeShortcut",
           "platforms": [
             "mac"
           ]
@@ -1462,14 +1417,12 @@
         {
           "title": "A What's New window",
           "body": "Browse every release in one place: pick a version on the left, scroll through all the changes on the right. Open it any time from the app menu or Settings.",
-          "icon": "sparkles",
-          "illustrationID": "whatsNewWindow"
+          "icon": "sparkles"
         },
         {
           "title": "Updates that just happen",
           "body": "New versions now download quietly in the background. When one's ready, the sidebar shows it with the version number — click to relaunch and you're current.",
-          "icon": "arrow.down.circle",
-          "illustrationID": "backgroundUpdate"
+          "icon": "arrow.down.circle"
         },
         {
           "title": "Always up to date",
@@ -1490,8 +1443,7 @@
         {
           "title": "Caption length cautions",
           "body": "A gentle per-platform warning appears when a caption runs past a platform's limit — it never blocks you, it just lets you know.",
-          "icon": "exclamationmark.bubble",
-          "illustrationID": "captionCaution"
+          "icon": "exclamationmark.bubble"
         },
         {
           "title": "Scrollable caption editor",
