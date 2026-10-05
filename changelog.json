@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.18.14",
+      "build": 194,
+      "date": "2026-10-04",
+      "title": "Bug fixes and improvements",
+      "summary": "Bug fixes and improvements.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Under the hood",
+          "body": "Bug fixes and improvements.",
+          "icon": "wrench.and.screwdriver",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.18.13",
       "build": 193,
       "date": "2026-10-03",
