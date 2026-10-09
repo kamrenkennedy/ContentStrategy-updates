@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.18.15",
+      "build": 195,
+      "date": "2026-10-09",
+      "title": "Bug fixes and improvements",
+      "summary": "The video timeline holds still while you edit.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Video timeline",
+          "body": "The video timeline holds still while you edit. A trim leaves a gap instead of moving every clip after it, and a clip goes wherever you move it. On Mac, comma and period nudge a clip one frame, and Shift-Delete closes a gap. On iPhone, hold a gap to close it.",
+          "icon": "film",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.18.14",
       "build": 194,
       "date": "2026-10-04",

@@ -15,6 +15,25 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.18.15</title>
+            <pubDate>Fri, 09 Oct 2026 20:57:44 +0000</pubDate>
+            <sparkle:version>195</sparkle:version>
+            <sparkle:shortVersionString>1.18.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Bug fixes and improvements</h2>
+<p>The video timeline holds still while you edit.</p>
+<ul>
+    <li><strong>Video timeline</strong> The video timeline holds still while you edit. A trim leaves a gap instead of moving every clip after it, and a clip goes wherever you move it. On Mac, comma and period nudge a clip one frame, and Shift-Delete closes a gap. On iPhone, hold a gap to close it.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.18.15/Persona-1.18.15.zip"
+                length="32086748"
+                type="application/octet-stream"
+                sparkle:edSignature="m50WZQv9Zs97XbOBnOiMomVsoqfsoT7eDkogcImE2Kwt9Y51+Cv6ZlwNyea8NVjLJbuDHA4fy3Wg9RPDpGZ4Cg==" />
+        </item>
+        <item>
             <title>Version 1.18.14</title>
             <pubDate>Mon, 05 Oct 2026 01:41:39 +0000</pubDate>
             <sparkle:version>194</sparkle:version>
