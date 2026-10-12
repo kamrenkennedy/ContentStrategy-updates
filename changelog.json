@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.18.16",
+      "build": 196,
+      "date": "2026-10-11",
+      "title": "Bug fixes and improvements",
+      "summary": "A new device brings over every brand you own in one pass.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "New devices",
+          "body": "Sign in on a new device and every brand you own comes over with its posts, in one pass.",
+          "icon": "ipad.and.iphone",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.18.15",
       "build": 195,
       "date": "2026-10-09",

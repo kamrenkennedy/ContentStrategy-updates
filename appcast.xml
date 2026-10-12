@@ -15,6 +15,25 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.18.16</title>
+            <pubDate>Mon, 12 Oct 2026 02:38:20 GMT</pubDate>
+            <sparkle:version>196</sparkle:version>
+            <sparkle:shortVersionString>1.18.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Bug fixes and improvements</h2>
+<p>A new device brings over every brand you own in one pass.</p>
+<ul>
+    <li><strong>New devices</strong> Sign in on a new device and every brand you own comes over with its posts, in one pass.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.18.16/Persona-1.18.16.zip"
+                length="33020689"
+                type="application/octet-stream"
+                sparkle:edSignature="9k1O7/CDn39pyA+H+PthWgVKf7wzZwGlTHFXF7Q/iIaFK5dzzcZH8r308THRQFHKdkIRG49pZsRvU6U1GAXXDQ==" />
+        </item>
+        <item>
             <title>Version 1.18.15</title>
             <pubDate>Fri, 09 Oct 2026 20:57:44 +0000</pubDate>
             <sparkle:version>195</sparkle:version>
