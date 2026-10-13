@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.18.17",
+      "build": 197,
+      "date": "2026-10-13",
+      "title": "Bug fixes and improvements",
+      "summary": "Clearer upload and download status, and a clearer sign-in message.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Clearer status",
+          "body": "Waiting posts now say Upload queued or Download queued. Download now shows its size over cellular and says so if a download fails. A wrong sign-in code now says \"That code didn't work.\"",
+          "icon": "arrow.up.arrow.down.circle",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.18.16",
       "build": 196,
       "date": "2026-10-11",

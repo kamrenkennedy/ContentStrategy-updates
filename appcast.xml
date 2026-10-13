@@ -15,6 +15,25 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.18.17</title>
+            <pubDate>Tue, 13 Oct 2026 19:15:47 GMT</pubDate>
+            <sparkle:version>197</sparkle:version>
+            <sparkle:shortVersionString>1.18.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Bug fixes and improvements</h2>
+<p>Clearer upload and download status, and a clearer sign-in message.</p>
+<ul>
+    <li><strong>Clearer status</strong> Waiting posts now say Upload queued or Download queued. Download now shows its size over cellular and says so if a download fails. A wrong sign-in code now says "That code didn't work."</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.18.17/Persona-1.18.17.zip"
+                length="34699345"
+                type="application/octet-stream"
+                sparkle:edSignature="mBxO7l8ZL5vXzdkjoD7f0KQBLickA5A5VWrpAAhn4AJRZxoODYpIppVHeTkrRrmjLAsrjPwVSyRlMQvpZ5ShCA==" />
+        </item>
+        <item>
             <title>Version 1.18.16</title>
             <pubDate>Mon, 12 Oct 2026 02:38:20 GMT</pubDate>
             <sparkle:version>196</sparkle:version>
