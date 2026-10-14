@@ -15,6 +15,25 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.18.18</title>
+            <pubDate>Wed, 14 Oct 2026 15:58:05 GMT</pubDate>
+            <sparkle:version>198</sparkle:version>
+            <sparkle:shortVersionString>1.18.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Bug fixes and improvements</h2>
+<p>Stuck posts now show up so you can fix them, and a fix for a Mac that couldn't finish moving to Persona Cloud.</p>
+<ul>
+    <li><strong>Stuck posts you can fix</strong> If a post can't sync, the cloud card now lists it with a way to fix it: Try again, Keep mine, or Use the cloud's. A Mac that was stuck moving to Persona Cloud now finishes the move.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.18.18/Persona-1.18.18.zip"
+                length="35027204"
+                type="application/octet-stream"
+                sparkle:edSignature="0enW4XPgyEhk0xgFDQDp2x3gUmEx40wyWx2eJthz1VuUtcYpRtFwXKAMJ14TldPEIJn0IVzeuXu08P8MO11VBA==" />
+        </item>
+        <item>
             <title>Version 1.18.17</title>
             <pubDate>Tue, 13 Oct 2026 19:15:47 GMT</pubDate>
             <sparkle:version>197</sparkle:version>

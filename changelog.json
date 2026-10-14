@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.18.18",
+      "build": 198,
+      "date": "2026-10-14",
+      "title": "Bug fixes and improvements",
+      "summary": "Stuck posts now show up so you can fix them, and a fix for a Mac that couldn't finish moving to Persona Cloud.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Stuck posts you can fix",
+          "body": "If a post can't sync, the cloud card now lists it with a way to fix it: Try again, Keep mine, or Use the cloud's. A Mac that was stuck moving to Persona Cloud now finishes the move.",
+          "icon": "exclamationmark.arrow.triangle.2.circlepath",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.18.17",
       "build": 197,
       "date": "2026-10-13",
