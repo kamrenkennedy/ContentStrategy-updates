@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.18.19",
+      "build": 199,
+      "date": "2026-10-17",
+      "title": "Bug fixes and improvements",
+      "summary": "Notification taps open the right post, Editors can save edits on iPhone, and your own videos play again on iPhone and iPad.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Smoother taps, edits and playback",
+          "body": "Tapping a notification opens its post first, before the video loads. Editors can save their edits to shared posts on iPhone. Videos in your own brands play again on iPhone and iPad.",
+          "icon": "checkmark.circle",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.18.18",
       "build": 198,
       "date": "2026-10-14",
