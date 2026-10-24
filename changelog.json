@@ -3,6 +3,54 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.19.1",
+      "build": 201,
+      "date": "2026-10-24",
+      "title": "Bug fixes and improvements",
+      "summary": "A Files bin for every post, text that fades in and out, and easier photo slides.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Files, fades and slides",
+          "body": "Every file in a post now lives in one Files bin on iPhone and Mac. Text can fade in and out. Remove, move and select photo slides on iPhone and Mac.",
+          "icon": "rectangle.stack",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
+      "version": "1.19.0",
+      "build": 200,
+      "date": "2026-10-20",
+      "title": "A real editor for your videos",
+      "summary": "Layers, music, captions and lyrics, right on the Edit page.",
+      "announce": true,
+      "heroVideo": "multitrack-editor",
+      "highlights": [
+        {
+          "id": "release-200-note-1",
+          "title": "Layers, like a real editor",
+          "body": "Stack video, photos and text over your main clip on V2 and V3, and put a song on its own track. Trim, split, copy and move clips the way you would in any editing app. The eye hides a track without muting it.",
+          "icon": "square.3.layers.3d",
+          "helpID": "edit_layers"
+        },
+        {
+          "id": "release-200-note-2",
+          "title": "Captions from your video",
+          "body": "Persona writes captions from what is said in your video. For a song, paste the lyrics and the lines use your words. Style every line at once, or one line on its own. Captions need macOS 26 or iOS 26.",
+          "icon": "captions.bubble",
+          "helpID": "generated_captions"
+        },
+        {
+          "id": "release-200-note-3",
+          "title": "Volume, fades and position",
+          "body": "Each clip gets its own volume and fades. Transform places it anywhere on the video, with snaps to the center and edges. Each platform can keep its own edit.",
+          "icon": "slider.horizontal.3",
+          "helpID": "edit_position"
+        }
+      ]
+    },
+    {
       "version": "1.18.19",
       "build": 199,
       "date": "2026-10-17",
@@ -356,7 +404,6 @@
       "build": 177,
       "date": "2026-09-11",
       "announce": true,
-      "heroVideo": "post-stages",
       "title": "Every post, in four stages",
       "summary": "Open a post and it's laid out as Overview, Plan, Edit and Publish, so you always know where it stands and what comes next.",
       "highlights": [
