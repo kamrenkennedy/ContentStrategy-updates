@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.19.2",
+      "build": 202,
+      "date": "2026-10-25",
+      "title": "Bug fixes and improvements",
+      "summary": "Delete a bin in Files, empty caption lines clean themselves up, and sync is steadier on all your devices.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Files and sync",
+          "body": "Delete a bin in Files and its files move to Bin 1. Empty caption lines clean themselves up. Sync is steadier on all your devices.",
+          "icon": "rectangle.stack",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.19.1",
       "build": 201,
       "date": "2026-10-24",

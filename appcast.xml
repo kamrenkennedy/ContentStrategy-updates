@@ -15,6 +15,22 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.19.2</title>
+            <pubDate>Sun, 25 Oct 2026 15:08:01 GMT</pubDate>
+            <sparkle:version>202</sparkle:version>
+            <sparkle:shortVersionString>1.19.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Bug fixes and improvements</h2>
+<p>Delete a bin in Files, empty caption lines clean themselves up, and sync is steadier on all your devices.</p>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.19.2/Persona-1.19.2.zip"
+                length="38473069"
+                type="application/octet-stream"
+                sparkle:edSignature="jTxCeoyAZJT0MK4QKRWG1xDfPfauWaeP8P6FFk8hGmlljDmeZffVBxnKqjxA1RW9EZC2lWwdBNaBO469U9LtDA==" />
+        </item>
+        <item>
             <title>Version 1.19.1</title>
             <pubDate>Sat, 24 Oct 2026 23:15:55 GMT</pubDate>
             <sparkle:version>201</sparkle:version>
