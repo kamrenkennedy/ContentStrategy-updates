@@ -15,6 +15,22 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.19.3</title>
+            <pubDate>Mon, 26 Oct 2026 23:32:00 GMT</pubDate>
+            <sparkle:version>203</sparkle:version>
+            <sparkle:shortVersionString>1.19.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Bug fixes and improvements</h2>
+<p>Export a post to any folder on Mac, Codex connects to Persona again, share links show text on video, and a wrong sign-in code points you to your newest email.</p>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.19.3/Persona-1.19.3.zip"
+                length="38830278"
+                type="application/octet-stream"
+                sparkle:edSignature="8DZy2QGOlBQWzkdnGCkOLYy41sEdAs8Vdp5hvQHZE0Ey04uJHBo+yqckOamz4pWmiQhaQVp0Okm2ZKfLj5XuAA==" />
+        </item>
+        <item>
             <title>Version 1.19.2</title>
             <pubDate>Sun, 25 Oct 2026 15:08:01 GMT</pubDate>
             <sparkle:version>202</sparkle:version>

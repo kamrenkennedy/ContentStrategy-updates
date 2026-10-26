@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.19.3",
+      "build": 203,
+      "date": "2026-10-26",
+      "title": "Bug fixes and improvements",
+      "summary": "Export a post to any folder on Mac, Codex connects to Persona again, share links show text on video, and a wrong sign-in code points you to your newest email.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Export, Codex and share links",
+          "body": "Exporting on Mac now works with any folder you pick, not just Downloads. Codex can connect to Persona again. Share links show your text on videos. A wrong sign-in code now points you to your newest email.",
+          "icon": "square.and.arrow.up",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.19.2",
       "build": 202,
       "date": "2026-10-25",
