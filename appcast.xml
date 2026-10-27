@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
     <channel>
-        <title>Content Strategy</title>
-        <description>Auto-update feed for Content Strategy.</description>
+        <title>Persona</title>
+        <description>Auto-update feed for Persona.</description>
         <language>en</language>
         <!--
           v1.0.13 + v1.0.14 yanked from the appcast feed on 2026-05-08.
@@ -1553,7 +1553,7 @@
                     <li><strong>Local-first folder library.</strong> The folder is canonical; the internal database is now just a disposable index rebuilt from the folder.</li>
                     <li><strong>Cross-Mac sync rides iCloud Drive</strong> (the reliable layer) instead of the CloudKit metadata database that was wedging with the persistent "service unavailable" error.</li>
                     <li><strong>Redesigned new-post compose</strong> — clean slate, your last brand pre-selected, media attaches in place, <code>⌘↩</code> to Save and <code>⇧⌘↩</code> to Save &amp; New.</li>
-                    <li>Extensive data-safety hardening from dogfood: provenance-flagged deletes, debounced autosave, conflict-copy cleanup, and live cross-Mac delete reconciliation.</li>
+                    <li>Extensive data-safety hardening from daily use: provenance-flagged deletes, debounced autosave, conflict-copy cleanup, and live cross-Mac delete reconciliation.</li>
                 </ul>
                 <p>First install of v1.1.0 migrates your existing library into the new folder format automatically; your original data is left untouched as a rollback safety net.</p>
             ]]></description>
@@ -1574,7 +1574,7 @@
                 <h3>Fixes</h3>
                 <ul>
                     <li><strong>Sidebar items render correctly.</strong> v1.0.14 inadvertently pushed the sidebar's Library / Schedule / Creative Profile / Settings items out of the visible viewport. Fixed.</li>
-                    <li><strong>"Reconnect iCloud" recovery affordance.</strong> When CloudKit setup fails persistently (the "service unavailable" error that can persist on a Mac after an iCloud reset), the empty-state card now surfaces a one-click <strong>Reconnect iCloud</strong> deep-link to System Settings → Apple ID → iCloud, where the user-side fix lives (toggle Content Strategy off and on under Apps Using iCloud, then quit and reopen). Same affordance also surfaces in Settings → iCloud Sync whenever sync is in <code>Error</code> or <code>Sync paused</code> state. The card's body copy walks through the recovery sequence.</li>
+                    <li><strong>"Reconnect iCloud" recovery affordance.</strong> When CloudKit setup fails persistently (the "service unavailable" error that can persist on a Mac after an iCloud reset), the empty-state card now surfaces a one-click <strong>Reconnect iCloud</strong> deep-link to System Settings → Apple ID → iCloud, where the user-side fix lives (toggle Persona off and on under Apps Using iCloud, then quit and reopen). Same affordance also surfaces in Settings → iCloud Sync whenever sync is in <code>Error</code> or <code>Sync paused</code> state. The card's body copy walks through the recovery sequence.</li>
                 </ul>
                 <h3>About v1.0.13 + v1.0.14</h3>
                 <p>Both prior releases shipped with regressions (window stretch + misleading Welcome card on v1.0.13; sidebar items pushed offscreen on v1.0.14). They've been removed from the Sparkle appcast — Sparkle no longer advertises them. Existing v1.0.13 / v1.0.14 installs stay where they are; this v1.0.15 supersedes both via the normal Sparkle update path.</p>
@@ -1685,7 +1685,7 @@
             <description><![CDATA[
                 <h2>v1.0.9 — One-click Claude integration + sync polish</h2>
                 <ul>
-                    <li><strong>One-click Claude integration setup.</strong> Settings → Connect to Claude now has a single "Connect Content Strategy to Claude" button. Click it once; the app writes the MCP entry into Claude Desktop's config for you — no JSON, no copy-paste. Disconnect button removes the entry the same way. Manual snippet flow stays behind a "Show advanced" disclosure for non-Claude MCP clients.</li>
+                    <li><strong>One-click Claude integration setup.</strong> Settings → Connect to Claude now has a single "Connect Persona to Claude" button. Click it once; the app writes the MCP entry into Claude Desktop's config for you — no JSON, no copy-paste. Disconnect button removes the entry the same way. Manual snippet flow stays behind a "Show advanced" disclosure for non-Claude MCP clients.</li>
                     <li><strong>Opt-in by design.</strong> The app NEVER writes Claude's config without an explicit Settings-panel click. Every write backs up the existing config to a <code>.bak-cs-{timestamp}</code> file first.</li>
                     <li><strong>No more misleading "Error" at startup.</strong> The Settings → iCloud Sync section used to show a red "Error" pill for the first 10–20s of every launch (transient CloudKit bootstrap errors). v1.0.9 shows "Connecting" until the first successful event, then transitions normally.</li>
                     <li>Removed the <code>iCloud.com.kamstudios.ContentStrategy</code> container ID line from the iCloud Sync section. Debug noise — container ID stays in bug reports for triage.</li>
@@ -1785,7 +1785,7 @@
             <description><![CDATA[
                 <h2>v1.0.4 — Library-as-MCP-server</h2>
                 <ul>
-                    <li><strong>Library-as-MCP-server.</strong> Connect Claude Code (or Claude Desktop) directly to your Content Strategy library. Seven tools — list_brands, list_posts, read_creative_profile, create_post, attach_media, update_post, delete_post — let Claude read and write your content via stdio.</li>
+                    <li><strong>Library-as-MCP-server.</strong> Connect Claude Code (or Claude Desktop) directly to your Persona library. Seven tools — list_brands, list_posts, read_creative_profile, create_post, attach_media, update_post, delete_post — let Claude read and write your content via stdio.</li>
                     <li><strong>Setup:</strong> after install, add an MCP server entry pointing at <code>/Applications/ContentStrategy.app/Contents/Resources/ContentStrategyMCP.app/Contents/MacOS/ContentStrategyMCP</code> in your Claude Code config, then reload. The seven tools appear as MCP tools.</li>
                     <li>Writes from Claude appear in the running app within ~30 seconds via CloudKit sync. Both processes share the same iCloud + CloudKit private database as the app.</li>
                 </ul>
@@ -1864,7 +1864,7 @@
             <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <h2>v1.0 — first alpha</h2>
-                <p>First internal alpha drop. Use Settings → Send feedback to report issues; reports save into your iCloud Content Strategy folder.</p>
+                <p>The first early release. Use Settings → Send feedback to report issues.</p>
             ]]></description>
             <enclosure
                 url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.0/ContentStrategy-1.0.zip"
