@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.19.5",
+      "build": 205,
+      "date": "2026-10-29",
+      "title": "Bug fixes and improvements",
+      "summary": "Your devices stop re-sending posts you didn't change.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Syncing stays quiet",
+          "body": "Persona only uploads a post when you've actually edited it, so your other devices catch up faster.",
+          "icon": "arrow.triangle.2.circlepath",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.19.4",
       "build": 204,
       "date": "2026-10-28",
