@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.19.4",
+      "build": 204,
+      "date": "2026-10-28",
+      "title": "Bug fixes and improvements",
+      "summary": "Your devices keep syncing when one item is stuck.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Syncing keeps going",
+          "body": "A post or brand setting that cannot sync no longer stops your other changes from arriving. Restore needs attention no longer shows when nothing is missing.",
+          "icon": "arrow.triangle.2.circlepath",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.19.3",
       "build": 203,
       "date": "2026-10-26",
