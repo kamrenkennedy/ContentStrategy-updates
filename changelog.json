@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.19.6",
+      "build": 206,
+      "date": "2026-10-29",
+      "title": "Bug fixes and improvements",
+      "summary": "You can remove any photo or clip from a post, even the first one.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Remove anything",
+          "body": "Delete the original photo in a carousel, or the last clip on a timeline, even when it lives only in Persona Cloud. Undo brings it back.",
+          "icon": "photo",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.19.5",
       "build": 205,
       "date": "2026-10-29",
