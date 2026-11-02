@@ -15,6 +15,28 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.19.7</title>
+            <pubDate>Mon, 02 Nov 2026 17:21:45 GMT</pubDate>
+            <sparkle:version>207</sparkle:version>
+            <sparkle:shortVersionString>1.19.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Bug fixes and improvements</h2>
+<p>Posts edited on two devices now settle on their own.</p>
+<ul>
+    <li><strong>Posts settle themselves</strong> When two devices change the same post, the newest edit wins and the other version is kept for 30 days. Nothing to choose.</li>
+    <li><strong>Covers for Editors</strong> Editors on a shared brand can set post covers and the brand's profile and banner images.</li>
+    <li><strong>Report a problem</strong> Report a problem from Help, and switch tips off if you don't want them.</li>
+    <li><strong>Brand settings catch up</strong> Brand settings that stopped syncing on a Mac now catch up on their own.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.19.7/Persona-1.19.7.zip"
+                length="39856203"
+                type="application/octet-stream"
+                sparkle:edSignature="jlqAHxLiRFYSSlAdoptSYNwDhQaSNPmePF0BTfh+6RNUEP9KI7E6o7lkC3xMX1o6E/T48qwL7mhn5754or8aDw==" />
+        </item>
+        <item>
             <title>Version 1.19.6</title>
             <pubDate>Fri, 30 Oct 2026 02:06:17 GMT</pubDate>
             <sparkle:version>206</sparkle:version>

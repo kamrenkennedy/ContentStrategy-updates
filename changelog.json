@@ -3,6 +3,40 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.19.7",
+      "build": 207,
+      "date": "2026-11-02",
+      "title": "Bug fixes and improvements",
+      "summary": "Posts edited on two devices now settle on their own.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Posts settle themselves",
+          "body": "When two devices change the same post, the newest edit wins and the other version is kept for 30 days. Nothing to choose.",
+          "icon": "arrow.triangle.2.circlepath",
+          "illustrationID": null
+        },
+        {
+          "title": "Covers for Editors",
+          "body": "Editors on a shared brand can set post covers and the brand's profile and banner images.",
+          "icon": "photo",
+          "illustrationID": null
+        },
+        {
+          "title": "Report a problem",
+          "body": "Report a problem from Help, and switch tips off if you don't want them.",
+          "icon": "exclamationmark.bubble",
+          "illustrationID": null
+        },
+        {
+          "title": "Brand settings catch up",
+          "body": "Brand settings that stopped syncing on a Mac now catch up on their own.",
+          "icon": "slider.horizontal.3",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.19.6",
       "build": 206,
       "date": "2026-10-29",
