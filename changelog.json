@@ -3,6 +3,28 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.19.9",
+      "build": 209,
+      "date": "2026-11-09",
+      "title": "Bug fixes and improvements",
+      "summary": "Persona opens normally again, and pasted lyrics set your caption words.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Opens every time",
+          "body": "If a post listed the same video twice, Persona could crash when it opened. It now keeps one and opens normally.",
+          "icon": "checkmark.circle",
+          "illustrationID": null
+        },
+        {
+          "title": "Your lyrics come first",
+          "body": "When you paste lyrics, captions use your exact words. Persona only listens for timing.",
+          "icon": "text.quote",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.19.8",
       "build": 208,
       "date": "2026-11-03",

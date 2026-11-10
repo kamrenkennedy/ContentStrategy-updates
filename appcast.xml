@@ -15,6 +15,26 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.19.9</title>
+            <pubDate>Tue, 10 Nov 2026 00:33:23 GMT</pubDate>
+            <sparkle:version>209</sparkle:version>
+            <sparkle:shortVersionString>1.19.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Bug fixes and improvements</h2>
+<p>Persona opens normally again, and pasted lyrics set your caption words.</p>
+<ul>
+    <li><strong>Opens every time</strong> If a post listed the same video twice, Persona could crash when it opened. It now keeps one and opens normally.</li>
+    <li><strong>Your lyrics come first</strong> When you paste lyrics, captions use your exact words. Persona only listens for timing.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.19.9/Persona-1.19.9.zip"
+                length="39966193"
+                type="application/octet-stream"
+                sparkle:edSignature="gk4JIuelssLADhFv+QaGA41OEX6TbOhBcApkWwjpPL6GOMrOnXu3PaAGXEAFj9EOu++Y2qCMyzAiwadKbCm4Dg==" />
+        </item>
+        <item>
             <title>Version 1.19.8</title>
             <pubDate>Tue, 03 Nov 2026 21:43:42 GMT</pubDate>
             <sparkle:version>208</sparkle:version>
