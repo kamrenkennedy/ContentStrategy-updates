@@ -15,6 +15,25 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.19.10</title>
+            <pubDate>Sat, 14 Nov 2026 01:20:32 GMT</pubDate>
+            <sparkle:version>210</sparkle:version>
+            <sparkle:shortVersionString>1.19.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Bug fixes and improvements</h2>
+<p>Bug fixes and improvements.</p>
+<ul>
+    <li><strong>Bug fixes</strong> Fixes and stability improvements.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.19.10/Persona-1.19.10.zip"
+                length="41775698"
+                type="application/octet-stream"
+                sparkle:edSignature="FYK0P5AH/8543wMYrJyxcRnwd+55TGRm29EP+PUp47fh3MzR8+nzmHP2JLXYsskKs69z2hnvSsMjN2+jOs92Cw==" />
+        </item>
+        <item>
             <title>Version 1.19.9</title>
             <pubDate>Tue, 10 Nov 2026 00:33:23 GMT</pubDate>
             <sparkle:version>209</sparkle:version>
