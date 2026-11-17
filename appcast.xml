@@ -15,30 +15,6 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
-            <title>Version 1.20.0</title>
-            <pubDate>Tue, 17 Nov 2026 02:44:32 GMT</pubDate>
-            <sparkle:version>211</sparkle:version>
-            <sparkle:shortVersionString>1.20.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-<h2>Persona in your AI apps</h2>
-<p>Connect Claude or ChatGPT to Persona from Settings, on any device.</p>
-<ul>
-    <li><strong>Persona in your AI apps</strong> Settings has Persona's address. Add it to Claude or ChatGPT as a custom connector, then sign in. It works on your phone too.</li>
-    <li><strong>Persona is now a connector</strong> The Persona extension in Claude Desktop no longer works. Remove it in Claude's Settings › Extensions, then add Persona as a connector (MCP) with the address from Settings. It works in ChatGPT and on your phone too, and you only set it up once.</li>
-    <li><strong>Starting a post</strong> An empty post shows how to start: from your files, from Photos, or as a text post. Thanks to Justin for asking for this one.</li>
-    <li><strong>Back to your brands</strong> Choose Brands again to get back to your brand list. Thanks to Justin for asking for this one.</li>
-    <li><strong>Captions you can read</strong> Caption labels on the Mac's Edit timeline are easy to read in light mode. Thanks to Tiera for catching this one.</li>
-    <li><strong>Notifications for each brand</strong> Choose how much each brand notifies you, in Brand settings.</li>
-</ul>
-]]></description>
-            <enclosure
-                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.20.0/Persona-1.20.0.zip"
-                length="48523902"
-                type="application/octet-stream"
-                sparkle:edSignature="PYDF19UVMndonHyZrw5eGNF79siUCx8n9Q+qwF3haggcwNeI7xteJrMdKfDwhd01+EhxBKXYxKiYnM6YsajkCg==" />
-        </item>
-        <item>
             <title>Version 1.19.10</title>
             <pubDate>Sat, 14 Nov 2026 01:20:32 GMT</pubDate>
             <sparkle:version>210</sparkle:version>
