@@ -3,6 +3,22 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.20.1",
+      "build": 212,
+      "date": "2026-11-17",
+      "title": "Bug fixes and improvements",
+      "summary": "Deleting an idea no longer shows \"Cloud needs attention.\"",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Deleting ideas",
+          "body": "Deleting an idea no longer turns the cloud status to \"Cloud needs attention.\"",
+          "icon": "checkmark.circle",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.20.0",
       "build": 211,
       "date": "2026-11-16",

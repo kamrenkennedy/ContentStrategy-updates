@@ -15,6 +15,25 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.20.1</title>
+            <pubDate>Tue, 17 Nov 2026 16:01:22 GMT</pubDate>
+            <sparkle:version>212</sparkle:version>
+            <sparkle:shortVersionString>1.20.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Bug fixes and improvements</h2>
+<p>Deleting an idea no longer shows "Cloud needs attention."</p>
+<ul>
+    <li><strong>Deleting ideas</strong> Deleting an idea no longer turns the cloud status to "Cloud needs attention."</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.20.1/Persona-1.20.1.zip"
+                length="48574883"
+                type="application/octet-stream"
+                sparkle:edSignature="+JZPTClPkFqKh5fHueRXSsnDDrXz6pHTolCwAAOeJf7clEZA1QFIAw/ANSNUhjJmkKGu8XTtLQ4/UcDipYUJDA==" />
+        </item>
+        <item>
             <title>Version 1.19.10</title>
             <pubDate>Sat, 14 Nov 2026 01:20:32 GMT</pubDate>
             <sparkle:version>210</sparkle:version>
