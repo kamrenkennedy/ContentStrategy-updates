@@ -3,6 +3,28 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.20.2",
+      "build": 213,
+      "date": "2026-11-19",
+      "title": "Bug fixes and improvements",
+      "summary": "Only me ideas finish syncing to your other devices.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Only me ideas",
+          "body": "Ideas set to Only me now finish syncing to your other devices. A device that got stuck fixes itself after the update, with no button to press.",
+          "icon": "checkmark.circle",
+          "illustrationID": null
+        },
+        {
+          "title": "Opening Persona",
+          "body": "Persona opens reliably. If something gets in the way, it repairs itself on its own.",
+          "icon": "checkmark.circle",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.20.1",
       "build": 212,
       "date": "2026-11-17",

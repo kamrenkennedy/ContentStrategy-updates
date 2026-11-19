@@ -15,6 +15,26 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.20.2</title>
+            <pubDate>Thu, 19 Nov 2026 21:13:41 GMT</pubDate>
+            <sparkle:version>213</sparkle:version>
+            <sparkle:shortVersionString>1.20.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Bug fixes and improvements</h2>
+<p>Only me ideas finish syncing to your other devices.</p>
+<ul>
+    <li><strong>Only me ideas</strong> Ideas set to Only me now finish syncing to your other devices. A device that got stuck fixes itself after the update, with no button to press.</li>
+    <li><strong>Opening Persona</strong> Persona opens reliably. If something gets in the way, it repairs itself on its own.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.20.2/Persona-1.20.2.zip"
+                length="48885745"
+                type="application/octet-stream"
+                sparkle:edSignature="qpi6SpBUL8LWFhOVXEwp7ohWUP9Ns2+osvWh/l0Gj+qXk6SfqQsUFj0TcLmz4EoEu0lTtsg/bu2lXVB4r4PiDg==" />
+        </item>
+        <item>
             <title>Version 1.20.1</title>
             <pubDate>Tue, 17 Nov 2026 16:01:22 GMT</pubDate>
             <sparkle:version>212</sparkle:version>
