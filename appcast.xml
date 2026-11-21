@@ -15,6 +15,28 @@
           the v1.0.15 ship that resolves both regressions is the next entry.
         -->
         <item>
+            <title>Version 1.20.3</title>
+            <pubDate>Sat, 21 Nov 2026 05:12:12 GMT</pubDate>
+            <sparkle:version>214</sparkle:version>
+            <sparkle:shortVersionString>1.20.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Bug fixes and improvements</h2>
+<p>Photos from iCloud load on their own, and creating a brand works on a new account.</p>
+<ul>
+    <li><strong>Photos from iCloud</strong> If iCloud is slow to answer when Persona opens, your photos show "Waiting for iCloud" and then appear on their own, instead of staying blank. Thanks to Fadwa for reporting this one.</li>
+    <li><strong>Creating a brand</strong> Your first brand can be created on a brand new account, including from an iPhone. Every device now uses the same brand form.</li>
+    <li><strong>Removed themes</strong> A theme you remove shows up in Recently Deleted, and you can put it back.</li>
+    <li><strong>Shared posts</strong> When an Editor restores a shared post, it stays on their device.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/kamrenkennedy/ContentStrategy-updates/releases/download/v1.20.3/Persona-1.20.3.zip"
+                length="49364129"
+                type="application/octet-stream"
+                sparkle:edSignature="LMf5ig/BZI0tHHirk6uuo0BPnyYnghgL7F9U40awqsTyEfKrrSWKAMgbOORn4dLV2+lKGPQSsxOyCCUBEH8kAw==" />
+        </item>
+        <item>
             <title>Version 1.20.2</title>
             <pubDate>Thu, 19 Nov 2026 21:13:41 GMT</pubDate>
             <sparkle:version>213</sparkle:version>

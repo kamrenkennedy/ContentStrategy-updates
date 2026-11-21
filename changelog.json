@@ -3,6 +3,40 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.20.3",
+      "build": 214,
+      "date": "2026-11-20",
+      "title": "Bug fixes and improvements",
+      "summary": "Photos from iCloud load on their own, and creating a brand works on a new account.",
+      "announce": false,
+      "highlights": [
+        {
+          "title": "Photos from iCloud",
+          "body": "If iCloud is slow to answer when Persona opens, your photos show \"Waiting for iCloud\" and then appear on their own, instead of staying blank. Thanks to Fadwa for reporting this one.",
+          "icon": "checkmark.circle",
+          "illustrationID": null
+        },
+        {
+          "title": "Creating a brand",
+          "body": "Your first brand can be created on a brand new account, including from an iPhone. Every device now uses the same brand form.",
+          "icon": "checkmark.circle",
+          "illustrationID": null
+        },
+        {
+          "title": "Removed themes",
+          "body": "A theme you remove shows up in Recently Deleted, and you can put it back.",
+          "icon": "checkmark.circle",
+          "illustrationID": null
+        },
+        {
+          "title": "Shared posts",
+          "body": "When an Editor restores a shared post, it stays on their device.",
+          "icon": "checkmark.circle",
+          "illustrationID": null
+        }
+      ]
+    },
+    {
       "version": "1.20.2",
       "build": 213,
       "date": "2026-11-19",
