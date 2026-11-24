@@ -3,6 +3,15 @@
   "app": "Persona",
   "versions": [
     {
+      "version": "1.20.4",
+      "build": 215,
+      "date": "2026-11-23",
+      "title": "Bug fixes and improvements",
+      "summary": "Sync between your devices is more reliable.",
+      "announce": false,
+      "highlights": []
+    },
+    {
       "version": "1.20.3",
       "build": 214,
       "date": "2026-11-20",
